@@ -22,9 +22,10 @@
     "/Game/Trail/Variations/Maps/Variation_Snow_Base",
     "/Game/Trail/Variations/Maps/Variation_Snow_Dense",
     "/Game/Trail/Building/Maps/Building_Examples",
-    "/Game/Trail/Museum/Maps/PCG_Museum"
+    "/Game/Trail/Museum/Maps/PCG_Museum",
+    "/Game/Trail/Teaching/Maps/Spline_Examples"
   ],
-  "reachable_project_packages": 273,
+  "reachable_project_packages": 275,
   "files": [
     {
       "file": "Content/Environment/Bark_2_Color.uasset",
@@ -1663,6 +1664,16 @@
       "bytes": 5008869,
       "sha256": "6e31c5ff232c435445097e9b2a4813937c29d3a7d63635773e9d67aa7e879c1c",
       "instructor_source_sha256": "d7ba3439a89ad1a445640fb4675228dc062cc82b4270b0a29e7291b433d68557"
+    },
+    {
+      "file": "Content/Trail/Teaching/Graphs/PCG_SplineExamples.uasset",
+      "bytes": 363465,
+      "sha256": "c95b267bd20903cfd5c8fba8ff0f429bcd41aff5acc099bec0654c9f200a3136"
+    },
+    {
+      "file": "Content/Trail/Teaching/Maps/Spline_Examples.umap",
+      "bytes": 136073,
+      "sha256": "b0f6ab3bb77cd5a22bbc42628ed13c4066071c2276082d232c3f8a32671c6e7b"
     }
   ],
   "missing_packages": [],
@@ -1678,7 +1689,7 @@
   ],
   "source_content_attribution": "Original class graphs and teaching content; Fab/source assets retain their licenses. Source resources are documented separately.",
   "teaching_texture_limit": 2048,
-  "student_content_bytes": 596300553,
+  "student_content_bytes": 596800091,
   "texture_policy": {
     "close_view_maximum_dimension": 2048,
     "distant_impostor_maximum_dimension": 1024,

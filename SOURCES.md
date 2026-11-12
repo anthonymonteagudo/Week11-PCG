@@ -14,3 +14,6 @@ Original class material: PCG graphs, graph instances, museum demonstrations, tra
 The included lecture reader has [full references and visual credits](Slides/SOURCES.md), including the named GDC examples, procedural methods book, game-design articles, SideFX examples and open-source media notices. The [native demo gallery](Instructor/Demo-Gallery.html) contains actual class captures rather than generated Unreal interfaces.
 
 This repository and the full student ZIP are private teaching distributions. Third-party assets are not relicensed under MIT or a blanket course license. Do not extract and publicly redistribute source assets or tutorial reference images. The private repository owner controls access.
+
+
+Custom Blueprint reference: selected captures from Brandon Vox UE 5.4 lessons 37–39, supplied in instructor study notes. New 5.7 implementations should follow Epic's PCG Blueprint Base Element and point-array guidance: https://dev.epicgames.com/community/learning/knowledge-base/l574/unreal-engine-pcg-blueprint-elements-in-5-7 . Spline_Examples and its native graph are original class work; no paid course Blueprint or transcript is bundled.

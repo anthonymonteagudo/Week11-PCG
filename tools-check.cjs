@@ -16,7 +16,7 @@ assert(ini.includes('EditorStartupMap=/Game/Trail/Museum/Maps/PCG_Museum'));
 assert(ini.includes('DefaultGraphicsRHI=DefaultGraphicsRHI_DX12'));
 assert(ini.includes('+D3D12TargetedShaderFormats=PCD3D_SM6'),'Nanite needs SM6 configured in the project; students must not have to enable it manually.');
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'Instructor/project-manifest.json')));
-assert.equal(manifest.root_maps.length,20);
+assert.equal(manifest.root_maps.length,21);
 for(const r of manifest.files){
  const f=path.join(project,r.file);assert(fs.existsSync(f),r.file);const bytes=fs.readFileSync(f);
  assert.equal(bytes.length,r.bytes,r.file);assert(bytes.length<95*1024*1024,r.file);
@@ -30,7 +30,7 @@ for(const f of ['README.md','Student-Lab.md','SOURCES.md']){
  }
  assert(!/Install_FabAssets|Setup_FabAssets|run Fab setup/.test(text),`Outdated setup in ${f}`);
 }
-console.log(`PASS: ${manifest.files.length} native packages verified; 20 maps; links, stock-plugin setup and source hashes checked.`);
+console.log(`PASS: ${manifest.files.length} native packages verified; 21 maps; links, stock-plugin setup and source hashes checked.`);
 
 // Reject retired asset-acquisition instructions anywhere in the shipped documentation.
 function checkDocs(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){if(entry.name==='.git')continue;const f=path.join(dir,entry.name);if(entry.isDirectory())checkDocs(f);else if(/\.(md|html|py|ps1)$/i.test(f)){const text=fs.readFileSync(f,'utf8');assert(!/acquired separately by each student|not redistributed in the starter ZIP|Install_FabAssets|Setup_FabAssets|run Fab setup/i.test(text),`Obsolete asset setup instructions: ${f}`);}}}

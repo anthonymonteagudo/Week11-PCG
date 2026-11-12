@@ -18,6 +18,7 @@ For updates, close Unreal, keep your own edits committed or backed up, then run 
 
 ## Choose a route
 
+- **Spline examples:** use the museum menu to open `Spline_Examples`. One native graph places posts along an open spline and scatters shrubs inside a closed region. Select its PCG actor and Generate after editing the input curves.
 - **Museum:** seven focused demonstrations below. Predict the result before changing one control.
 - **Optional practice:** [Student-Lab.md](Student-Lab.md), a short parameter experiment in `Trail_Student`.
 - **Variations:** maps under `Content/Trail/Variations/Maps` compare density, seed and spline layout using shared assets and graphs.
@@ -39,9 +40,13 @@ For updates, close Unreal, keep your own edits committed or backed up, then run 
 
 Select a station's PCG actor, open its graph with the menu, inspect the numbered stage, and regenerate after editing. Reset your edit before comparing another case. Station 05 uses a short teaching graph; the full trail uses the larger shared biome graph. Station 07 is optional architectural depth.
 
+## Optional Blueprint extension
+
+The lecture includes a custom-node reference that selects a fixed number of points. Its captures are from UE 5.4. New UE 5.7 implementations use PCGBlueprintBaseElement and the newer point-data helpers. The student project does not depend on that tutorial Blueprint.
+
 ## What is included
 
-Twenty example maps, native editable graphs and graph instances, weighted mesh tables, photoreal assets, textured rolling terrain, a reserved trail, sky and presentation lighting. The terrain is an authored static-mesh heightfield with collision, rather than an Unreal Landscape.
+Twenty-one example maps, native editable graphs and graph instances, weighted mesh tables, photoreal assets, textured rolling terrain, a reserved trail, sky and presentation lighting. The terrain is an authored static-mesh heightfield with collision, rather than an Unreal Landscape.
 
 The student texture sources are capped at 2048 pixels; distant foliage impostors are capped at 1024. The project is approximately 569 MiB before local caches. Opening Unreal generates additional cache data. Those files are excluded from Git.
 

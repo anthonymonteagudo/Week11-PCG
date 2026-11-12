@@ -98,6 +98,20 @@
   "scope": "Fresh GitHub checkout on this Windows machine with UE 5.7.4 preinstalled. No second physical machine claim.",
   "native_manifest_sha256": "d37c6c016ba452a87031f06158ab7c6b08005f72610e7ab2f0927f9237fea12e",
   "native_test_commit": "acaf118",
-  "reader_state_version": 98,
-  "native_manifest_sha256_note": "Hash of the instructor working manifest text; native package hashes are the cross-platform identity check."
+  "reader_state_version": 106,
+  "native_manifest_sha256_note": "Hash of the instructor working manifest text; native package hashes are the cross-platform identity check.",
+  "current_repository_checks": {
+    "native_packages": 275,
+    "root_maps": 21,
+    "native_asset_hashes": "PASS"
+  },
+  "spline_extension": {
+    "student_project_without_private_helper": "PASS",
+    "baseline_posts": 10,
+    "baseline_shrubs": 38,
+    "dense_posts": 20,
+    "dense_shrubs": 90,
+    "roots_outside_region": 0,
+    "baseline_signature_restore": "PASS"
+  }
 }

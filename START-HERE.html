@@ -12,6 +12,7 @@
 <p><img src="Media/Regions.png" alt="Forest profile of the reusable PCG system"></p>
 <h2>Choose a route</h2>
 <ul>
+<li><strong>Spline examples:</strong> use the museum menu to open <code>Spline_Examples</code>. One native graph places posts along an open spline and scatters shrubs inside a closed region. Select its PCG actor and Generate after editing the input curves.</li>
 <li><strong>Museum:</strong> seven focused demonstrations below. Predict the result before changing one control.</li>
 <li><strong>Optional practice:</strong> <a href="Student-Lab.html">Student-Lab.md</a>, a short parameter experiment in <code>Trail_Student</code>.</li>
 <li><strong>Variations:</strong> maps under <code>Content/Trail/Variations/Maps</code> compare density, seed and spline layout using shared assets and graphs.</li>
@@ -65,8 +66,8 @@
 </tr>
 </tbody></table>
 <p>Select a station&#39;s PCG actor, open its graph with the menu, inspect the numbered stage, and regenerate after editing. Reset your edit before comparing another case. Station 05 uses a short teaching graph; the full trail uses the larger shared biome graph. Station 07 is optional architectural depth.</p>
-<h2>What is included</h2>
-<p>Twenty example maps, native editable graphs and graph instances, weighted mesh tables, photoreal assets, textured rolling terrain, a reserved trail, sky and presentation lighting. The terrain is an authored static-mesh heightfield with collision, rather than an Unreal Landscape.</p>
+<h2>Optional Blueprint extension</h2><p>The lecture includes a custom-node reference that selects a fixed number of points. Its captures are from UE 5.4. New UE 5.7 implementations use PCGBlueprintBaseElement and the newer point-data helpers. The student project does not depend on that tutorial Blueprint.</p><h2>What is included</h2>
+<p>Twenty-one example maps, native editable graphs and graph instances, weighted mesh tables, photoreal assets, textured rolling terrain, a reserved trail, sky and presentation lighting. The terrain is an authored static-mesh heightfield with collision, rather than an Unreal Landscape.</p>
 <p>The student texture sources are capped at 2048 pixels; distant foliage impostors are capped at 1024. The project is approximately 569 MiB before local caches. Opening Unreal generates additional cache data. Those files are excluded from Git.</p>
 <p>This is an <strong>editor demonstration</strong>. Bounds-based point pruning is not full mesh collision. A clear visual trail does not prove navigation or runtime generation works. Building outputs currently use rectangular footprints and a flat platform roof. Houdini is an optional instructor topic and is not required by this project.</p>
 <h2>If something looks wrong</h2>

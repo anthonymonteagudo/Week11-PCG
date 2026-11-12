@@ -99,3 +99,6 @@ Amritha Immaneni, supplied guest presentation; EVE Vanguard images, CCP Games. E
 Ben Cloward and Brandon Vox examples are attributed excerpts from the instructor's personal study notes. The UE 5.4 source interfaces are identified where used. Course transcripts, downloadable tutorial projects and archive contents are not part of this reader. The native class graphs, exercise, diagrams and exact-count pseudocode are original teaching work.
 
 The green editorial treatment draws layout ideas from the MIT-licensed Slidev Seriph theme; it was implemented as editable native slides, not imported from its rendering system. The Apache-2.0 Anthropic presentations skill informed the visual review process. Neither replaces the native deck authoring workflow. Original project and third-party content retain their respective rights; this is a private teaching distribution, not a blanket open-source asset release.
+
+
+Custom Blueprint reference: selected captures from Brandon Vox UE 5.4 lessons 37–39, supplied in instructor study notes. New 5.7 implementations should follow Epic's PCG Blueprint Base Element and point-array guidance: https://dev.epicgames.com/community/learning/knowledge-base/l574/unreal-engine-pcg-blueprint-elements-in-5-7 . Spline_Examples and its native graph are original class work; no paid course Blueprint or transcript is bundled.

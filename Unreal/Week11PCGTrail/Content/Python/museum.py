@@ -63,7 +63,7 @@ def generate(number):
    c=a.get_component_by_class(u.PCGComponent)
    if c:c.generate_local(True)
 def open_example(kind):
- maps={'trail':'/Game/Trail/Maps/Trail_Student','forest':'/Game/Trail/Maps/Biome_Forest','snow':'/Game/Trail/Maps/Biome_Snow','building':'/Game/Trail/Building/Maps/Building_Examples'}
+ maps={'splines':'/Game/Trail/Teaching/Maps/Spline_Examples','trail':'/Game/Trail/Maps/Trail_Student','forest':'/Game/Trail/Maps/Biome_Forest','snow':'/Game/Trail/Maps/Biome_Snow','building':'/Game/Trail/Building/Maps/Building_Examples'}
  if not u.EditorLoadingAndSavingUtils.save_dirty_packages_with_dialog(True,True):return
  if u.get_editor_subsystem(u.LevelEditorSubsystem).load_level(maps[kind]):ensure_ready()
 def open_graph():
@@ -81,7 +81,7 @@ def register_menu():
  for k,title in enumerate(TITLES,1):
   entry=u.ToolMenuEntry(name='Week11Station%02d'%k,type=u.MultiBlockType.MENU_ENTRY);entry.set_label('%02d  %s'%(k,title));entry.set_string_command(u.ToolMenuStringCommandType.PYTHON,'','import museum; museum.focus(%d)'%k);menu.add_menu_entry('Stations',entry)
  entry=u.ToolMenuEntry(name='Week11ShowAll',type=u.MultiBlockType.MENU_ENTRY);entry.set_label('Show all stations');entry.set_string_command(u.ToolMenuStringCommandType.PYTHON,'','import museum; museum.show_all()');menu.add_menu_entry('Navigation',entry);menus.refresh_all_widgets()
- for key,label,command in [('OpenGraph','Open selected station graph','museum.open_graph()'),('Trail','Full trail exercise',"museum.open_example('trail')"),('Forest','Forest region',"museum.open_example('forest')"),('Snow','Snow region',"museum.open_example('snow')"),('Building','Building examples',"museum.open_example('building')")]:
+ for key,label,command in [('OpenGraph','Open selected station graph','museum.open_graph()'),('Trail','Full trail exercise',"museum.open_example('trail')"),('Forest','Forest region',"museum.open_example('forest')"),('Snow','Snow region',"museum.open_example('snow')"),('Splines','Spline examples',"museum.open_example('splines')"),('Building','Building examples',"museum.open_example('building')")]:
   entry=u.ToolMenuEntry(name='Week11'+key,type=u.MultiBlockType.MENU_ENTRY);entry.set_label(label);entry.set_string_command(u.ToolMenuStringCommandType.PYTHON,'','import museum; '+command);menu.add_menu_entry('Navigation',entry)
  menus.refresh_all_widgets()
  levels=u.get_editor_subsystem(u.LevelEditorSubsystem);levels.on_map_opened.remove_callable(_map_opened);levels.on_map_opened.add_callable(_map_opened)

@@ -1,3 +1,11 @@
+# Current validation update
+
+The kit contains **275 native packages and 21 maps**. The added Spline_Examples map was loaded in the reduced student project in UE 5.7.4, without the private authoring helper. It produced 10 posts, 38 shrubs and 61 boundary-guide segments; all shrub roots passed containment. The source comparisons produced 20 posts at 125 cm and 90 shrubs at 160 cm; restoring the original controls restored the complete baseline signature. The original 20 maps retain the earlier fresh-clone validation below. No second physical machine is claimed.
+
+The local PowerPoint was opened and all 49 slides exported through Microsoft PowerPoint. Native assets and relevant material dependencies are bundled. The graph-count chart is not a CPU/GPU timing measurement.
+
+## Earlier fresh-clone baseline
+
 # Validation of the supplied baseline
 
 The clean GitHub checkout was opened in **UE 5.7.4 on Windows** with the project's default DX12/SM6 settings. All 273 native packages load, all 20 maps produce PCG output, Forest/Snow menu navigation passes, and there are no dirty packages before navigation. The private authoring plugin is absent. The material-usage repair warning is gone. No Fab migration, C++ build, external Python or Houdini setup was performed.

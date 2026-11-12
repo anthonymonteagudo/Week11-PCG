@@ -1,0 +1,121 @@
+{
+  "status": "PASS",
+  "error": null,
+  "engine": "5.7.4-51494982+++UE5+Release-5.7",
+  "map": "/Game/Trail/Teaching/Maps/Spline_Examples",
+  "graph": "/Game/Trail/Teaching/Graphs/PCG_SplineExamples",
+  "cases": [
+    {
+      "case": "Open",
+      "open_spacing_cm": 250,
+      "closed_spacing_cm": 240,
+      "outputs": {
+        "/Engine/BasicShapes/Cube.Cube": {
+          "count": 61,
+          "sha256": "0d4cd0cdfd8a48cd3ef91f6cc64923d977159e7bab65a0e8d7dc24e8506fee9f"
+        },
+        "/Game/Northwood/DekogonContent/Meshes/SM_JuniperBush_01a.SM_JuniperBush_01a": {
+          "count": 38,
+          "sha256": "1b6084c3535ceb7fc891091ec1e376cfdcd643ced4e93a8fd1a4fcf651cffec4"
+        },
+        "/Game/Northwood/Meshes/Structures/SM_Wall_Pillar_400_01a.SM_Wall_Pillar_400_01a": {
+          "count": 10,
+          "sha256": "fcebec3a3fa384559f4763940ab56328d3f27d92afd4418cf3b9183c5784135c"
+        }
+      },
+      "editor_generation_elapsed_ms": 500.0,
+      "measurement_limit": "Includes editor scheduling and the 0.5s observation interval; not CPU node execution time.",
+      "image": "..\\..\\..\\..\\..\\..\\Users\\antho\\Perforce\\anthony.monteagudo_TechArt\\anthony.monteagudo\\Week11PCGTrail\\Validation\\SplineExamples\\Open.png"
+    },
+    {
+      "case": "Closed",
+      "open_spacing_cm": 250,
+      "closed_spacing_cm": 240,
+      "outputs": {
+        "/Engine/BasicShapes/Cube.Cube": {
+          "count": 61,
+          "sha256": "0d4cd0cdfd8a48cd3ef91f6cc64923d977159e7bab65a0e8d7dc24e8506fee9f"
+        },
+        "/Game/Northwood/DekogonContent/Meshes/SM_JuniperBush_01a.SM_JuniperBush_01a": {
+          "count": 38,
+          "sha256": "1b6084c3535ceb7fc891091ec1e376cfdcd643ced4e93a8fd1a4fcf651cffec4"
+        },
+        "/Game/Northwood/Meshes/Structures/SM_Wall_Pillar_400_01a.SM_Wall_Pillar_400_01a": {
+          "count": 10,
+          "sha256": "fcebec3a3fa384559f4763940ab56328d3f27d92afd4418cf3b9183c5784135c"
+        }
+      },
+      "editor_generation_elapsed_ms": 500.0,
+      "measurement_limit": "Includes editor scheduling and the 0.5s observation interval; not CPU node execution time.",
+      "image": "..\\..\\..\\..\\..\\..\\Users\\antho\\Perforce\\anthony.monteagudo_TechArt\\anthony.monteagudo\\Week11PCGTrail\\Validation\\SplineExamples\\Closed.png"
+    },
+    {
+      "case": "Closed-Dense",
+      "open_spacing_cm": 250,
+      "closed_spacing_cm": 160,
+      "outputs": {
+        "/Engine/BasicShapes/Cube.Cube": {
+          "count": 61,
+          "sha256": "0d4cd0cdfd8a48cd3ef91f6cc64923d977159e7bab65a0e8d7dc24e8506fee9f"
+        },
+        "/Game/Northwood/DekogonContent/Meshes/SM_JuniperBush_01a.SM_JuniperBush_01a": {
+          "count": 90,
+          "sha256": "4d0e7ac396e64f5cc5227181b26830fe2569031b5b728f451a9b8fd2d6caf39b"
+        },
+        "/Game/Northwood/Meshes/Structures/SM_Wall_Pillar_400_01a.SM_Wall_Pillar_400_01a": {
+          "count": 10,
+          "sha256": "fcebec3a3fa384559f4763940ab56328d3f27d92afd4418cf3b9183c5784135c"
+        }
+      },
+      "editor_generation_elapsed_ms": 500.0,
+      "measurement_limit": "Includes editor scheduling and the 0.5s observation interval; not CPU node execution time.",
+      "image": "..\\..\\..\\..\\..\\..\\Users\\antho\\Perforce\\anthony.monteagudo_TechArt\\anthony.monteagudo\\Week11PCGTrail\\Validation\\SplineExamples\\Closed-Dense.png"
+    },
+    {
+      "case": "Open-Dense",
+      "open_spacing_cm": 125,
+      "closed_spacing_cm": 240,
+      "outputs": {
+        "/Engine/BasicShapes/Cube.Cube": {
+          "count": 61,
+          "sha256": "0d4cd0cdfd8a48cd3ef91f6cc64923d977159e7bab65a0e8d7dc24e8506fee9f"
+        },
+        "/Game/Northwood/DekogonContent/Meshes/SM_JuniperBush_01a.SM_JuniperBush_01a": {
+          "count": 38,
+          "sha256": "1b6084c3535ceb7fc891091ec1e376cfdcd643ced4e93a8fd1a4fcf651cffec4"
+        },
+        "/Game/Northwood/Meshes/Structures/SM_Wall_Pillar_400_01a.SM_Wall_Pillar_400_01a": {
+          "count": 20,
+          "sha256": "2d15f56f300ba5d80ca970049df9dc78e1238811e5610b641dbdff1fcee630e6"
+        }
+      },
+      "editor_generation_elapsed_ms": 500.0,
+      "measurement_limit": "Includes editor scheduling and the 0.5s observation interval; not CPU node execution time.",
+      "image": "..\\..\\..\\..\\..\\..\\Users\\antho\\Perforce\\anthony.monteagudo_TechArt\\anthony.monteagudo\\Week11PCGTrail\\Validation\\SplineExamples\\Open-Dense.png"
+    },
+    {
+      "case": "Restore",
+      "open_spacing_cm": 250,
+      "closed_spacing_cm": 240,
+      "outputs": {
+        "/Engine/BasicShapes/Cube.Cube": {
+          "count": 61,
+          "sha256": "0d4cd0cdfd8a48cd3ef91f6cc64923d977159e7bab65a0e8d7dc24e8506fee9f"
+        },
+        "/Game/Northwood/DekogonContent/Meshes/SM_JuniperBush_01a.SM_JuniperBush_01a": {
+          "count": 38,
+          "sha256": "1b6084c3535ceb7fc891091ec1e376cfdcd643ced4e93a8fd1a4fcf651cffec4"
+        },
+        "/Game/Northwood/Meshes/Structures/SM_Wall_Pillar_400_01a.SM_Wall_Pillar_400_01a": {
+          "count": 10,
+          "sha256": "fcebec3a3fa384559f4763940ab56328d3f27d92afd4418cf3b9183c5784135c"
+        }
+      },
+      "editor_generation_elapsed_ms": 500.0,
+      "measurement_limit": "Includes editor scheduling and the 0.5s observation interval; not CPU node execution time.",
+      "image": "..\\..\\..\\..\\..\\..\\Users\\antho\\Perforce\\anthony.monteagudo_TechArt\\anthony.monteagudo\\Week11PCGTrail\\Validation\\SplineExamples\\Restore.png"
+    }
+  ],
+  "runtime_custom_plugin_required": false,
+  "captures": "Native offscreen camera renders, no PC remote-control cursor or overlays."
+}

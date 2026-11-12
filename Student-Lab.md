@@ -1,6 +1,6 @@
 # Guided exercise: change the trail vegetation
 
-**8 minutes.** Use the supplied project in Unreal Engine **5.7**. The photoreal meshes, materials and example maps are included. You do not need to download assets, install an extra plugin or build C++.
+**Optional practice.** Use the supplied project in Unreal Engine **5.7**. The photoreal meshes, materials and example maps are included. You do not need to download assets, install an extra plugin or build C++.
 
 ## Open the prepared example — 2 minutes
 
