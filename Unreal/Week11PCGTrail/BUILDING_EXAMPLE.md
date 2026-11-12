@@ -1,6 +1,6 @@
 # Modular building example
 
-Open `Content/Trail/Building/Maps/Building_Examples` in UE 5.7.4. This is an optional instructor demonstration alongside the procedural trail exercise.
+Open **Tools > Week 11 PCG Museum > Building examples** in UE 5.7.4. This is a prepared instructor demonstration and an optional student extension after the guided trail exercise.
 
 Six actors use graph instances of **PCG_ModularBuilding**. Select `Building_Lodge`, open its PCG component and edit its graph-instance parameters. Change **Cells** and click **Generate**. X is the number of bays along local X, Y is the number along local Y, and Z is the floor count. The graph rounds down and clamps each count to 1–12. Keep actor scale at one. Move or rotate the actor to compare local and world space.
 

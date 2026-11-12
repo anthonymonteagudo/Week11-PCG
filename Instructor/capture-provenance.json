@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Building-Cabin",
+    "source": "Week11PCGTrail\\Validation\\BuildingDeliverySM6\\Building-Cabin.png",
+    "delivery": "Building-Cabin.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Building-Lodge",
+    "source": "Week11PCGTrail\\Validation\\BuildingDeliverySM6\\Building-Lodge.png",
+    "delivery": "Building-Lodge.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Building-Tower",
+    "source": "Week11PCGTrail\\Validation\\BuildingDeliverySM6\\Building-Tower.png",
+    "delivery": "Building-Tower.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Building-Rotated",
+    "source": "Week11PCGTrail\\Validation\\BuildingDeliverySM6\\Building-Rotated.png",
+    "delivery": "Building-Rotated.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Building-Gallery",
+    "source": "Week11PCGTrail\\Validation\\BuildingDeliverySM6\\Building-Gallery.png",
+    "delivery": "Building-Gallery.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Museum-01",
+    "source": "Week11PCGTrail\\Validation\\MuseumDeliverySM6\\Museum-01.png",
+    "delivery": "Museum-01.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Museum-02",
+    "source": "Week11PCGTrail\\Validation\\MuseumDeliverySM6\\Museum-02.png",
+    "delivery": "Museum-02.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Museum-03",
+    "source": "Week11PCGTrail\\Validation\\MuseumDeliverySM6\\Museum-03.png",
+    "delivery": "Museum-03.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Museum-04",
+    "source": "Week11PCGTrail\\Validation\\MuseumDeliverySM6\\Museum-04.png",
+    "delivery": "Museum-04.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Museum-05",
+    "source": "Week11PCGTrail\\Validation\\MuseumDeliverySM6\\Museum-05.png",
+    "delivery": "Museum-05.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Museum-06",
+    "source": "Week11PCGTrail\\Validation\\MuseumDeliverySM6\\Museum-06.png",
+    "delivery": "Museum-06.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Museum-07",
+    "source": "Week11PCGTrail\\Validation\\MuseumDeliverySM6\\Museum-07.png",
+    "delivery": "Museum-07.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Points-debug",
+    "source": "Week11PCGTrail\\Validation\\TeachingPairsSM6\\Points-debug.png",
+    "delivery": "Points-debug.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Points-meshes",
+    "source": "Week11PCGTrail\\Validation\\TeachingPairsSM6\\Points-meshes.png",
+    "delivery": "Points-meshes.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Difference-before",
+    "source": "Week11PCGTrail\\Validation\\TeachingPairsSM6\\Difference-before.png",
+    "delivery": "Difference-before.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Difference-after",
+    "source": "Week11PCGTrail\\Validation\\TeachingPairsSM6\\Difference-after.png",
+    "delivery": "Difference-after.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Overlap-before",
+    "source": "Week11PCGTrail\\Validation\\TeachingPairsSM6\\Overlap-before.png",
+    "delivery": "Overlap-before.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Overlap-after",
+    "source": "Week11PCGTrail\\Validation\\TeachingPairsSM6\\Overlap-after.png",
+    "delivery": "Overlap-after.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Seed17-View2",
+    "source": "Week11PCGTrail\\Validation\\SeedCloseSM6\\Seed17-View2.png",
+    "delivery": "Seed17-View2.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Seed43-View2",
+    "source": "Week11PCGTrail\\Validation\\SeedCloseSM6\\Seed43-View2.png",
+    "delivery": "Seed43-View2.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  }
+]

@@ -1091,7 +1091,7 @@
     {
       "file": "Content/Trail/Biome/PCG_BiomeScatter.uasset",
       "bytes": 467995,
-      "sha256": "b1ff95e818be3f8e5c00d9604ed02f11030e58fdb3137ea815349d152f003a75",
+      "sha256": "43a6597a97502e25ef62d60a23bc310133892dbd4f3e58e343625bb7afb10214",
       "instructor_source_sha256": "b1ff95e818be3f8e5c00d9604ed02f11030e58fdb3137ea815349d152f003a75"
     },
     {
@@ -1175,7 +1175,7 @@
     {
       "file": "Content/Trail/Building/PCG_ModularBuilding.uasset",
       "bytes": 746065,
-      "sha256": "9f8c4044730d0683a9922f9422008c9ef62bdeedef9c9177ed5c6a3c7e73bf47",
+      "sha256": "ebbbc49ad3da822d245d6234db5c4f964e14594a9cd63a209149cf9a0ca1819f",
       "instructor_source_sha256": "9f8c4044730d0683a9922f9422008c9ef62bdeedef9c9177ed5c6a3c7e73bf47"
     },
     {
@@ -1241,37 +1241,37 @@
     {
       "file": "Content/Trail/Museum/Graphs/PCG_M01_Candidates.uasset",
       "bytes": 57942,
-      "sha256": "32c4f304f528367e884c87126b0bc5485d8a1af4a8f3b4bc3f6918193f52b09e",
+      "sha256": "7e547b60bdb5d93e8d95bd5d8264de4a52e9febc0548e27dc377d9b22150cc1e",
       "instructor_source_sha256": "32c4f304f528367e884c87126b0bc5485d8a1af4a8f3b4bc3f6918193f52b09e"
     },
     {
       "file": "Content/Trail/Museum/Graphs/PCG_M02_Transforms.uasset",
       "bytes": 57916,
-      "sha256": "1964b86150b6283420104b3a852f83785277d8046dfdb58f87e8eaba53b8abcf",
+      "sha256": "4ea7dc8efd6974be8cb77fd9e1f452f13faed46e343b6e61dd4d778992446ad5",
       "instructor_source_sha256": "1964b86150b6283420104b3a852f83785277d8046dfdb58f87e8eaba53b8abcf"
     },
     {
       "file": "Content/Trail/Museum/Graphs/PCG_M03_ClosedDifference.uasset",
-      "bytes": 98541,
-      "sha256": "d5e6bd3b07c741e6504ca9053448d566f2c413bf4e84e949a2cc03841bf72a2e",
+      "bytes": 98589,
+      "sha256": "db06581bd90c32d1cd190580c1f922e4f9cad08027dbd9a8960f21c82af1c33e",
       "instructor_source_sha256": "d5e6bd3b07c741e6504ca9053448d566f2c413bf4e84e949a2cc03841bf72a2e"
     },
     {
       "file": "Content/Trail/Museum/Graphs/PCG_M04_SurfaceSuitability.uasset",
       "bytes": 150154,
-      "sha256": "5ff17ea2cc93d768ccc5150a5e61f59ecc8ada50c3738474e92ad8c31f4544c8",
+      "sha256": "b1b8732460109632331a15c7bdf419f4407f682b7c3ad1f2bb4462bb5ac6a7d1",
       "instructor_source_sha256": "5ff17ea2cc93d768ccc5150a5e61f59ecc8ada50c3738474e92ad8c31f4544c8"
     },
     {
       "file": "Content/Trail/Museum/Graphs/PCG_M05_AssetProfiles.uasset",
       "bytes": 86088,
-      "sha256": "b763adfa9042705ee442058e87f5ed5d8ac864ef27760cfd0215097e7f717568",
+      "sha256": "1213aa5aaa223f758e1cd86bc393caa9ca8c65580006c9edf00620015d0cce9a",
       "instructor_source_sha256": "b763adfa9042705ee442058e87f5ed5d8ac864ef27760cfd0215097e7f717568"
     },
     {
       "file": "Content/Trail/Museum/Graphs/PCG_M06_LocalPruning.uasset",
       "bytes": 114086,
-      "sha256": "70fd5df3b194f3c476324169f1cbf5f07d2ac1ab6d347abfe4e0511709970d93",
+      "sha256": "d030d7baf081e9f4ea00734a03f25cfe7ab7c7e4a0f610734a4611d801fdff95",
       "instructor_source_sha256": "70fd5df3b194f3c476324169f1cbf5f07d2ac1ab6d347abfe4e0511709970d93"
     },
     {
@@ -1294,8 +1294,8 @@
     },
     {
       "file": "Content/Trail/Museum/Maps/PCG_Museum.umap",
-      "bytes": 316386,
-      "sha256": "11294a335a29ecb3c64c5190d01b2b141cd1a8f969d1b2fa8c929bd10759dadf",
+      "bytes": 316049,
+      "sha256": "86e5c3853b47831d25dbc421fad91b6d9e58159f7c6c6c5e64e565ec44c68710",
       "instructor_source_sha256": "11294a335a29ecb3c64c5190d01b2b141cd1a8f969d1b2fa8c929bd10759dadf"
     },
     {
@@ -1678,7 +1678,7 @@
   ],
   "source_content_attribution": "Original class graphs and teaching content; Fab/source assets retain their licenses. Source resources are documented separately.",
   "teaching_texture_limit": 2048,
-  "student_content_bytes": 596338764,
+  "student_content_bytes": 596340191,
   "texture_policy": {
     "close_view_maximum_dimension": 2048,
     "distant_impostor_maximum_dimension": 1024,

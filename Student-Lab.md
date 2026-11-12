@@ -1,53 +1,58 @@
-# Art Director vs. Algorithm
+# Guided exercise: change the trail vegetation
 
-Work in pairs for **20 minutes**. One person describes the intended appearance; the other changes one exposed control and explains the result. Then swap roles.
+**8 minutes.** Use the supplied project in Unreal Engine **5.7**. The photoreal meshes, materials and example maps are included. You do not need to download assets, install an extra plugin or build C++.
 
-Open **Tools > Week 11 PCG Museum > Full trail exercise**. The map is `Content/Trail/Maps/Trail_Student`. Duplicate the map before editing. The project is already configured and includes its assets.
+## Open the prepared example — 2 minutes
 
-## One graph, several profiles
+1. Open `Unreal/Week11PCGTrail/Week11PCGTrail.uproject` and wait for the initial shaders.
+2. Choose **Tools > Week 11 PCG Museum > Full trail exercise**. This opens `Content/Trail/Maps/Trail_Student`.
+3. In the World Outliner, select **PCG_Scrub**. In Details, select its **PCG component**. Expand the graph-instance parameters. The parent graph is **PCG_BiomeScatter**.
 
-`PCG_Trees`, `PCG_Rocks` and `PCG_Scrub` reference graph-instance presets of **PCG_BiomeScatter**. The shared graph defines the placement rules. A graph-instance asset supplies reusable defaults; the component's parameter overrides apply local changes to that actor.
+The path, region inputs and assets are already set up. Leave the tree and rock actors unchanged.
 
-Select an actor and its **PCG component** in Details. Edit its graph-instance parameters rather than replacing the parent graph. Click **Generate** after a change. Reset an override to return to the preset.
+## Predict, change, compare — 4 minutes
 
-| Control | What it means |
+Find **KeepFraction**. Its supplied value is **0.78**, with **VariationSeed = 41**.
+
+1. Predict what lowering KeepFraction will do to the vegetation. Should it move the path or change the trees?
+2. Override **KeepFraction to 0.50**. Click **Generate** on the PCG component.
+3. Compare from the same viewpoint. There should be fewer scrub meshes, while the tree and rock layers stay the same. The prepared baseline has 412 scrub instances; this controlled change produces 268 in the tested UE 5.7.4 project.
+
+KeepFraction gives each candidate a chance of surviving this stage. It does **not** request an exact number of final meshes. Other filters and pruning also affect the final count.
+
+## Restore and explain — 2 minutes
+
+Reset the KeepFraction override to **0.78** and click **Generate**. Explain to a partner what changed and why the other populations stayed stable. With the original inputs and settings restored, the original result should return.
+
+**Success:** you can find one exposed parameter, predict its effect, compare one change and restore the supplied result. This is a guided class exercise, not an additional final-project requirement.
+
+## How the reusable system works
+
+`PCG_Trees`, `PCG_Rocks` and `PCG_Scrub` use graph-instance presets of one parent graph, **PCG_BiomeScatter**. The parent defines the rules. Each preset supplies reusable defaults and an asset set. A component can override those values for one actor.
+
+| Control | Meaning |
 | --- | --- |
-| AssetSet | Weighted mesh collection. Weights are relative chances, not quotas. |
-| SpacingCm | Candidate spacing; smaller values propose more points. |
-| ScaleMin / ScaleMax | Uniform scale range; keep minimum at or below maximum. |
-| VariationSeed | Repeatable variation under fixed inputs, rules, assets and engine version. |
-| HabitatTag / ClearingTag | Tagged closed spline inputs defining permitted regions and exclusions. |
-| ReservationTag | Prepared trail exclusion compatible with the chosen layer's size. |
-| PatchCutoff | Threshold on spatial noise that shapes habitat patches. |
-| KeepFraction | Random candidate survival after other decisions. |
-| SlopeMinDot | Ground normal alignment with up; higher values favor flatter ground. |
-| PruneRadiusCm | Neighborhood used for competing point bounds. |
-| FavorClearings | Chooses the complementary spatial preference used by a layer. |
+| AssetSet | A supplied table of meshes and selection weights. Weights are relative chances, not quotas. |
+| SpacingCm | Distance between proposed points before later filtering. Smaller values usually propose more points. |
+| ScaleMin / ScaleMax | Allowed uniform scale range. Keep the minimum at or below the maximum. |
+| VariationSeed | Repeatable variation with otherwise unchanged inputs, rules, assets and engine behavior. |
+| HabitatTag / ClearingTag | Tagged closed splines defining allowed regions and exclusions. |
+| ReservationTag | The prepared trail exclusion for that asset population. |
+| PatchCutoff | Threshold on spatial noise that breaks vegetation into patches. |
+| KeepFraction | Random survival probability at one filtering stage. |
+| SlopeMinDot | Ground normal alignment with world up. Higher values accept flatter ground. |
+| PruneRadiusCm | Point-bound neighborhood used to resolve nearby competitors. |
+| FavorClearings | Selects a complementary spatial preference for that population. |
 
-## 1. Brief — 3 minutes
+## Optional experiments after the guided task
 
-Find the winding path and a clearing. Predict which vegetation should change if the clearing moves. Identify the requirement that the walking corridor remains clear.
+Choose **one** when you have time. These are alternatives, not a list to finish in class.
 
-## 2. Change and compare — 10 minutes
+- On Scrub, change AssetSet to **DT_JuniperOnly**, generate and restore it. The table contains three compatible juniper forms. A new arbitrary asset set may require different scale and clearance margins.
+- Move a **Habitat_Clearing** closed spline and regenerate the affected layers. Observe which region becomes empty, then undo the move and regenerate.
+- Open the forest, snow or spline-layout variation maps. Identify which inputs or presets changed while the parent graph stayed shared.
+- Open **Building examples** from the museum menu. Select Lodge and compare Cells `(3,4,2)` with `(5,2,3)`. X/Y count bays and Z counts floors. Restore the original values. The example supports rectangular footprints and a flat platform roof; it does not design playable interiors.
 
-1. Keep `PCG_Scrub` at seed **41**. Change **KeepFraction** from **0.78 to 0.50**, Generate and compare. Keep the other layers unchanged.
-2. Move one `Habitat_Clearing` input about **3500 cm (35 m)** sideways. Generate the affected layers. Explain the empty region using the closed spline, not a lucky seed.
-3. Inspect a path bend from near the ground. Check the final mesh footprint as well as the point centre, and check that objects contact the terrain.
+Bounds-based point pruning is an approximation. Inspect actual mesh footprints near a path bend. A clear-looking path does not establish collision or navigation correctness.
 
-## 3. Partner test — 4 minutes
-
-Swap roles. Reset the moved clearing. On Scrub, change **AssetSet** to the supplied **DT_JuniperOnly** table and regenerate. This compatible collection contains three juniper forms. Explain why a collection change should leave the tree and rock layers stable.
-
-Open a variation map to compare a different density or spline layout. The region maps add forest and snow asset/material profiles using the same placement system. Arbitrary new assets may require different scale limits and reservation margins.
-
-## 4. Handoff — 3 minutes
-
-Reset local overrides and restore the clearing; regenerate the baseline. Tell your partner the purpose, a required input, the control you changed, expected behavior and one limitation.
-
-The final count depends on multiple filters and pruning. KeepFraction is not an exact fraction of the final mesh count. A seed alone does not guarantee identical results after changes to the graph, assets or engine.
-
-## Optional: building rules
-
-Open the building examples from the museum menu. On Lodge, compare **Cells** `(3,4,2)` and `(5,2,3)`. X/Y count bays and Z counts floors. Restore the baseline, switch compatible FacadeSet tables, and rotate the actor. Predict which topology should remain stable when only the facade profile changes.
-
-Broader procedural level design also includes room connectivity, encounter budgets and gameplay reachability. These are useful future constraints, not implemented systems in this trail exercise. An environment generator should respond to gameplay requirements as well as visual preferences.
+Return to [Start here](START-HERE.html) or review the [sources](Sources.html).

@@ -11,4 +11,6 @@ Original class material: PCG graphs, graph instances, museum demonstrations, tra
 - **Epic Games**, [PCG documentation](https://dev.epicgames.com/documentation/en-us/unreal-engine/procedural-content-generation-framework-in-unreal-engine).
 - **SideFX**, [Houdini Engine for Unreal](https://www.sidefx.com/products/houdini-engine/plug-ins/unreal-plug-in/): optional instructor showcase. No Houdini software or license is needed to open the main student project.
 
+The included lecture reader has [full references and visual credits](Slides/SOURCES.md), including the named GDC examples, procedural methods book, game-design articles, SideFX examples and open-source media notices. The [native demo gallery](Instructor/Demo-Gallery.html) contains actual class captures rather than generated Unreal interfaces.
+
 This repository and the full student ZIP are private teaching distributions. Third-party assets are not relicensed under MIT or a blanket course license. Do not extract and publicly redistribute source assets or tutorial reference images. The private repository owner controls access.

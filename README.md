@@ -19,10 +19,11 @@ For updates, close Unreal, keep your own edits committed or backed up, then run 
 ## Choose a route
 
 - **Museum:** seven focused demonstrations below. Predict the result before changing one control.
-- **Main paired exercise:** [Student-Lab.md](Student-Lab.md), twenty minutes in `Trail_Student`.
+- **Guided exercise:** [Student-Lab.md](Student-Lab.md), eight minutes in `Trail_Student`.
 - **Variations:** maps under `Content/Trail/Variations/Maps` compare density, seed and spline layout using shared assets and graphs.
 - **Building stretch:** open `Building_Examples` from the museum menu. [Building guide](Unreal/Week11PCGTrail/BUILDING_EXAMPLE.md) explains dimensions, internal-face cancellation and kit compatibility.
-- **Lecture:** [editable Week 11 slides](https://chatgpt.com/space/page_2304d6e47ba88191ae475378aa918f61). Access follows the instructor's sharing settings. A local slide reader is also included when present under `Slides`.
+- **Lecture:** [editable Week 11 slides](https://chatgpt.com/space/page_2304d6e47ba88191ae475378aa918f61). Access follows the instructor's sharing settings. An offline [slide reader](Slides/index.html), including the short animations, is included.
+- **Examples to review:** [current Unreal captures](Instructor/Demo-Gallery.html), including the building, museum, seed comparisons and readable node views.
 
 ## Museum stations
 

@@ -13,6 +13,8 @@ for(const p of ['PCG','PythonScriptPlugin','EditorScriptingUtilities']) assert(c
 const ini=fs.readFileSync(path.join(project,'Config/DefaultEngine.ini'),'utf8');
 assert(!/SecurityToken\s*=[^\r\n\s]+/.test(ini),'Do not publish generated Android credentials.');
 assert(ini.includes('EditorStartupMap=/Game/Trail/Museum/Maps/PCG_Museum'));
+assert(ini.includes('DefaultGraphicsRHI=DefaultGraphicsRHI_DX12'));
+assert(ini.includes('+D3D12TargetedShaderFormats=PCD3D_SM6'),'Nanite needs SM6 configured in the project; students must not have to enable it manually.');
 const manifest=JSON.parse(fs.readFileSync(path.join(root,'Instructor/project-manifest.json')));
 assert.equal(manifest.root_maps.length,20);
 for(const r of manifest.files){
