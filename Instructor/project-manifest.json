@@ -1294,8 +1294,8 @@
     },
     {
       "file": "Content/Trail/Museum/Maps/PCG_Museum.umap",
-      "bytes": 321478,
-      "sha256": "74b01435a703e84846a8e835a11bec41169652f25f08fa7c52c763f31125fccc",
+      "bytes": 326993,
+      "sha256": "4887d77726e6eec8d97a8d1d008f4f2f559a8914699ab069fa68ee00e4b9e46d",
       "instructor_source_sha256": "11294a335a29ecb3c64c5190d01b2b141cd1a8f969d1b2fa8c929bd10759dadf"
     },
     {
@@ -1678,7 +1678,7 @@
   ],
   "source_content_attribution": "Original class graphs and teaching content; Fab/source assets retain their licenses. Source resources are documented separately.",
   "teaching_texture_limit": 2048,
-  "student_content_bytes": 596295038,
+  "student_content_bytes": 596300553,
   "texture_policy": {
     "close_view_maximum_dimension": 2048,
     "distant_impostor_maximum_dimension": 1024,

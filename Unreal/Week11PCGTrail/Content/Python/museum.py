@@ -50,7 +50,7 @@ def ensure_ready():
   else:
    for a in _actors():
     c=a.get_component_by_class(u.PCGComponent)
-    if c and not c.get_editor_property('generation_in_progress'):c.generate_local(True)
+    if c and not c.get_editor_property('generation_in_progress'):c.generate_local(False)
    if world.get_name()=='PCG_Museum':
     if _requested_station:focus(_requested_station)
     else:show_all()
