@@ -1,11 +1,14 @@
 {
-  "native_state_version": 107,
+  "native_state_version": 117,
   "slides": 49,
-  "powerpoint_open_and_render": "PASS, 49 slides",
+  "powerpoint_open_and_render": "PASS, 49 slides; zero text-bound overflow flags",
   "animated_slides": [
-    14,
-    15,
+    5,
+    6,
+    28,
     38
   ],
-  "animation_playback_in_spaces": "Not asserted; GIFs remain embedded in the PowerPoint and offline reader."
+  "animation_playback_in_spaces": "Not asserted. GIFs embedded in PowerPoint and offline reader.",
+  "theme": "Installed Microsoft Ion theme, customized forest/sage variant; Century Gothic",
+  "source_note": "Attributed Cloward, Vox and Opara teaching excerpts. Paid course videos, project archives and transcripts are not bundled."
 }

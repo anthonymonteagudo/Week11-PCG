@@ -42,7 +42,7 @@ Select a station's PCG actor, open its graph with the menu, inspect the numbered
 
 ## Optional Blueprint extension
 
-The lecture includes a custom-node reference that selects a fixed number of points. Its captures are from UE 5.4. New UE 5.7 implementations use PCGBlueprintBaseElement and the newer point-data helpers. The student project does not depend on that tutorial Blueprint.
+The lecture includes an attributed custom-node reference that selects a fixed number of points. The student project uses the bundled native graphs. No course Blueprint is required.
 
 ## What is included
 

@@ -96,9 +96,12 @@ This offline reader contains lossless images of the saved native deck and the or
 
 Amritha Immaneni, supplied guest presentation; EVE Vanguard images, CCP Games. Epic Games, Electric Dreams. Guerrilla Games, Horizon Zero Dawn GDC 2017. Ubisoft, Far Cry 5 GDC 2018. Erich Schaefer, Diablo II postmortem (2000). Sébastien Bénard, Dead Cells hybrid level-design article (2017; author mirror 2020). SideFX, Houdini product and Engine documentation; Houdini 20 Dynamic Motion excerpt. Malte Ekvall, Path of the Pilgrim surface breakdown (not asserted to be procedural or Houdini). Maxim Gumin, WaveFunctionCollapse, MIT. Lucide icons, ISC with Feather-origin MIT notices. Course-library icons and original diagrams, Prof. Monteagudo's course visual library. Generated editorial cover, explicitly not an Unreal project capture.
 
-Ben Cloward and Brandon Vox examples are attributed excerpts from the instructor's personal study notes. The UE 5.4 source interfaces are identified where used. Course transcripts, downloadable tutorial projects and archive contents are not part of this reader. The native class graphs, exercise, diagrams and exact-count pseudocode are original teaching work.
+Ben Cloward and Brandon Vox examples are attributed excerpts from the instructor's personal study notes. Source interfaces retain their original attribution. Course transcripts, downloadable tutorial projects and archive contents are not part of this reader. The native class graphs, exercise, diagrams and exact-count pseudocode are original teaching work.
 
 The green editorial treatment draws layout ideas from the MIT-licensed Slidev Seriph theme; it was implemented as editable native slides, not imported from its rendering system. The Apache-2.0 Anthropic presentations skill informed the visual review process. Neither replaces the native deck authoring workflow. Original project and third-party content retain their respective rights; this is a private teaching distribution, not a blanket open-source asset release.
 
 
-Custom Blueprint reference: selected captures from Brandon Vox UE 5.4 lessons 37–39, supplied in instructor study notes. New 5.7 implementations should follow Epic's PCG Blueprint Base Element and point-array guidance: https://dev.epicgames.com/community/learning/knowledge-base/l574/unreal-engine-pcg-blueprint-elements-in-5-7 . Spline_Examples and its native graph are original class work; no paid course Blueprint or transcript is bundled.
+Custom Blueprint reference: selected captures from Brandon Vox lessons 37–39, supplied in instructor study notes. Spline_Examples and its native graph are original class work; no paid course Blueprint or transcript is bundled.
+
+
+Anastasia Opara, **Procedural Lake Houses**: a credited four-stage overview from the instructor-owned Ch2_Part0_Intro at 00:12. [SideFX source](https://www.sidefx.com/tutorials/procedural-lake-houses-volume-1/). Course videos, project archives and transcripts are not bundled.
