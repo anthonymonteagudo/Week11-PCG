@@ -24,6 +24,7 @@ For updates, close Unreal, keep your own edits committed or backed up, then run 
 - **Optional practice:** [Student-Lab.md](Student-Lab.md), a short parameter experiment in `Trail_Student`.
 - **Variations:** maps under `Content/Trail/Variations/Maps` compare density, seed and spline layout using shared assets and graphs.
 - **Building stretch:** open `Building_Examples` from the museum menu. [Building guide](Unreal/Week11PCGTrail/BUILDING_EXAMPLE.md) explains dimensions, internal-face cancellation and kit compatibility.
+- **Guest presentation:** [Amritha Immaneni — Intro to PCG in Unreal Engine](Slides/Guest-Amritha-Intro-to-PCG.pptx), the original 15-slide guest deck.
 - **Lecture:** open the included [PowerPoint](Slides/Week11-PCG.pptx) or offline [slide reader](Slides/index.html). No Spaces access is required.
 - **Examples to review:** [current Unreal captures](Instructor/Demo-Gallery.html), including the building, museum, seed comparisons and readable node views.
 
