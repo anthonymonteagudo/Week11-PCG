@@ -31,3 +31,10 @@ for(const f of ['README.md','Student-Lab.md','SOURCES.md']){
  assert(!/Install_FabAssets|Setup_FabAssets|run Fab setup/.test(text),`Outdated setup in ${f}`);
 }
 console.log(`PASS: ${manifest.files.length} native packages verified; 20 maps; links, stock-plugin setup and source hashes checked.`);
+
+// Reject retired asset-acquisition instructions anywhere in the shipped documentation.
+function checkDocs(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){if(entry.name==='.git')continue;const f=path.join(dir,entry.name);if(entry.isDirectory())checkDocs(f);else if(/\.(md|html|py|ps1)$/i.test(f)){const text=fs.readFileSync(f,'utf8');assert(!/acquired separately by each student|not redistributed in the starter ZIP|Install_FabAssets|Setup_FabAssets|run Fab setup/i.test(text),`Obsolete asset setup instructions: ${f}`);}}}
+checkDocs(root);
+assert.equal(manifest.dependencies_bundled,true);
+assert.deepEqual(manifest.missing_packages,[]);
+assert(fs.existsSync(path.join(root,'Slides/Week11-PCG.pptx')),'Include the local PowerPoint review copy.');

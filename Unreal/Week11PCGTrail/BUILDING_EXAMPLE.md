@@ -29,7 +29,7 @@ Show Cabin and Tower. On Lodge, change Cells from `(3,4,2)` to `(5,2,3)`, Genera
 
 Ask students to predict exterior wall count: `2 × (rows + columns) × floors`. A 3-by-4 footprint with two floors has 28 wall modules, 8 corner posts, 24 floor modules and 12 roof modules. Count topology before judging appearance.
 
-## Asset setup and limits
+## Included assets and kit compatibility
 
 Meshes and materials come from the already-local **Old West Learning** Fab source: https://www.fab.com/listings/785da98f-3c56-4736-b898-826116d8f06f . Source packages retain their `/Game/Northwood/...` paths. Replacement wall meshes must match dimensions, pivot, facing axis and floor height. A differently shaped kit needs an adapter, not arbitrary scaling of every mesh.
 
