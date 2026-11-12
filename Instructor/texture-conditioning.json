@@ -1,0 +1,1244 @@
+{
+  "status": "PASS",
+  "maximum_dimension": 2048,
+  "source_instructor_assets_unchanged": true,
+  "method": "Unreal DownsizeImageUsingTextureSettings with normal renormalization and texture build gamma settings",
+  "textures": [
+    {
+      "asset": "/Game/Northwood/Textures/Landscape/TX_Grass_Mix_01a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_03a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_03a_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_Noise_02b",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JoshuaBark_01a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JoshuaBark_01a_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JoshuaBark_01a_RMA",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Utility/TX_Fill_01_ALB",
+      "before": [
+        128,
+        128
+      ],
+      "after": [
+        128,
+        128
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Utility/TX_Fill_01_NRM",
+      "before": [
+        128,
+        128
+      ],
+      "after": [
+        128,
+        128
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Utility/TX_Fill_01_RMA",
+      "before": [
+        128,
+        128
+      ],
+      "after": [
+        128,
+        128
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JoshuaLeaves_01a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JoshuaLeaves_01a_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JoshuaLeaves_01a_RMA",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JoshuaLeaves_01a_SS",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_05a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_05a_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_01a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_01a_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JuniperBark_01a_ALB",
+      "before": [
+        2048,
+        4096
+      ],
+      "after": [
+        1024,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JuniperBark_01a_NRM",
+      "before": [
+        2048,
+        4096
+      ],
+      "after": [
+        1024,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JuniperBark_01a_RMA",
+      "before": [
+        2048,
+        4096
+      ],
+      "after": [
+        1024,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JuniperFronds_01a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JuniperFronds_01a_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_JuniperFronds_01a_RMA",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_01c_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_01c_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_03a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_03a_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_YuccaBark_01a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_YuccaBark_01a_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_YuccaBark_01a_RMA",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_YuccaLeaves_01a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_YuccaLeaves_01a_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_YuccaLeaves_01a_RMA",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_YuccaLeaves_01a_SS",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_04a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_04a_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/EpicContent/Textures/T_Detail_Rocky_N",
+      "before": [
+        1024,
+        1024
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/EpicContent/Textures/T_Rock_Basalt_D",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/EpicContent/Textures/T_RockMesh_M",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/EpicContent/Textures/T_RockMesh_N",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_Damaged_Wood_01a_ALB",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_Damaged_Wood_01a_M",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/TX_Damaged_Wood_01a_NRM",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Tileable/TX_Debris_01a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Tileable/TX_Debris_01a_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Tileable/TX_Debris_01a_RHA",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Tileable/TX_Wood_Planks_01a_ALB",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Tileable/TX_Wood_Planks_01a_NRM",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Tileable/TX_Wood_Planks_01a_RMA",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Tileable/TX_Wood_Wall_01b_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Tileable/TX_Wood_Wall_01b_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Tileable/TX_Wood_Wall_01b_RMA",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Utility/TX_Dirt_01a_M",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Utility/TX_Dirt_01a_NRM",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Utility/TX_Edge_Normal_01a_NRM",
+      "before": [
+        512,
+        512
+      ],
+      "after": [
+        512,
+        512
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Utility/TX_PaintMask_01a_M",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Tileable/TX_Wood_Wall_01a_ALB",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Tileable/TX_Wood_Wall_01a_NRM",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Tileable/TX_Wood_Wall_01a_RMA",
+      "before": [
+        4096,
+        4096
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_MASKS: 2>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Environment/Bark_2_Color",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        256,
+        1024
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Environment/Bark_2_Normal",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        256,
+        1024
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Environment/Bark_Base_Color",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        256,
+        1024
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Environment/Bark_Base_Normal",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        256,
+        1024
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Environment/Bush_Hero_Color",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Environment/Bush_Hero_Normal",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Environment/Oak_English_Cluster_Branch_Color",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Environment/Oak_English_Cluster_Branch_Normal",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Environment/Oak_English_Cluster_Leaf_Summer_Color",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Environment/Oak_English_Cluster_Leaf_Summer_Normal",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Environment/Oak_Hero_Forest_Color",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Environment/Oak_Hero_Forest_Normal",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_01a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_01a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_02a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_02a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_04a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_04a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_03a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_03a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_02a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_02a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_05a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_05a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_06a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_06a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Landscape/TX_Dirt_01a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Landscape/TX_Dirt_01a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Landscape/TX_Grass_Mix_01a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Landscape/TX_Rocks_01a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Northwood/Textures/Landscape/TX_Rocks_01a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        2048,
+        2048
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_D",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_N",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    },
+    {
+      "asset": "/Game/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_D",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "compression": "<TextureCompressionSettings.TC_DEFAULT: 0>",
+      "srgb": true
+    },
+    {
+      "asset": "/Game/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_N",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ],
+      "compression": "<TextureCompressionSettings.TC_NORMALMAP: 1>",
+      "srgb": false
+    }
+  ],
+  "distant_impostor_followup": "distant-foliage-conditioning.json (26 textures subsequently reduced to 1024)"
+}

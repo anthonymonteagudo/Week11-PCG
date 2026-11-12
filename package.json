@@ -1,0 +1,5 @@
+{
+  "name": "week11-pcg-student-materials",
+  "private": true,
+  "scripts": { "check": "node tools-check.cjs" }
+}

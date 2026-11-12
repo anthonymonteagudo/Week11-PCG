@@ -1,0 +1,11 @@
+{
+  "FileVersion": 3,
+  "Version": 1,
+  "VersionName": "1.0",
+  "FriendlyName": "Trail Biome Authoring Bridge",
+  "Description": "Instructor-only asset authoring bridge. Generated student assets use stock engine types.",
+  "EnabledByDefault": false,
+  "CanContainContent": false,
+  "Modules": [{"Name":"TrailBiomeAuthoring","Type":"Editor","LoadingPhase":"Default"}],
+  "Plugins": [{"Name":"PCG","Enabled":true}]
+}

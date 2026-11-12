@@ -1,0 +1,1687 @@
+{
+  "status": "STAGED_COMPLETE",
+  "engine": "5.7.4-51494982+++UE5+Release-5.7",
+  "private_repository_required": true,
+  "root_maps": [
+    "/Game/Trail/Maps/Trail_Student",
+    "/Game/Trail/Maps/Biome_OpenDesert",
+    "/Game/Trail/Maps/Biome_JuniperScrub",
+    "/Game/Trail/Maps/Biome_RockyWash",
+    "/Game/Trail/Maps/Biome_Forest",
+    "/Game/Trail/Maps/Biome_Snow",
+    "/Game/Trail/Variations/Maps/Variation_Desert_Base",
+    "/Game/Trail/Variations/Maps/Variation_Desert_Dense",
+    "/Game/Trail/Variations/Maps/Variation_Forest_Base",
+    "/Game/Trail/Variations/Maps/Variation_Forest_Dense",
+    "/Game/Trail/Variations/Maps/Variation_Forest_Seed43",
+    "/Game/Trail/Variations/Maps/Variation_Forest_Small",
+    "/Game/Trail/Variations/Maps/Variation_Forest_Sparse",
+    "/Game/Trail/Variations/Maps/Variation_Route_BroadS",
+    "/Game/Trail/Variations/Maps/Variation_Route_Straight",
+    "/Game/Trail/Variations/Maps/Variation_Route_Switchbacks",
+    "/Game/Trail/Variations/Maps/Variation_Snow_Base",
+    "/Game/Trail/Variations/Maps/Variation_Snow_Dense",
+    "/Game/Trail/Building/Maps/Building_Examples",
+    "/Game/Trail/Museum/Maps/PCG_Museum"
+  ],
+  "reachable_project_packages": 273,
+  "files": [
+    {
+      "file": "Content/Environment/Bark_2_Color.uasset",
+      "bytes": 901802,
+      "sha256": "e4baac82ee7477d939434f139673c89d08140e7af3ae09d36eed5b8945f3a766",
+      "instructor_source_sha256": "2f939144ed92c7e1501096158a13f2164e4aa98dde24a8e89246053209c4a3c0"
+    },
+    {
+      "file": "Content/Environment/Bark_2_Normal.uasset",
+      "bytes": 587369,
+      "sha256": "a98dab0bf6e5cb0ca0167dfb5c77f4b392bca290c058ffe7e3c8ae740e0437e0",
+      "instructor_source_sha256": "a98dab0bf6e5cb0ca0167dfb5c77f4b392bca290c058ffe7e3c8ae740e0437e0"
+    },
+    {
+      "file": "Content/Environment/Bark_Base_Color.uasset",
+      "bytes": 904948,
+      "sha256": "013558aa00a3850f95a90fd92316a88b3e240d956e5c4c9bbd0b301dcd4d8d6b",
+      "instructor_source_sha256": "274566b386f94cd347f134be1cee44cbd5019d33f4f6720619e46e687f5c1c72"
+    },
+    {
+      "file": "Content/Environment/Bark_Base_Normal.uasset",
+      "bytes": 829532,
+      "sha256": "836458160a25a974dc9abd22758cacf414513efe64805136e5fc904b8326d494",
+      "instructor_source_sha256": "836458160a25a974dc9abd22758cacf414513efe64805136e5fc904b8326d494"
+    },
+    {
+      "file": "Content/Environment/Bush_Hero_Color.uasset",
+      "bytes": 3399260,
+      "sha256": "362aa71d6e2190e451170a0af4106438f6b5f47cb95f5146549c62758a5840a5",
+      "instructor_source_sha256": "3db300f67c8f9b4093e4e66c6d4595874d5143cc269122802e1b436ab037176a"
+    },
+    {
+      "file": "Content/Environment/Bush_Hero_Normal.uasset",
+      "bytes": 2643458,
+      "sha256": "4b3d39c2bd34f65493cc6d7ed6330c62729ad788fcef9c1b3c1a3e1a613a40ad",
+      "instructor_source_sha256": "fb25f0434002b9771c511e76e1c3611a2d132afe0fdce2c494c2bf36a6b927fb"
+    },
+    {
+      "file": "Content/Environment/Oak_English_Cluster_Branch_Color.uasset",
+      "bytes": 652359,
+      "sha256": "51165f1492906f163e9d4c4d1333ce79a6abea31deb0bb0c9f4685018219533f",
+      "instructor_source_sha256": "9583430791e06505b991630d0882aa4d7393418aaae639670ebbf6f1fc3ae053"
+    },
+    {
+      "file": "Content/Environment/Oak_English_Cluster_Branch_Normal.uasset",
+      "bytes": 966702,
+      "sha256": "d6d0e3b2bc01696591bd53172594ddf7b47cc3ac8a50764369f9aa0c04f04140",
+      "instructor_source_sha256": "d6d0e3b2bc01696591bd53172594ddf7b47cc3ac8a50764369f9aa0c04f04140"
+    },
+    {
+      "file": "Content/Environment/Oak_English_Cluster_Leaf_Summer_Color.uasset",
+      "bytes": 3129162,
+      "sha256": "afbec04b5f02bb639de5b652508415237d176a00010fb2d5b4459a1ecadf9a5d",
+      "instructor_source_sha256": "a954e17f502263af73e193ea2f748858dbabe3595ecd2ba63c8120fbdb012265"
+    },
+    {
+      "file": "Content/Environment/Oak_English_Cluster_Leaf_Summer_Normal.uasset",
+      "bytes": 2986858,
+      "sha256": "c432116d4a46ef679628ea640875e004365ee1e2e1e84d2f48b442f9ea7c256d",
+      "instructor_source_sha256": "c432116d4a46ef679628ea640875e004365ee1e2e1e84d2f48b442f9ea7c256d"
+    },
+    {
+      "file": "Content/Environment/Oak_Hero_Forest_Color.uasset",
+      "bytes": 5124014,
+      "sha256": "f959885946601f0a305f5a8e9b39e71ea766d2d011a7a9b1a46cb357d2f812f0",
+      "instructor_source_sha256": "feab25b61cabd15d4f17c647e3f41d741d5c968a071c236eca997d6e2d51b706"
+    },
+    {
+      "file": "Content/Environment/Oak_Hero_Forest_Normal.uasset",
+      "bytes": 3280140,
+      "sha256": "60ee350a2b26b3920979a963aa79df5714f093a86d19409c8c7daf74429d4127",
+      "instructor_source_sha256": "8fca8ccab6ca6c4a10e93d0ab16a50e596e1371a71c69e1c82b7560270147822"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_CustomGrassWind.uasset",
+      "bytes": 128209,
+      "sha256": "4ee30755947fccaa142e4f78eaec6af6ba3a6b2a2ae40a90fb4f7fae26fc651a",
+      "instructor_source_sha256": "4ee30755947fccaa142e4f78eaec6af6ba3a6b2a2ae40a90fb4f7fae26fc651a"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_Damaged_Wood.uasset",
+      "bytes": 119855,
+      "sha256": "9273b6b271d2aba88627e26f21c2a96fa999de40d8c3619167ae512034d975eb",
+      "instructor_source_sha256": "9273b6b271d2aba88627e26f21c2a96fa999de40d8c3619167ae512034d975eb"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_Debris_01a.uasset",
+      "bytes": 131221,
+      "sha256": "9955564b3a0c526c46404415a3f85b6ee1ea5cad5a090fbfffbd66eee73d11ef",
+      "instructor_source_sha256": "9955564b3a0c526c46404415a3f85b6ee1ea5cad5a090fbfffbd66eee73d11ef"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_Detail_Normal_01a.uasset",
+      "bytes": 106632,
+      "sha256": "5c72d90e04e38cb0b8cfd0c82b3266412326bead5011e81e0e5f80b3b3ae0f43",
+      "instructor_source_sha256": "5c72d90e04e38cb0b8cfd0c82b3266412326bead5011e81e0e5f80b3b3ae0f43"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_FrameBlendWeights.uasset",
+      "bytes": 107060,
+      "sha256": "2301ec608843080fea8ec18cf0c1e66de4f8d99bdb5d8f5da3fd2021bd74c426",
+      "instructor_source_sha256": "2301ec608843080fea8ec18cf0c1e66de4f8d99bdb5d8f5da3fd2021bd74c426"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_FrameBlendWeights_TextureObject.uasset",
+      "bytes": 110130,
+      "sha256": "3ec246c7cbf6544fa1d4a566d0958bd9763aeb6840d13e29e0cbbe6f63890ffc",
+      "instructor_source_sha256": "3ec246c7cbf6544fa1d4a566d0958bd9763aeb6840d13e29e0cbbe6f63890ffc"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_HemiOctahedronToUnitVector.uasset",
+      "bytes": 100187,
+      "sha256": "8cc8c75da526906905e044c850addd3576d6900d4678b245d926178627e6adae",
+      "instructor_source_sha256": "8cc8c75da526906905e044c850addd3576d6900d4678b245d926178627e6adae"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_ImposterFrameTransform.uasset",
+      "bytes": 112843,
+      "sha256": "ab4b9f04c0319c7ca5b3242e806f01ab082c489edcd30745637ce4036bba29b4",
+      "instructor_source_sha256": "ab4b9f04c0319c7ca5b3242e806f01ab082c489edcd30745637ce4036bba29b4"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_ImposterFrameTransform_Setup.uasset",
+      "bytes": 108950,
+      "sha256": "93bb603746dd599b691e53ec94f7ef75fbef78c3ed8790c5f50cb1536e819728",
+      "instructor_source_sha256": "93bb603746dd599b691e53ec94f7ef75fbef78c3ed8790c5f50cb1536e819728"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_ImposterSpriteProjection.uasset",
+      "bytes": 119247,
+      "sha256": "3c50ddbdcece5e25e86ed11b17d650beb5a17236c5347a40749970408d1319f6",
+      "instructor_source_sha256": "3c50ddbdcece5e25e86ed11b17d650beb5a17236c5347a40749970408d1319f6"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_ImpostorGridToVector.uasset",
+      "bytes": 114158,
+      "sha256": "085df18ccae5a7c9db2aafee128cbbddbca31d56376dbe34ad089bc598d26d15",
+      "instructor_source_sha256": "085df18ccae5a7c9db2aafee128cbbddbca31d56376dbe34ad089bc598d26d15"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_ImpostorInfo.uasset",
+      "bytes": 115491,
+      "sha256": "bf1b719a3109c3f349aff916e3a76ec332b786779fc9970ab3e5d4f1bfe21e55",
+      "instructor_source_sha256": "bf1b719a3109c3f349aff916e3a76ec332b786779fc9970ab3e5d4f1bfe21e55"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_Impostor_ThreeFrameBlend.uasset",
+      "bytes": 301780,
+      "sha256": "edd75fbd778c8503735c121b13e933f641a8e7bf9574937d2d7055a89306b5f2",
+      "instructor_source_sha256": "edd75fbd778c8503735c121b13e933f641a8e7bf9574937d2d7055a89306b5f2"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_Normal_Intensity_01a.uasset",
+      "bytes": 102561,
+      "sha256": "2e62cb72be67067a53a6aca9c110315b31b60b423a8135bf9b720fb29353320f",
+      "instructor_source_sha256": "2e62cb72be67067a53a6aca9c110315b31b60b423a8135bf9b720fb29353320f"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_ObjectSway.uasset",
+      "bytes": 124475,
+      "sha256": "9f6d4d21f3c85f935ac2ae0fb81725577f6215357654bd4cb02ca3d38816c5cb",
+      "instructor_source_sha256": "9f6d4d21f3c85f935ac2ae0fb81725577f6215357654bd4cb02ca3d38816c5cb"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_Object_Bounds.uasset",
+      "bytes": 112639,
+      "sha256": "09e9a0ae9f27c24202cde48210b68da6bc5c606937ebc6d57b7f8e16170af4ce",
+      "instructor_source_sha256": "09e9a0ae9f27c24202cde48210b68da6bc5c606937ebc6d57b7f8e16170af4ce"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_TriangleInterpolator.uasset",
+      "bytes": 111221,
+      "sha256": "271f58994a7974da7a781633dabe08e5877607ca15f879fe46acc58e2defd59a",
+      "instructor_source_sha256": "271f58994a7974da7a781633dabe08e5877607ca15f879fe46acc58e2defd59a"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_TriangulatedWireframe.uasset",
+      "bytes": 117826,
+      "sha256": "45975f82ae4ea829a7f1ea28262e6c4909a56efc4d30dea8cc92683fd9e495f5",
+      "instructor_source_sha256": "45975f82ae4ea829a7f1ea28262e6c4909a56efc4d30dea8cc92683fd9e495f5"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_UnitVectorToHemiOctahedra.uasset",
+      "bytes": 100119,
+      "sha256": "c94529bbc0289c4508b837ae6ab092b4aae35341dbb4a47dbd64f60370231929",
+      "instructor_source_sha256": "c94529bbc0289c4508b837ae6ab092b4aae35341dbb4a47dbd64f60370231929"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Functions/MF_VirtualPlaneCoordinates_Imposter.uasset",
+      "bytes": 124363,
+      "sha256": "15957d0182fdfe76a01b79ca55732c7058a938d1a74969a06a8603884ebac334",
+      "instructor_source_sha256": "15957d0182fdfe76a01b79ca55732c7058a938d1a74969a06a8603884ebac334"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_JoshuaTreeImpostor_01a.uasset",
+      "bytes": 87683,
+      "sha256": "9520077270f698269d7babb6f069b5735d18fe11f57f90ae17a794f26edc013e",
+      "instructor_source_sha256": "9520077270f698269d7babb6f069b5735d18fe11f57f90ae17a794f26edc013e"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_JoshuaTreeImpostor_02a.uasset",
+      "bytes": 88121,
+      "sha256": "f2cfc17e5e379cd85fe18da9ff58e01c790c1c91d267bf563571bbdbec2cf929",
+      "instructor_source_sha256": "f2cfc17e5e379cd85fe18da9ff58e01c790c1c91d267bf563571bbdbec2cf929"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_JoshuaTreeImpostor_03a.uasset",
+      "bytes": 87779,
+      "sha256": "5f920fc27652928899e3d883fb8bc4d36baa69e171762e8e348d963a2d85f610",
+      "instructor_source_sha256": "5f920fc27652928899e3d883fb8bc4d36baa69e171762e8e348d963a2d85f610"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_JoshuaTreeImpostor_04a.uasset",
+      "bytes": 87779,
+      "sha256": "39c9b1def59aa21a1eea30d707418a7d167e2262bf9e15b5255627f03815196c",
+      "instructor_source_sha256": "39c9b1def59aa21a1eea30d707418a7d167e2262bf9e15b5255627f03815196c"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_JoshuaTreeImpostor_05a.uasset",
+      "bytes": 87779,
+      "sha256": "4dc7c99918c40c708cfd86c5756c72f39160b70d46795babf9d2c5045f7f1e48",
+      "instructor_source_sha256": "4dc7c99918c40c708cfd86c5756c72f39160b70d46795babf9d2c5045f7f1e48"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_JuniperImpostor_01a.uasset",
+      "bytes": 88338,
+      "sha256": "e9f746806a69a58762ba93e9524cda57e2b04ae1a2f64f7fcb0068f7d030bfe8",
+      "instructor_source_sha256": "e9f746806a69a58762ba93e9524cda57e2b04ae1a2f64f7fcb0068f7d030bfe8"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_JuniperImpostor_01c.uasset",
+      "bytes": 88198,
+      "sha256": "e31a22db4b63cc4a6911739590f0689411e1dce1b1168dc38851fcf0a724918d",
+      "instructor_source_sha256": "e31a22db4b63cc4a6911739590f0689411e1dce1b1168dc38851fcf0a724918d"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_JuniperImpostor_03a.uasset",
+      "bytes": 88915,
+      "sha256": "6f1460da2798af7090faa3d671eeedb1156745b0a8ee6ea6f09a36044369a05b",
+      "instructor_source_sha256": "6f1460da2798af7090faa3d671eeedb1156745b0a8ee6ea6f09a36044369a05b"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_YuccaImpostor_02a.uasset",
+      "bytes": 90273,
+      "sha256": "c7e69bd8d7017bb91d112514605e9913b058158c68a39c849ba0946c01325142",
+      "instructor_source_sha256": "c7e69bd8d7017bb91d112514605e9913b058158c68a39c849ba0946c01325142"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_YuccaImpostor_03a.uasset",
+      "bytes": 88401,
+      "sha256": "fe4c4f9f949bc348ff9f86f14170ece934b571036c40f5f48b90e44de8dc9155",
+      "instructor_source_sha256": "fe4c4f9f949bc348ff9f86f14170ece934b571036c40f5f48b90e44de8dc9155"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_YuccaImpostor_04a.uasset",
+      "bytes": 88182,
+      "sha256": "9b18e9afbbe30c7ec73087da2c448c921aba786d2963673e388df39be7235ffc",
+      "instructor_source_sha256": "9b18e9afbbe30c7ec73087da2c448c921aba786d2963673e388df39be7235ffc"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_YuccaImpostor_05a.uasset",
+      "bytes": 88249,
+      "sha256": "b05d60d439d2436c82c675297868e580ebaebbccba492b16d520ab0f4c95f30e",
+      "instructor_source_sha256": "b05d60d439d2436c82c675297868e580ebaebbccba492b16d520ab0f4c95f30e"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/Impostors/MI_YuccaImpostor_06a.uasset",
+      "bytes": 88233,
+      "sha256": "de79e25748b9a42781b6f3ecb5b0478de1c400f111b80d4c2ca882be1c5d8bef",
+      "instructor_source_sha256": "de79e25748b9a42781b6f3ecb5b0478de1c400f111b80d4c2ca882be1c5d8bef"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/MI_JoshuaBark_01a.uasset",
+      "bytes": 117960,
+      "sha256": "dc9074eab472c79c9c7d1b5e60dce09652fd9c649a53e2266aa08f75382be89d",
+      "instructor_source_sha256": "dc9074eab472c79c9c7d1b5e60dce09652fd9c649a53e2266aa08f75382be89d"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/MI_JoshuaFronds_01a.uasset",
+      "bytes": 147788,
+      "sha256": "48e8c0f1eda845b08113b95ea116b9d28c6a23300a711bd0c63196e252e0a4f3",
+      "instructor_source_sha256": "48e8c0f1eda845b08113b95ea116b9d28c6a23300a711bd0c63196e252e0a4f3"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/MI_JuniperBark_01a.uasset",
+      "bytes": 113518,
+      "sha256": "b901522da215231768dc666cb72da8d3b56724f56a9fc2ac8386edcc2db693b1",
+      "instructor_source_sha256": "b901522da215231768dc666cb72da8d3b56724f56a9fc2ac8386edcc2db693b1"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/MI_JuniperFronds_01a.uasset",
+      "bytes": 138283,
+      "sha256": "31c8eca9c5e6665779d7c550ec36b82ceea71b6304928082b4bd3d37954ff88a",
+      "instructor_source_sha256": "31c8eca9c5e6665779d7c550ec36b82ceea71b6304928082b4bd3d37954ff88a"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/MI_YuccaBark_01a.uasset",
+      "bytes": 119084,
+      "sha256": "a3ea4151c2ad2e6a455291a172d438d4c140e15c7aeebe85891f225bf977bcae",
+      "instructor_source_sha256": "a3ea4151c2ad2e6a455291a172d438d4c140e15c7aeebe85891f225bf977bcae"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Instances/MI_YuccaFronds_01a.uasset",
+      "bytes": 146207,
+      "sha256": "dc4cd79f3a0219fad073e7692fbc26dd6818c3b4921b586e49a8b5e731d676b0",
+      "instructor_source_sha256": "dc4cd79f3a0219fad073e7692fbc26dd6818c3b4921b586e49a8b5e731d676b0"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Masters/MM_Foliage_Master_01a.uasset",
+      "bytes": 193957,
+      "sha256": "a364de329377f7f654d8e1afe97c4beb7aab6f023e5587959ed95c63a5e006c9",
+      "instructor_source_sha256": "a364de329377f7f654d8e1afe97c4beb7aab6f023e5587959ed95c63a5e006c9"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Masters/MM_Impostor_SimpleOffset.uasset",
+      "bytes": 134730,
+      "sha256": "fd2cb13bc706783d2c53231c0bd306cdc80ec27b18c01228ab53e7b5fc99b905",
+      "instructor_source_sha256": "fd2cb13bc706783d2c53231c0bd306cdc80ec27b18c01228ab53e7b5fc99b905"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Materials/Masters/Masters/MM_Master_Foliage_01a.uasset",
+      "bytes": 166344,
+      "sha256": "2e14779f27ceab43e97436cdd4eb4d4c627897308849e18f4022a09790be3a79",
+      "instructor_source_sha256": "2e14779f27ceab43e97436cdd4eb4d4c627897308849e18f4022a09790be3a79"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_JoshuaTree_01a.uasset",
+      "bytes": 1088420,
+      "sha256": "dcf44e3b9f13dce27326cb8e7be706a2af1a54bffe47e02d8e107f9c051a12f5",
+      "instructor_source_sha256": "dcf44e3b9f13dce27326cb8e7be706a2af1a54bffe47e02d8e107f9c051a12f5"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_JoshuaTree_02a.uasset",
+      "bytes": 639778,
+      "sha256": "4baf10d65808b9ea2e283aee8b683c4a82c22bea3f852a397a7789816f407a9d",
+      "instructor_source_sha256": "4baf10d65808b9ea2e283aee8b683c4a82c22bea3f852a397a7789816f407a9d"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_JoshuaTree_03a.uasset",
+      "bytes": 518752,
+      "sha256": "7a0590402ef31778ab869aa5edb3cb3ba9723f31d68de30706a4385a505c9318",
+      "instructor_source_sha256": "7a0590402ef31778ab869aa5edb3cb3ba9723f31d68de30706a4385a505c9318"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_JoshuaTree_04a.uasset",
+      "bytes": 786459,
+      "sha256": "da7dbb15af65f4ef2461307932e294c3ad1b2047491ddbc447c490e46fa37420",
+      "instructor_source_sha256": "da7dbb15af65f4ef2461307932e294c3ad1b2047491ddbc447c490e46fa37420"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_JoshuaTree_05a.uasset",
+      "bytes": 425546,
+      "sha256": "ac1b9bac35c7ff74ffe40952c02d03889b30cf411e0e5025cabc5985421c018b",
+      "instructor_source_sha256": "ac1b9bac35c7ff74ffe40952c02d03889b30cf411e0e5025cabc5985421c018b"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_JuniperBush_01a.uasset",
+      "bytes": 319903,
+      "sha256": "0d8d1caa2f55c6f458ce97a01a135b2a1a701e18226cb5e31ab0c91cb4fa8b1c",
+      "instructor_source_sha256": "0d8d1caa2f55c6f458ce97a01a135b2a1a701e18226cb5e31ab0c91cb4fa8b1c"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_JuniperBush_01c.uasset",
+      "bytes": 307812,
+      "sha256": "0b1521d146baeb5b6fc8c4f6f10685972dd6e0dcbb997f5001a77f1ccdd592b8",
+      "instructor_source_sha256": "0b1521d146baeb5b6fc8c4f6f10685972dd6e0dcbb997f5001a77f1ccdd592b8"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_JuniperBush_03a.uasset",
+      "bytes": 331539,
+      "sha256": "06144b7917cfcf38c05aeb2005615d6fe6c5866245d72162dc0c5980cebed7b2",
+      "instructor_source_sha256": "06144b7917cfcf38c05aeb2005615d6fe6c5866245d72162dc0c5980cebed7b2"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_Yucca_02a.uasset",
+      "bytes": 244681,
+      "sha256": "238d2d25a92290806befeb3197b06ba234124998e9d64c489ef8e9edc193508a",
+      "instructor_source_sha256": "238d2d25a92290806befeb3197b06ba234124998e9d64c489ef8e9edc193508a"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_Yucca_03a.uasset",
+      "bytes": 221798,
+      "sha256": "04d445fd6b86ee1e8adc9d196b01afea98b5e17b9bdea390036f76931e1ddce8",
+      "instructor_source_sha256": "04d445fd6b86ee1e8adc9d196b01afea98b5e17b9bdea390036f76931e1ddce8"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_Yucca_04a.uasset",
+      "bytes": 170918,
+      "sha256": "256b6925139cd004369d266a79bc4f7412ee0d309ed9faefc0522877cde144a8",
+      "instructor_source_sha256": "256b6925139cd004369d266a79bc4f7412ee0d309ed9faefc0522877cde144a8"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_Yucca_05a.uasset",
+      "bytes": 169499,
+      "sha256": "88b4d310b88729e12797c8441b9d23fcc06f884fb0f50048873bf42b401492ac",
+      "instructor_source_sha256": "88b4d310b88729e12797c8441b9d23fcc06f884fb0f50048873bf42b401492ac"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Meshes/SM_Yucca_06a.uasset",
+      "bytes": 163886,
+      "sha256": "460df436a77bd3354aaa163aaeb713f5805b900a435478b32c9cb122fadc20f6",
+      "instructor_source_sha256": "460df436a77bd3354aaa163aaeb713f5805b900a435478b32c9cb122fadc20f6"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_01a_ALB.uasset",
+      "bytes": 4334566,
+      "sha256": "3c9c181e24c6126091add034f45e8014586f8a98cecbdcd0e748b8d55c4b76e1",
+      "instructor_source_sha256": "92e75546239a3df248d18cc32af53ab3ac758cb697951a9b87405e17a73a99ed"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_01a_NRM.uasset",
+      "bytes": 4330016,
+      "sha256": "a948e2be8b0c5927ac269b61d45c49488e4ca01bc7f3c1278a9a3f88a166f9b8",
+      "instructor_source_sha256": "63ef0e23f7b5032501e3804e80e1cd1189e6a6da55be80b874eff389c8cd77e5"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_02a_ALB.uasset",
+      "bytes": 3771606,
+      "sha256": "1f29d535c9ed086cd1092f8cfda7fee2e15e31df6df510a09f897df4c510f37f",
+      "instructor_source_sha256": "7e1057bf360b07d007511b08b52e2b616c0693ce4e0138bdc4adcd8e9909ffd0"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_02a_NRM.uasset",
+      "bytes": 3779901,
+      "sha256": "c11562068a8bfdc30526ba3a2e3571193b1f1b45639315c3fa9cadd0bde382e8",
+      "instructor_source_sha256": "0ccb1bc9c3e10e62c334d8410216679974714de37ac5a1d6d0ae64b88de16da0"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_03a_ALB.uasset",
+      "bytes": 3883977,
+      "sha256": "641884b3c1176b36687061980e815dd62247aa60a39625dbec8c351a16e5005c",
+      "instructor_source_sha256": "6cb4992274b0a37ac333787c1a18c0af0efb9c035484711d2cb85eed4fe4fabc"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_03a_NRM.uasset",
+      "bytes": 3905726,
+      "sha256": "20fb5d7e5d24ede2e699ad53302751d16d00e1cbc9f5541d8e46ed6424f229ea",
+      "instructor_source_sha256": "c25635e54e182dace9378d76fc4297d3bf0587e1e971fb1f18dabfbc59d9fe4a"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_04a_ALB.uasset",
+      "bytes": 3911174,
+      "sha256": "347026bde63c43114923b517eb08059531efd890f0733043ff059763fbfbb93d",
+      "instructor_source_sha256": "4a8b35d9883cb832cf7c32d10156b2ca6212a269482d8530a1967001eca59194"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_04a_NRM.uasset",
+      "bytes": 3907811,
+      "sha256": "57aa853b107e72e54f4dc6178d59636b4e2a5e966640c33f302c51b1985d3b80",
+      "instructor_source_sha256": "496a3e03cd7e4e7c9a6e849962c1d7ba79864672e41737f2a30222c2da3c36da"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_05a_ALB.uasset",
+      "bytes": 2829440,
+      "sha256": "be079a9a15095646c8260ab3f2ce55271c0f42562a059f6b03fca5822a87a258",
+      "instructor_source_sha256": "d7ce6085ff4c4afb9ba1af6f01614a604cf9a34a1d6b3136a429eaa4f2680b22"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_05a_NRM.uasset",
+      "bytes": 2817753,
+      "sha256": "ebc553abda4895c4ffcc99e5ed1affe0475b8acb44a9a63a07700f9e96b0fae3",
+      "instructor_source_sha256": "ab757da15141c6c6857078bb7fcf2e144420aa48e093f6d5f2d844c80a1c7551"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_01a_ALB.uasset",
+      "bytes": 4353643,
+      "sha256": "2f69e0e0523bafb1bd225f57e219fb506c22a0883bfd447c899054bcddb3c8a2",
+      "instructor_source_sha256": "22685f5f196bb220a840096cfeb2461f755e934c36bbc1ddc28bd6a3acea812f"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_01a_NRM.uasset",
+      "bytes": 4484471,
+      "sha256": "1751da530736a0ab63db6dd10b1271000f1e5fb64fb6ce85881265fb0dfde416",
+      "instructor_source_sha256": "6a12d971927e42aa8d7ca9daa4c8e05c93a2fa4f535d527908df15b41e0ea6dd"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_01c_ALB.uasset",
+      "bytes": 4305203,
+      "sha256": "a60de525fc60ad335f8773ad467e4ac46e008fb003c23773fe81653a487c5b1b",
+      "instructor_source_sha256": "188ad5ce04fc26ff27847e25addca67974296aa178ac6b59f93e0ed847ddfcc0"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_01c_NRM.uasset",
+      "bytes": 4575790,
+      "sha256": "7773f0b67088e9678e0ff3ff31aec8702f0bea36a67c96ad09c8690bd21b6a9b",
+      "instructor_source_sha256": "42b952acb72c6df94e64b4492e3fe08437b321b71c8e6d294fcb1fbfb02bed9f"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_03a_ALB.uasset",
+      "bytes": 4392804,
+      "sha256": "ae105718cf8c43bc931318aa8cd0f8d3c2502fba80e5853d8c5793aa9fa2f5d8",
+      "instructor_source_sha256": "dcc05e889bdebbe1658227f5b2780a3fc7a706c884f719f423959f977cd5298d"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_03a_NRM.uasset",
+      "bytes": 4428454,
+      "sha256": "32924c8dea8af5a4ce4cc2b93aaf0c178a24f3ed1011ed7fc98b060f22c658e7",
+      "instructor_source_sha256": "f720883c9587138b30270f008d67ec35011e21ff9148a120ec16031ca3a4a4c0"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_02a_ALB.uasset",
+      "bytes": 4027434,
+      "sha256": "e2daa572d4bb4586c8433326daa5c509d2df71da7f0afa84184819fb0557adf6",
+      "instructor_source_sha256": "eeabe8d1da80021f24794db07cdb3571d8604c053e1c4fca2061b9b8a186f6c6"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_02a_NRM.uasset",
+      "bytes": 3902102,
+      "sha256": "994da2ee4e6c942b10f7fceabbb855000a817d922a72caded78656b73bf7ddaf",
+      "instructor_source_sha256": "dc1f31ff2f9f387917f88d9a352b5894fcd66085a12acbd1b6cc0d38a2654639"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_03a_ALB.uasset",
+      "bytes": 3500357,
+      "sha256": "420899cd4a004b892d2659fb1cc2dd5940e7ef54c98ef04c9725aaef81635456",
+      "instructor_source_sha256": "b3455c3595a7515dec71afc2c3edeeafd895df5b43bf6778b25e8b469b04aeac"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_03a_NRM.uasset",
+      "bytes": 3375472,
+      "sha256": "c278e5dea97544e9ed2df7a7de8f5c188ca4247d1a0806767b642e5fe19f8387",
+      "instructor_source_sha256": "559680f8aa5ebd30034fef2da41bf1cc5dfd07f867b133fa2ceb03dc5d7a54ea"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_04a_ALB.uasset",
+      "bytes": 4196099,
+      "sha256": "3c4602cb80c11a8588235a4e3e3f510ef1eae960e59d4398e7d9b8ef3b0ca209",
+      "instructor_source_sha256": "ef677f7214c0fef91d5ecfcbba06d8a0d2cac53909c4546d1f6c27c3c9270a92"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_04a_NRM.uasset",
+      "bytes": 4099088,
+      "sha256": "7e8cdbf41b6312e93aee7f71daabc8e27067ebcc9cb3cffe29c190b339322ff9",
+      "instructor_source_sha256": "45529b3e729547beaa6a90ba21ea9f784db782d4cd84a6a011f718021cc8b224"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_05a_ALB.uasset",
+      "bytes": 4030352,
+      "sha256": "e991d5b577536d0ac97b07a4111c20f6e4e905a159c6c4b6e15ed6829d69b9a4",
+      "instructor_source_sha256": "4a5a0e54321046ff68ed59188ee28cc99ac5388d0f644b58f82ce795a559f007"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_05a_NRM.uasset",
+      "bytes": 3957709,
+      "sha256": "2c4c64613f6188b992e12c0609fccc2d80c69c09ecc9b8c16c4836055ba86a4e",
+      "instructor_source_sha256": "3589e1c2aa28f81b36965fba68c042fbdb9e31f509f67b7810059ee7a96440ed"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_06a_ALB.uasset",
+      "bytes": 4390976,
+      "sha256": "da2575153870858e84ffa36def38fdecabef29e000bf882a93c3da526fee8f54",
+      "instructor_source_sha256": "61c85444f4d47ab696433d78d996258714cf4fc0c5c7fc7583f7a83a451ef365"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_06a_NRM.uasset",
+      "bytes": 4287003,
+      "sha256": "0540262d857c2b0768d0f45c1db142e083521ae2b2a63a5b64f4f487b776b935",
+      "instructor_source_sha256": "150c7bc622b2ccb0a08a3cbed02aa3102f98b52a6cd1e5ce045cab431674e117"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_Damaged_Wood_01a_ALB.uasset",
+      "bytes": 9032523,
+      "sha256": "195587ffdcc6488d54bfc9696b851bbdb757deff65d8f7fe20f6bb4d810d7b4b",
+      "instructor_source_sha256": "eba890ee17d1e2abd655c3348924cffb37a445a53b62228d85ccf83b1a73a339"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_Damaged_Wood_01a_M.uasset",
+      "bytes": 8036037,
+      "sha256": "29a6f4d6d76cd0d11273bf6ad614be1f98fdabf54f9f70fedd9d4f4cf9425faa",
+      "instructor_source_sha256": "348f9d9bc2ca932f0ddb49b069e1ee2f51fb7532b63d61f23a43fd18bae22f51"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_Damaged_Wood_01a_NRM.uasset",
+      "bytes": 7169443,
+      "sha256": "6c35fc76c79b0a2462650026820aa7c713b6697e0181b4f113f27255954ec3d9",
+      "instructor_source_sha256": "864eef2c42097aad22a1d97293e2870808ad7c18db7d85c76a6a127c96149e84"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JoshuaBark_01a_ALB.uasset",
+      "bytes": 8937815,
+      "sha256": "2a3c5e0c59123d4f2b20c792af411dec9369796cd2f7c8264cee24d0557b59bc",
+      "instructor_source_sha256": "2021035ce4750e65e2c18fe716d780805a2555a7dc24fdfc2c860dd0c40a25d5"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JoshuaBark_01a_NRM.uasset",
+      "bytes": 12184958,
+      "sha256": "24e1008a0f1aaff04451046c90abe430fe5d2fc1f0a6d42a49123f9ca6b7a359",
+      "instructor_source_sha256": "8bad4e74a7633e36c7fe30adddbc2c0a32366a791655702c8d2a5aba478ac56d"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JoshuaBark_01a_RMA.uasset",
+      "bytes": 10448291,
+      "sha256": "25254030cab99e9c4bbe7637af95055211bb6bb978f04c08839d28d45c5b85ea",
+      "instructor_source_sha256": "36f0934f05c91e7fce540e30a840ba4b189bb1fe8687c1fc8010e19731206912"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JoshuaLeaves_01a_ALB.uasset",
+      "bytes": 5555575,
+      "sha256": "cfb9eea87e1efd4aa17ef7be8a2ec52188f870d8ccdc55756bd413819d922321",
+      "instructor_source_sha256": "6b6e039464b8bc6faae757e60c6a1e44491b00dcc6a251cb96a5e437f6a0a878"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JoshuaLeaves_01a_NRM.uasset",
+      "bytes": 4258503,
+      "sha256": "7cef1afb1401884419b096d659cdf98d27d4ce58839f6a1dc966239d3067c871",
+      "instructor_source_sha256": "fff7150792086f22a0b5789d9a2000dbe9b245440cd7a0a47bd5a2b95ab81e9b"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JoshuaLeaves_01a_RMA.uasset",
+      "bytes": 3294317,
+      "sha256": "4bda31ad24ad93c59aefda92d78e3e757c4f6721a0ee3cb4d4015c9b3f218406",
+      "instructor_source_sha256": "c201fdf3e710a1212f2d9acc82b5bb7a326d42b0d775a555b90fcf4a153c6e7b"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JoshuaLeaves_01a_SS.uasset",
+      "bytes": 3598501,
+      "sha256": "de32ba41ffc9ca3ebe7d9f211af35309d7b4e5ac956ac67df91f5f924b995978",
+      "instructor_source_sha256": "eafa144c322c26c98a50c53fbec7e064747cfc41f15db554b114f90434ac6a68"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JuniperBark_01a_ALB.uasset",
+      "bytes": 4347530,
+      "sha256": "d3c9d64427c451c8fd23a318fe98a33b2c40078c5bb01be9a65faab8177ae1d2",
+      "instructor_source_sha256": "e9bbd7340296a10cf4a13806954fe828421857ee7801967889e9a3d5c75ca522"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JuniperBark_01a_NRM.uasset",
+      "bytes": 5339682,
+      "sha256": "479812db0df77ee80d2ac34dedd73b8e935ad4ceaa0d9aad09e47c63bef3f8fb",
+      "instructor_source_sha256": "b47ae8a4b07cdb5fe2def77be493ce3bc417db5ae0ee7d9d87a18055f34a2601"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JuniperBark_01a_RMA.uasset",
+      "bytes": 3959001,
+      "sha256": "d73b1f74499e4eff121778b22a6542a11de89276839114667bb2df405b53a514",
+      "instructor_source_sha256": "66cfb3ad02a1d9f6db9b68636191c5e1a2f0ad66a880c95a5c01ea072ffadfe3"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JuniperFronds_01a_ALB.uasset",
+      "bytes": 7712475,
+      "sha256": "ef8ae1105b629807a069026f900cef657942044f906c2e9a5386c1f5abe47229",
+      "instructor_source_sha256": "c493ea1e1fa23fd5929f23f02605c6b30bb55ac645fb5088c534b848f54f2561"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JuniperFronds_01a_NRM.uasset",
+      "bytes": 9099215,
+      "sha256": "ff2301b63c02d3b41c457191fd040724bf345703eac7a1cd6e0533ae35fb483c",
+      "instructor_source_sha256": "359a7487fd889e6030b4f048a4a80c111d77fb6842589f8d0302edfd300e18c2"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_JuniperFronds_01a_RMA.uasset",
+      "bytes": 3522021,
+      "sha256": "520f05629c5007e0b0409f46b3b7d71f3ab0ef5e2145c7b901cb157b6e998c4b",
+      "instructor_source_sha256": "4e693f598009d67c32cd9923ea41c5c1b4a18ea2e12e2972185e69b4594e0c44"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_Noise_02b.uasset",
+      "bytes": 820843,
+      "sha256": "7bb7961475f3a56728fe0b19624809ab3a076be00fdc1b2c9d552c1facb9eb79",
+      "instructor_source_sha256": "ef53225d1e04dc286bdcbb7b52e568b73d5d0ee9790c474010fe3f94f7ab2687"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_YuccaBark_01a_ALB.uasset",
+      "bytes": 4755938,
+      "sha256": "5b7d639f488bfaec4d1c1d4ea683f72b9bdf8fe19959de3d5bc91b40f6afe967",
+      "instructor_source_sha256": "40181fa2be9394d32988fd834d1000eb7f89797cbc298dfed1f4b0d30a221570"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_YuccaBark_01a_NRM.uasset",
+      "bytes": 13103145,
+      "sha256": "65250a6080189679d691a4567c279b542ea8b29ba7b57118f7bb3adc958aea35",
+      "instructor_source_sha256": "f9c70a56181fc9fce6814bf82bea3d83b00623b2bb4f1bc613a4be78f69edd1c"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_YuccaBark_01a_RMA.uasset",
+      "bytes": 8309208,
+      "sha256": "61d455766dcf504e1dbe31ca120d4e37d8f263b9e34eeff2913072a21f357eea",
+      "instructor_source_sha256": "6d160835ad27af5495cd87b1f2d6cf0ed8535ae5207cd4b5f6724112517557f5"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_YuccaLeaves_01a_ALB.uasset",
+      "bytes": 5783933,
+      "sha256": "70998c5d493eeed594c5cc7d42c570f5ab466f1ebf60a47ed23fe077e209ef8c",
+      "instructor_source_sha256": "db93039c0cfd474c9e4d349439e7fa4e556ec386599a94a9db9aee6c4ed5f0c1"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_YuccaLeaves_01a_NRM.uasset",
+      "bytes": 5024799,
+      "sha256": "eb641806f03a81d7b7bdf6fd1e153c560ceb52564fadb662a241af91fc0c432c",
+      "instructor_source_sha256": "4bf96309519b717715c6cac68337e838197b57ec04b6a208e775e4d209026d1e"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_YuccaLeaves_01a_RMA.uasset",
+      "bytes": 3630663,
+      "sha256": "d29d1f6c42f3604995539edefe909606cb8bfeff678fc4621df0b2d3be37cef8",
+      "instructor_source_sha256": "958f21ab5f1995410e3e1315e0d6714ad21aad0132dac53e087f8bffbfd79212"
+    },
+    {
+      "file": "Content/Northwood/DekogonContent/Textures/TX_YuccaLeaves_01a_SS.uasset",
+      "bytes": 4696903,
+      "sha256": "b9a187224c246e4dbee1d4a3617ce49e608ed53b7f7691927897a7aef862ce7f",
+      "instructor_source_sha256": "5eb0ce59090644dd52951671d9640ee2e5190fdb73ded2d58b6f38fcb1df21fb"
+    },
+    {
+      "file": "Content/Northwood/EpicContent/Materials/M_Rock.uasset",
+      "bytes": 130548,
+      "sha256": "356d67fc3be73ec7a39459f0bce947baef370b77234352230db7d25395b67426",
+      "instructor_source_sha256": "356d67fc3be73ec7a39459f0bce947baef370b77234352230db7d25395b67426"
+    },
+    {
+      "file": "Content/Northwood/EpicContent/Meshes/SM_Rock.uasset",
+      "bytes": 173862,
+      "sha256": "5271492a60abea3df4ea3445770dac00df99da9ffe8a3eddd5dfeecf9dccf632",
+      "instructor_source_sha256": "5271492a60abea3df4ea3445770dac00df99da9ffe8a3eddd5dfeecf9dccf632"
+    },
+    {
+      "file": "Content/Northwood/EpicContent/Textures/T_Detail_Rocky_N.uasset",
+      "bytes": 3042694,
+      "sha256": "4c8f0ddf3f5e15e753e6ce7816abd2fcf2542c44e93c66f55bf387c43a0d7fdc",
+      "instructor_source_sha256": "65e31bec00000820093d34d4e2563594f92e6eb47832554b54d4a7afd9e2a521"
+    },
+    {
+      "file": "Content/Northwood/EpicContent/Textures/T_RockMesh_M.uasset",
+      "bytes": 2942927,
+      "sha256": "6c9ddb50d0dbb4daa840ff8d901e0be684ceab3d41d9f7f4cf84131df393f773",
+      "instructor_source_sha256": "ca917b7780fbc991a13816165c58fdaa7def113bde85828811216a51efcd4f8f"
+    },
+    {
+      "file": "Content/Northwood/EpicContent/Textures/T_RockMesh_N.uasset",
+      "bytes": 6249718,
+      "sha256": "0ee99b7da6f131dc803e74755ce7657a75ee75562c8258133f5bf8f1fffd8a63",
+      "instructor_source_sha256": "8f703de94b0c0e3b0de942aca1f0aa53912ac69ca4c802c43e30020768f936ed"
+    },
+    {
+      "file": "Content/Northwood/EpicContent/Textures/T_Rock_Basalt_D.uasset",
+      "bytes": 8824868,
+      "sha256": "11d60ac89a3fce1c2bf2604e4a315f207c877b159b5b565487a8a34c7369258d",
+      "instructor_source_sha256": "acaf4889c2fb252794698422bc8f7fec3e3095caf8b041dbaf3cce5870b99ea5"
+    },
+    {
+      "file": "Content/Northwood/Materials/Functions/MF_Dust_01a.uasset",
+      "bytes": 131625,
+      "sha256": "14022ebf87e6ae9b5e41083af40a4cea0e1a02011135a690ea74bebf1bd4d714",
+      "instructor_source_sha256": "14022ebf87e6ae9b5e41083af40a4cea0e1a02011135a690ea74bebf1bd4d714"
+    },
+    {
+      "file": "Content/Northwood/Materials/Functions/MF_Normal_Intensity_01a.uasset",
+      "bytes": 102546,
+      "sha256": "6e2ac16a16a10777b0f7589847dbf12915d79c522cf3f97d59e749a124e454f0",
+      "instructor_source_sha256": "6e2ac16a16a10777b0f7589847dbf12915d79c522cf3f97d59e749a124e454f0"
+    },
+    {
+      "file": "Content/Northwood/Materials/Instances/MI_Wood_Planks_01a.uasset",
+      "bytes": 125916,
+      "sha256": "b64d35c9f978b1d1e79c58243880df096d37b229adf084103fe8e1151e706d8a",
+      "instructor_source_sha256": "b64d35c9f978b1d1e79c58243880df096d37b229adf084103fe8e1151e706d8a"
+    },
+    {
+      "file": "Content/Northwood/Materials/Instances/MI_Wood_Wall_01a.uasset",
+      "bytes": 131872,
+      "sha256": "278d98f93dc67fefff4b2f73c8f1ffb4c6609c4e8e6a37ec7cb8580e88f3152d",
+      "instructor_source_sha256": "278d98f93dc67fefff4b2f73c8f1ffb4c6609c4e8e6a37ec7cb8580e88f3152d"
+    },
+    {
+      "file": "Content/Northwood/Materials/Instances/MI_Wood_Wall_01b.uasset",
+      "bytes": 99645,
+      "sha256": "4b2d72dc609b5e4a156225bc05aa6b9fd36cb187b7c30e0b3e7c5de1ae77330a",
+      "instructor_source_sha256": "4b2d72dc609b5e4a156225bc05aa6b9fd36cb187b7c30e0b3e7c5de1ae77330a"
+    },
+    {
+      "file": "Content/Northwood/Materials/Instances/MI_Wood_Wall_01c.uasset",
+      "bytes": 113292,
+      "sha256": "91a292a82219c5c3184d81dee3417e46df23fc5a7ae2641a2a90301f17487483",
+      "instructor_source_sha256": "91a292a82219c5c3184d81dee3417e46df23fc5a7ae2641a2a90301f17487483"
+    },
+    {
+      "file": "Content/Northwood/Materials/Masters/MM_Surface_VertBlend_01a.uasset",
+      "bytes": 126456,
+      "sha256": "c46d701d7ee15e9b37c2c6c0012803ba33bbc191d844bbdc1decab10e3de6dd1",
+      "instructor_source_sha256": "c46d701d7ee15e9b37c2c6c0012803ba33bbc191d844bbdc1decab10e3de6dd1"
+    },
+    {
+      "file": "Content/Northwood/Meshes/Structures/SM_Floor_400_01a.uasset",
+      "bytes": 176184,
+      "sha256": "d1141632b016aaeb5030e64375c5ac23f07241e86491b04d5026161a13385ba5",
+      "instructor_source_sha256": "d1141632b016aaeb5030e64375c5ac23f07241e86491b04d5026161a13385ba5"
+    },
+    {
+      "file": "Content/Northwood/Meshes/Structures/SM_Wall_400_01a.uasset",
+      "bytes": 173682,
+      "sha256": "e7c1a5036bd812a0811a82d8b9d841cc16c27ce6c112b33bc1a23ee1f336f55f",
+      "instructor_source_sha256": "e7c1a5036bd812a0811a82d8b9d841cc16c27ce6c112b33bc1a23ee1f336f55f"
+    },
+    {
+      "file": "Content/Northwood/Meshes/Structures/SM_Wall_Pillar_400_01a.uasset",
+      "bytes": 134318,
+      "sha256": "70459bc5dc160756747b82d83039713cd3162aa60f11fa1f30bfdb6bc3a523f7",
+      "instructor_source_sha256": "70459bc5dc160756747b82d83039713cd3162aa60f11fa1f30bfdb6bc3a523f7"
+    },
+    {
+      "file": "Content/Northwood/Meshes/Structures/SM_Wall_Window_400_01a.uasset",
+      "bytes": 166271,
+      "sha256": "a6d918a3c9799b229300bdabc847f3ec0fdb728a248d4758e197f5a384acb4df",
+      "instructor_source_sha256": "a6d918a3c9799b229300bdabc847f3ec0fdb728a248d4758e197f5a384acb4df"
+    },
+    {
+      "file": "Content/Northwood/Textures/Landscape/TX_Dirt_01a_ALB.uasset",
+      "bytes": 7976866,
+      "sha256": "f1b74c1d612f5665ef508650bc9ff2d6cb67a3ea6fb87461637a24a1d0a8144f",
+      "instructor_source_sha256": "67eacab7b143f30458b6c84cf35298812336a92f81e05bde537df8c92fff4d80"
+    },
+    {
+      "file": "Content/Northwood/Textures/Landscape/TX_Dirt_01a_NRM.uasset",
+      "bytes": 10577890,
+      "sha256": "33c617077bd79287de1b9f1a97f3f889d171dc8ef45103d6af520992116d8d83",
+      "instructor_source_sha256": "d16a1545403672419c775a525311241b40e38500b1d5715219dc167baade8ff2"
+    },
+    {
+      "file": "Content/Northwood/Textures/Landscape/TX_Grass_Mix_01a_ALB.uasset",
+      "bytes": 11308165,
+      "sha256": "ea70502a2c7b9333182e42000be7fb32e1632552f0486fd7d30ac536f16aca1d",
+      "instructor_source_sha256": "208257aeee9d4bba261f1bafa6e2a616439066eddd1297bfa07dd04849d3ed58"
+    },
+    {
+      "file": "Content/Northwood/Textures/Landscape/TX_Grass_Mix_01a_NRM.uasset",
+      "bytes": 12992180,
+      "sha256": "0d11349f75015d711436377a8282277075b27e6bd28d25da3c7d5427188a8dc8",
+      "instructor_source_sha256": "572dc8bd38abc846c533044cc5397103d2a566ed4cdf2e398da6126ea6b976de"
+    },
+    {
+      "file": "Content/Northwood/Textures/Landscape/TX_Rocks_01a_ALB.uasset",
+      "bytes": 8716103,
+      "sha256": "80fd101cad48ebe0250456c9860c9783d8c42eb038755428128ff5e450faa9be",
+      "instructor_source_sha256": "c52dc8d8eedb2c487a10994db6b9252ca488533edbf0f504970cf62253049222"
+    },
+    {
+      "file": "Content/Northwood/Textures/Landscape/TX_Rocks_01a_NRM.uasset",
+      "bytes": 13227792,
+      "sha256": "f39a25281b5140fb7d90a3838aad0c517d5ea2280419633005629c9dcc7df76a",
+      "instructor_source_sha256": "96c34f41b38b87062217f17611336d612a0a55e66a7f48540d6bf0a22b5cc080"
+    },
+    {
+      "file": "Content/Northwood/Textures/Tileable/TX_Debris_01a_ALB.uasset",
+      "bytes": 8938445,
+      "sha256": "af1b2e14c3a324cc986f372f448e42270987e025f9c1611877cf24a18e75e2ca",
+      "instructor_source_sha256": "26a71a3a5f6dcdffc1c0ee1092780c78bf4e404bc146385ec068c4cb86e28989"
+    },
+    {
+      "file": "Content/Northwood/Textures/Tileable/TX_Debris_01a_NRM.uasset",
+      "bytes": 11719580,
+      "sha256": "f3547ab15cd81d139bd62fbb266ca7928369ca24b07e8129a7e34ce33ecabc7b",
+      "instructor_source_sha256": "441321a87bd26c665b33c480d857a4a945a762a57a83c65348df041347da5c13"
+    },
+    {
+      "file": "Content/Northwood/Textures/Tileable/TX_Debris_01a_RHA.uasset",
+      "bytes": 10856397,
+      "sha256": "4759e8199521e5b59e86f10821bdebf1821590f979e030a53d6b64f7ae9e18e7",
+      "instructor_source_sha256": "f050ac6fb1733e4a6d509d20f1dd32c762f82a6fcd68bfe876a2379a710b60a7"
+    },
+    {
+      "file": "Content/Northwood/Textures/Tileable/TX_Wood_Planks_01a_ALB.uasset",
+      "bytes": 9568342,
+      "sha256": "1b8df7207b2f271a74ee381dfc03b6b12f27886fc3f00575cd47751a64c37247",
+      "instructor_source_sha256": "5bff95ad61ff546947deeedd871612863764679fedc3a65c839015df28845e1f"
+    },
+    {
+      "file": "Content/Northwood/Textures/Tileable/TX_Wood_Planks_01a_NRM.uasset",
+      "bytes": 9196255,
+      "sha256": "4ce67408612cf5eddeb993bd96006d6ce6eabc1d1c37c006fa9d638348c9862e",
+      "instructor_source_sha256": "6e6011556acd203bade1b66391bd38fe94ddaff7b65c449ce8e20e06fc0c34b0"
+    },
+    {
+      "file": "Content/Northwood/Textures/Tileable/TX_Wood_Planks_01a_RMA.uasset",
+      "bytes": 7483976,
+      "sha256": "cfb9fdf9b0cd082043ed8dcb3bc4bd496db048321803bcbb5212e98c650d9a1f",
+      "instructor_source_sha256": "c750f0f74052d88e8f9b9392758a1e41e87961f449bc1dbe0aac537d109cac3a"
+    },
+    {
+      "file": "Content/Northwood/Textures/Tileable/TX_Wood_Wall_01a_ALB.uasset",
+      "bytes": 8195703,
+      "sha256": "95203ff655b68a21f59ab7dc86f5d7adbe24f24a8581162a84f4c576cf7a79d3",
+      "instructor_source_sha256": "95d420326b5bc470396a267bb50916aabb71d46c62551b674a9413c66ff9d288"
+    },
+    {
+      "file": "Content/Northwood/Textures/Tileable/TX_Wood_Wall_01a_NRM.uasset",
+      "bytes": 11529811,
+      "sha256": "450b89e7b4062619da0658905a1579fc839e082932a92d593952ba9f627ca7bc",
+      "instructor_source_sha256": "0dc346015a98b15b7f1bf67737eea8b910ac0d725d38dde12392702b36b329c2"
+    },
+    {
+      "file": "Content/Northwood/Textures/Tileable/TX_Wood_Wall_01a_RMA.uasset",
+      "bytes": 9718122,
+      "sha256": "e1a403aaeddc0f81b70ba8f2a3ce1a904a235afb3e5263f3652dcc92d7c529bc",
+      "instructor_source_sha256": "7668a7de0ffbb52ead81d5e0b2cfdd613574d2abe875d613c27f1a34d4d18117"
+    },
+    {
+      "file": "Content/Northwood/Textures/Tileable/TX_Wood_Wall_01b_ALB.uasset",
+      "bytes": 8609112,
+      "sha256": "429c9277a807356ec65294798108e4ab8b7e0bdc3f34135c6e4ed8546410621d",
+      "instructor_source_sha256": "cbf5d5bdae0a0ed3fcc941793543ad7dc5b7cb38455508f2102f81e6b979abb6"
+    },
+    {
+      "file": "Content/Northwood/Textures/Tileable/TX_Wood_Wall_01b_NRM.uasset",
+      "bytes": 11486726,
+      "sha256": "d61ec419176e9fa0e0497727e7d0a255d43fd3891784966f44908fc9a26f1987",
+      "instructor_source_sha256": "1d5efd7d359d3567330097c512061b1517ad0dadd9cb89b7e75fae65ac1bb378"
+    },
+    {
+      "file": "Content/Northwood/Textures/Tileable/TX_Wood_Wall_01b_RMA.uasset",
+      "bytes": 6537838,
+      "sha256": "b85bef9b73d1679e39a6abaab61816ebbece83142a38385ef768310ff8cef89e",
+      "instructor_source_sha256": "5f87fa161f3b999574dbebbb32622f3065329143d8c26c9f43133e68a6cc19cc"
+    },
+    {
+      "file": "Content/Northwood/Textures/Utility/TX_Dirt_01a_M.uasset",
+      "bytes": 9218659,
+      "sha256": "465c32b21b624671516a8c43e4103ca2c8b1a4ad4ddf1a55dce7782422c51557",
+      "instructor_source_sha256": "0f396b7e398df6854ec00ef34ea11ab74930a8bf14d1b0e0877203f74cb13d0e"
+    },
+    {
+      "file": "Content/Northwood/Textures/Utility/TX_Dirt_01a_NRM.uasset",
+      "bytes": 12684113,
+      "sha256": "6aa888c8753a36ad04a711ac930c8e340d0b7d4d479fb2e8addbedda6d933cbc",
+      "instructor_source_sha256": "d805fb273d3882cdf0ace88f20498906ec5cf6f908b6232a9684d0eba0280ae9"
+    },
+    {
+      "file": "Content/Northwood/Textures/Utility/TX_Edge_Normal_01a_NRM.uasset",
+      "bytes": 973295,
+      "sha256": "9325cec94abe9c2b6f9db208aaaf24dde9351cea40ac2a434510f898a3517b05",
+      "instructor_source_sha256": "5a852143b7f8f6230d7317aa5f0a9cd1d570afc795712192d4c1e2c35d1688e6"
+    },
+    {
+      "file": "Content/Northwood/Textures/Utility/TX_Fill_01_ALB.uasset",
+      "bytes": 4621,
+      "sha256": "33120e0aa15a2dfaa7eec12979b4584ff38ae9dc3238a10ebc277134a2a442b2",
+      "instructor_source_sha256": "f21af6ca3525758f97a9bcd9841e5ea8e4da2d81a7fe0a69cf95d5c90d827b9a"
+    },
+    {
+      "file": "Content/Northwood/Textures/Utility/TX_Fill_01_NRM.uasset",
+      "bytes": 4991,
+      "sha256": "d51e274dfb4b70ecb5de3a6d1617b86b6effe11ff7a68a275b9c68bbd3d82025",
+      "instructor_source_sha256": "b1c719123bf4f338807d2a0198f2bc45a8432ae9467de5020b04b44a4f70e439"
+    },
+    {
+      "file": "Content/Northwood/Textures/Utility/TX_Fill_01_RMA.uasset",
+      "bytes": 4793,
+      "sha256": "a1911b83e9c1b7b4b26ac0c4a79b69e4354576061ce01550a515696e6a9f9176",
+      "instructor_source_sha256": "058513a0d2b11f024e5dc9330f60db8d0daa2c6b8930c4ccb173e03921f0f94b"
+    },
+    {
+      "file": "Content/Northwood/Textures/Utility/TX_PaintMask_01a_M.uasset",
+      "bytes": 3509169,
+      "sha256": "0001fdac4ae51cd9651557885e097b077a693508f7cf4ebf658cb574830380df",
+      "instructor_source_sha256": "0bb96e9f229cae62d32179c83f26850a48f93a1165ef7cf5e4dc27c4ebb19c3d"
+    },
+    {
+      "file": "Content/Trail/Biome/AssetSets/DT_JuniperOnly.uasset",
+      "bytes": 2880,
+      "sha256": "79a83223b89b246d6cff3d51bee2cd3cc6f47c292f3dfc206a17fa9e446edd9d",
+      "instructor_source_sha256": "79a83223b89b246d6cff3d51bee2cd3cc6f47c292f3dfc206a17fa9e446edd9d"
+    },
+    {
+      "file": "Content/Trail/Biome/AssetSets/DT_Rocks.uasset",
+      "bytes": 2291,
+      "sha256": "c738d85e89c4eb87f59d77c51dfb05990117a9efecad5532a1019a68409f92b5",
+      "instructor_source_sha256": "c738d85e89c4eb87f59d77c51dfb05990117a9efecad5532a1019a68409f92b5"
+    },
+    {
+      "file": "Content/Trail/Biome/AssetSets/DT_ScrubMixed.uasset",
+      "bytes": 4040,
+      "sha256": "23735a661d22b2d5a2c327aaa4fc473a7639499bcb70539db238cb25304a8554",
+      "instructor_source_sha256": "23735a661d22b2d5a2c327aaa4fc473a7639499bcb70539db238cb25304a8554"
+    },
+    {
+      "file": "Content/Trail/Biome/AssetSets/DT_TreesMixed.uasset",
+      "bytes": 3355,
+      "sha256": "c5fd6a360e3e4ce33c97b5dee73633ea5a16af50716f7c35989dbfb66662417b",
+      "instructor_source_sha256": "c5fd6a360e3e4ce33c97b5dee73633ea5a16af50716f7c35989dbfb66662417b"
+    },
+    {
+      "file": "Content/Trail/Biome/AssetSets/DT_TreesYoung.uasset",
+      "bytes": 2626,
+      "sha256": "bc35d30c3a0ba7f207d621bc99d3eb64acb75f24aaaa57394edfc70f78513a3f",
+      "instructor_source_sha256": "bc35d30c3a0ba7f207d621bc99d3eb64acb75f24aaaa57394edfc70f78513a3f"
+    },
+    {
+      "file": "Content/Trail/Biome/AssetSets/DT_YuccaRich.uasset",
+      "bytes": 3300,
+      "sha256": "d7bebcea78a41d7a8892ae38c956b2c483ebe6c4c2bc8f7620353c826762a9f9",
+      "instructor_source_sha256": "d7bebcea78a41d7a8892ae38c956b2c483ebe6c4c2bc8f7620353c826762a9f9"
+    },
+    {
+      "file": "Content/Trail/Biome/Instances/PGI_JuniperScrub_Rocks.uasset",
+      "bytes": 6384,
+      "sha256": "92054ac3c03cb4f2e583bbb1d383f642f8cb7f63ba6a0d59d599811b9dbf4b36",
+      "instructor_source_sha256": "92054ac3c03cb4f2e583bbb1d383f642f8cb7f63ba6a0d59d599811b9dbf4b36"
+    },
+    {
+      "file": "Content/Trail/Biome/Instances/PGI_JuniperScrub_Scrub.uasset",
+      "bytes": 6381,
+      "sha256": "f0a8f0952677f621897832eba9212482e639fd463e15bc7f037c0ff11336f35a",
+      "instructor_source_sha256": "f0a8f0952677f621897832eba9212482e639fd463e15bc7f037c0ff11336f35a"
+    },
+    {
+      "file": "Content/Trail/Biome/Instances/PGI_JuniperScrub_Trees.uasset",
+      "bytes": 6331,
+      "sha256": "42355c8a87f230f45b627f290f30266ebae7edcd1dd31d5230d28869f1e3b3a2",
+      "instructor_source_sha256": "42355c8a87f230f45b627f290f30266ebae7edcd1dd31d5230d28869f1e3b3a2"
+    },
+    {
+      "file": "Content/Trail/Biome/Instances/PGI_OpenDesert_Rocks.uasset",
+      "bytes": 6374,
+      "sha256": "22ff8ce1f037823e9205e8cbb2b163ce5a878cd1c63c3c233de273d814d97503",
+      "instructor_source_sha256": "22ff8ce1f037823e9205e8cbb2b163ce5a878cd1c63c3c233de273d814d97503"
+    },
+    {
+      "file": "Content/Trail/Biome/Instances/PGI_OpenDesert_Scrub.uasset",
+      "bytes": 6369,
+      "sha256": "4652fa4af8550cc2d827d93dc985ce2b12d5ad4c1341fe58d78428f83236d176",
+      "instructor_source_sha256": "4652fa4af8550cc2d827d93dc985ce2b12d5ad4c1341fe58d78428f83236d176"
+    },
+    {
+      "file": "Content/Trail/Biome/Instances/PGI_OpenDesert_Trees.uasset",
+      "bytes": 6305,
+      "sha256": "2194da616defb13d5a43f8f2f9add78f3ebfbbae9c5a719a895e33531297c370",
+      "instructor_source_sha256": "2194da616defb13d5a43f8f2f9add78f3ebfbbae9c5a719a895e33531297c370"
+    },
+    {
+      "file": "Content/Trail/Biome/Instances/PGI_RockyWash_Rocks.uasset",
+      "bytes": 6369,
+      "sha256": "b457c27d123fafb01e82f4abde424e98569f86fa3af8e7a8f33f343035401c55",
+      "instructor_source_sha256": "b457c27d123fafb01e82f4abde424e98569f86fa3af8e7a8f33f343035401c55"
+    },
+    {
+      "file": "Content/Trail/Biome/Instances/PGI_RockyWash_Scrub.uasset",
+      "bytes": 6362,
+      "sha256": "e9dd76cc96bc7b2186cbccb858d8085996da8229bcd2c753de5b69d7e8eb75b2",
+      "instructor_source_sha256": "e9dd76cc96bc7b2186cbccb858d8085996da8229bcd2c753de5b69d7e8eb75b2"
+    },
+    {
+      "file": "Content/Trail/Biome/Instances/PGI_RockyWash_Trees.uasset",
+      "bytes": 6316,
+      "sha256": "15f8b54705616709fee165cf662442233b0446535d9f10b4f0cf4715ccb119dc",
+      "instructor_source_sha256": "15f8b54705616709fee165cf662442233b0446535d9f10b4f0cf4715ccb119dc"
+    },
+    {
+      "file": "Content/Trail/Biome/Instances/PGI_Student_Rocks.uasset",
+      "bytes": 6359,
+      "sha256": "c92f2868133bfdc99b6a0f87effc3f4aafe6a92c65f024d6b23a800c51a357c2",
+      "instructor_source_sha256": "c92f2868133bfdc99b6a0f87effc3f4aafe6a92c65f024d6b23a800c51a357c2"
+    },
+    {
+      "file": "Content/Trail/Biome/Instances/PGI_Student_Scrub.uasset",
+      "bytes": 6354,
+      "sha256": "88cb3505ec209a05fb9154a383eb21cdec73a074738370f0d5fea758b9fbb96f",
+      "instructor_source_sha256": "88cb3505ec209a05fb9154a383eb21cdec73a074738370f0d5fea758b9fbb96f"
+    },
+    {
+      "file": "Content/Trail/Biome/Instances/PGI_Student_Trees.uasset",
+      "bytes": 6274,
+      "sha256": "6273aaecd8d179e3640b3662ec6f782329cf03f9569cc0849a46ec41d2d0bde9",
+      "instructor_source_sha256": "6273aaecd8d179e3640b3662ec6f782329cf03f9569cc0849a46ec41d2d0bde9"
+    },
+    {
+      "file": "Content/Trail/Biome/PCG_BiomeScatter.uasset",
+      "bytes": 467995,
+      "sha256": "b1ff95e818be3f8e5c00d9604ed02f11030e58fdb3137ea815349d152f003a75",
+      "instructor_source_sha256": "b1ff95e818be3f8e5c00d9604ed02f11030e58fdb3137ea815349d152f003a75"
+    },
+    {
+      "file": "Content/Trail/Biome/ST_BiomeMesh.uasset",
+      "bytes": 5962,
+      "sha256": "89c5975f8026cfb2e8ab316f96374b03455f99e74c081a7d2b50ee22300b9c05",
+      "instructor_source_sha256": "89c5975f8026cfb2e8ab316f96374b03455f99e74c081a7d2b50ee22300b9c05"
+    },
+    {
+      "file": "Content/Trail/Blueprints/BP_HabitatRegion.uasset",
+      "bytes": 25095,
+      "sha256": "675bf16dab339a510e4a49e09328b21e4df72b0d9b0591c6783597390f664c34",
+      "instructor_source_sha256": "675bf16dab339a510e4a49e09328b21e4df72b0d9b0591c6783597390f664c34"
+    },
+    {
+      "file": "Content/Trail/Blueprints/Reserve_Rocks.uasset",
+      "bytes": 641955,
+      "sha256": "68394af9f388f8d2846f9ee256d57eeb5fcd08cc5e5b9675c462f6925cafc632",
+      "instructor_source_sha256": "68394af9f388f8d2846f9ee256d57eeb5fcd08cc5e5b9675c462f6925cafc632"
+    },
+    {
+      "file": "Content/Trail/Blueprints/Reserve_Scrub.uasset",
+      "bytes": 641955,
+      "sha256": "eae52e9a3ef0e2f9e580ef4fba021d54d13d98d214fc3ce8727a2b46b719c382",
+      "instructor_source_sha256": "eae52e9a3ef0e2f9e580ef4fba021d54d13d98d214fc3ce8727a2b46b719c382"
+    },
+    {
+      "file": "Content/Trail/Blueprints/Reserve_Trees.uasset",
+      "bytes": 641955,
+      "sha256": "21c7e8d97bd513fce1435774d91124958cee6257fd16ce0e11542a006aab2b37",
+      "instructor_source_sha256": "21c7e8d97bd513fce1435774d91124958cee6257fd16ce0e11542a006aab2b37"
+    },
+    {
+      "file": "Content/Trail/Building/Instances/PGI_Building_Cabin.uasset",
+      "bytes": 3284,
+      "sha256": "2c101bb44580d73f7dd8fe03d0cd66d262e99e65df37e67e3278660524b79d3d",
+      "instructor_source_sha256": "2c101bb44580d73f7dd8fe03d0cd66d262e99e65df37e67e3278660524b79d3d"
+    },
+    {
+      "file": "Content/Trail/Building/Instances/PGI_Building_Lodge.uasset",
+      "bytes": 3134,
+      "sha256": "ad1648b09e896509ca1eea1c27517e1727b17b456234493ae9aedc44c3b8908b",
+      "instructor_source_sha256": "ad1648b09e896509ca1eea1c27517e1727b17b456234493ae9aedc44c3b8908b"
+    },
+    {
+      "file": "Content/Trail/Building/Instances/PGI_Building_Longhouse.uasset",
+      "bytes": 3316,
+      "sha256": "7688bdceaaf45ef37e54781c27e2b675b9a5c3101108b9c3fbc20344d7660b2a",
+      "instructor_source_sha256": "7688bdceaaf45ef37e54781c27e2b675b9a5c3101108b9c3fbc20344d7660b2a"
+    },
+    {
+      "file": "Content/Trail/Building/Instances/PGI_Building_Rotated.uasset",
+      "bytes": 3144,
+      "sha256": "a12713b7414587d8a9ecf78c1e34e37fc56fe295dc593fe6f38082e0da19f80e",
+      "instructor_source_sha256": "a12713b7414587d8a9ecf78c1e34e37fc56fe295dc593fe6f38082e0da19f80e"
+    },
+    {
+      "file": "Content/Trail/Building/Instances/PGI_Building_Solid.uasset",
+      "bytes": 3280,
+      "sha256": "0ce23b17cc449d4b584f20e58082f8d836c392b2e2c07460ec4e5f3cee68f880",
+      "instructor_source_sha256": "0ce23b17cc449d4b584f20e58082f8d836c392b2e2c07460ec4e5f3cee68f880"
+    },
+    {
+      "file": "Content/Trail/Building/Instances/PGI_Building_Tower.uasset",
+      "bytes": 3284,
+      "sha256": "a2992aeb94f588ae356ec9acb08d046fccf0bf303d4c0d9a6a8b825a98e40094",
+      "instructor_source_sha256": "a2992aeb94f588ae356ec9acb08d046fccf0bf303d4c0d9a6a8b825a98e40094"
+    },
+    {
+      "file": "Content/Trail/Building/M_BuildingGround.uasset",
+      "bytes": 11800,
+      "sha256": "2f012f253914e0afdb071fa0d94b735288859d50095edc3cc9ff1d0a18aca37b",
+      "instructor_source_sha256": "2f012f253914e0afdb071fa0d94b735288859d50095edc3cc9ff1d0a18aca37b"
+    },
+    {
+      "file": "Content/Trail/Building/Maps/Building_Examples.umap",
+      "bytes": 350133,
+      "sha256": "e366950e99f4cf516e39a07c6e2f43097b03ed590508dbd231c70129e540dc92",
+      "instructor_source_sha256": "e366950e99f4cf516e39a07c6e2f43097b03ed590508dbd231c70129e540dc92"
+    },
+    {
+      "file": "Content/Trail/Building/PCG_ModularBuilding.uasset",
+      "bytes": 746065,
+      "sha256": "9f8c4044730d0683a9922f9422008c9ef62bdeedef9c9177ed5c6a3c7e73bf47",
+      "instructor_source_sha256": "9f8c4044730d0683a9922f9422008c9ef62bdeedef9c9177ed5c6a3c7e73bf47"
+    },
+    {
+      "file": "Content/Trail/Building/Profiles/DT_Facade_Solid.uasset",
+      "bytes": 2297,
+      "sha256": "57a3fc8c155e0a27c2c9a8ec6b177892b1f73f7c03b08a24abb548cd914231e0",
+      "instructor_source_sha256": "57a3fc8c155e0a27c2c9a8ec6b177892b1f73f7c03b08a24abb548cd914231e0"
+    },
+    {
+      "file": "Content/Trail/Building/Profiles/DT_Facade_Windows.uasset",
+      "bytes": 2525,
+      "sha256": "3f0cea86f1fc8ea34be16c64b55d235330e4a995986ad7f7f12fc4b65ba6c41d",
+      "instructor_source_sha256": "3f0cea86f1fc8ea34be16c64b55d235330e4a995986ad7f7f12fc4b65ba6c41d"
+    },
+    {
+      "file": "Content/Trail/Environment/SM_TrailTerrain.uasset",
+      "bytes": 1174602,
+      "sha256": "0b1248db25a6f1a22d6ab5228d1d3702d81f4a30f838ee1135ba17bc3664bec6",
+      "instructor_source_sha256": "0b1248db25a6f1a22d6ab5228d1d3702d81f4a30f838ee1135ba17bc3664bec6"
+    },
+    {
+      "file": "Content/Trail/Maps/Biome_Forest.umap",
+      "bytes": 1326273,
+      "sha256": "17a16bd387a46099584742dc7723d5b9b4bc46a8bc34dac1d2b477b79b8b5c87",
+      "instructor_source_sha256": "17a16bd387a46099584742dc7723d5b9b4bc46a8bc34dac1d2b477b79b8b5c87"
+    },
+    {
+      "file": "Content/Trail/Maps/Biome_JuniperScrub.umap",
+      "bytes": 1206847,
+      "sha256": "597ba7f16619c1415747f0aeca77ac43df4d5a3ff9096f26fcc6da81db6cdb6d",
+      "instructor_source_sha256": "597ba7f16619c1415747f0aeca77ac43df4d5a3ff9096f26fcc6da81db6cdb6d"
+    },
+    {
+      "file": "Content/Trail/Maps/Biome_OpenDesert.umap",
+      "bytes": 1166449,
+      "sha256": "b809ecb2eed170992daa260f09b1bd44376486467939baa228869b23ca903e45",
+      "instructor_source_sha256": "b809ecb2eed170992daa260f09b1bd44376486467939baa228869b23ca903e45"
+    },
+    {
+      "file": "Content/Trail/Maps/Biome_RockyWash.umap",
+      "bytes": 1168568,
+      "sha256": "fc216ed7506b3bf69c3617948956bfbaf51c019159f8e2f332445155313e091b",
+      "instructor_source_sha256": "fc216ed7506b3bf69c3617948956bfbaf51c019159f8e2f332445155313e091b"
+    },
+    {
+      "file": "Content/Trail/Maps/Biome_Snow.umap",
+      "bytes": 1339615,
+      "sha256": "4860028b62b712da67c7d268e49e6774a5390be02257962d14c90adfdf797321",
+      "instructor_source_sha256": "4860028b62b712da67c7d268e49e6774a5390be02257962d14c90adfdf797321"
+    },
+    {
+      "file": "Content/Trail/Maps/Trail_Student.umap",
+      "bytes": 1289305,
+      "sha256": "0ecc636fc6369bddca930591a494565d832c09063098096d77de5404ead58e98",
+      "instructor_source_sha256": "0ecc636fc6369bddca930591a494565d832c09063098096d77de5404ead58e98"
+    },
+    {
+      "file": "Content/Trail/Materials/M_TrailTerrain.uasset",
+      "bytes": 44771,
+      "sha256": "f355e3ecb021d42d420aa44a67fb8f6ce6e433def72d18491ef4d9e354c6eeff",
+      "instructor_source_sha256": "f355e3ecb021d42d420aa44a67fb8f6ce6e433def72d18491ef4d9e354c6eeff"
+    },
+    {
+      "file": "Content/Trail/Museum/Graphs/PCG_M01_Candidates.uasset",
+      "bytes": 57942,
+      "sha256": "32c4f304f528367e884c87126b0bc5485d8a1af4a8f3b4bc3f6918193f52b09e",
+      "instructor_source_sha256": "32c4f304f528367e884c87126b0bc5485d8a1af4a8f3b4bc3f6918193f52b09e"
+    },
+    {
+      "file": "Content/Trail/Museum/Graphs/PCG_M02_Transforms.uasset",
+      "bytes": 57916,
+      "sha256": "1964b86150b6283420104b3a852f83785277d8046dfdb58f87e8eaba53b8abcf",
+      "instructor_source_sha256": "1964b86150b6283420104b3a852f83785277d8046dfdb58f87e8eaba53b8abcf"
+    },
+    {
+      "file": "Content/Trail/Museum/Graphs/PCG_M03_ClosedDifference.uasset",
+      "bytes": 98541,
+      "sha256": "d5e6bd3b07c741e6504ca9053448d566f2c413bf4e84e949a2cc03841bf72a2e",
+      "instructor_source_sha256": "d5e6bd3b07c741e6504ca9053448d566f2c413bf4e84e949a2cc03841bf72a2e"
+    },
+    {
+      "file": "Content/Trail/Museum/Graphs/PCG_M04_SurfaceSuitability.uasset",
+      "bytes": 150154,
+      "sha256": "5ff17ea2cc93d768ccc5150a5e61f59ecc8ada50c3738474e92ad8c31f4544c8",
+      "instructor_source_sha256": "5ff17ea2cc93d768ccc5150a5e61f59ecc8ada50c3738474e92ad8c31f4544c8"
+    },
+    {
+      "file": "Content/Trail/Museum/Graphs/PCG_M05_AssetProfiles.uasset",
+      "bytes": 86088,
+      "sha256": "b763adfa9042705ee442058e87f5ed5d8ac864ef27760cfd0215097e7f717568",
+      "instructor_source_sha256": "b763adfa9042705ee442058e87f5ed5d8ac864ef27760cfd0215097e7f717568"
+    },
+    {
+      "file": "Content/Trail/Museum/Graphs/PCG_M06_LocalPruning.uasset",
+      "bytes": 114086,
+      "sha256": "70fd5df3b194f3c476324169f1cbf5f07d2ac1ab6d347abfe4e0511709970d93",
+      "instructor_source_sha256": "70fd5df3b194f3c476324169f1cbf5f07d2ac1ab6d347abfe4e0511709970d93"
+    },
+    {
+      "file": "Content/Trail/Museum/Instances/PGI_M05_Scrub.uasset",
+      "bytes": 2756,
+      "sha256": "2453c7e769f8e15421b63ae60a6b9843ddcb3c4b788dbaa3210369516bd50ce4",
+      "instructor_source_sha256": "2453c7e769f8e15421b63ae60a6b9843ddcb3c4b788dbaa3210369516bd50ce4"
+    },
+    {
+      "file": "Content/Trail/Museum/Instances/PGI_M05_Trees.uasset",
+      "bytes": 2606,
+      "sha256": "debe3aa3eceb3474668424412ad1dfaa70ccf6e6f6661f0c4553d84ae6ce80b8",
+      "instructor_source_sha256": "debe3aa3eceb3474668424412ad1dfaa70ccf6e6f6661f0c4553d84ae6ce80b8"
+    },
+    {
+      "file": "Content/Trail/Museum/Instances/PGI_M07_Building.uasset",
+      "bytes": 3270,
+      "sha256": "a67de60082efeb74b8bb6d2bf96c71893a2613e6b25006c193bfc03a55a705a6",
+      "instructor_source_sha256": "a67de60082efeb74b8bb6d2bf96c71893a2613e6b25006c193bfc03a55a705a6"
+    },
+    {
+      "file": "Content/Trail/Museum/Maps/PCG_Museum.umap",
+      "bytes": 316164,
+      "sha256": "b6372c757e04833a6d37776fadea8da9c547bb1fc65cec4aff4238e535b69d56",
+      "instructor_source_sha256": "b6372c757e04833a6d37776fadea8da9c547bb1fc65cec4aff4238e535b69d56"
+    },
+    {
+      "file": "Content/Trail/Museum/Materials/M_MuseumBoard.uasset",
+      "bytes": 8577,
+      "sha256": "8c0cf7c822664558b2cec515379b98fc849f52b6674ef94fbda102beb4988887",
+      "instructor_source_sha256": "8c0cf7c822664558b2cec515379b98fc849f52b6674ef94fbda102beb4988887"
+    },
+    {
+      "file": "Content/Trail/Museum/Materials/M_MuseumExclusion.uasset",
+      "bytes": 9249,
+      "sha256": "77bf10ea7a04ee8f4d417d23de275b5e249dc39d22358fadf3b6eafefe9bb630",
+      "instructor_source_sha256": "77bf10ea7a04ee8f4d417d23de275b5e249dc39d22358fadf3b6eafefe9bb630"
+    },
+    {
+      "file": "Content/Trail/Museum/Materials/M_MuseumMarker.uasset",
+      "bytes": 9623,
+      "sha256": "e64a29632823e676f73b3de43d67d53ef4e3062fe6c6ebd08668d51729b38c4b",
+      "instructor_source_sha256": "e64a29632823e676f73b3de43d67d53ef4e3062fe6c6ebd08668d51729b38c4b"
+    },
+    {
+      "file": "Content/Trail/Museum/Materials/M_MuseumSlate.uasset",
+      "bytes": 8332,
+      "sha256": "0554a2133a60de504a6255505e311d8b98fab814333833f6a46ed613751cb53b",
+      "instructor_source_sha256": "0554a2133a60de504a6255505e311d8b98fab814333833f6a46ed613751cb53b"
+    },
+    {
+      "file": "Content/Trail/Presentation/MI_Mountains_Desert.uasset",
+      "bytes": 8480,
+      "sha256": "f367c956a92462f320e27a945c42f8bda4b46ee3f4bdb6ab376f830d619f6493",
+      "instructor_source_sha256": "f367c956a92462f320e27a945c42f8bda4b46ee3f4bdb6ab376f830d619f6493"
+    },
+    {
+      "file": "Content/Trail/Presentation/MI_Mountains_Forest.uasset",
+      "bytes": 8248,
+      "sha256": "86b2e1d116c0a2f6088759dfcf7bbbd01c22c9ced3650e519d9a7129c8108204",
+      "instructor_source_sha256": "86b2e1d116c0a2f6088759dfcf7bbbd01c22c9ced3650e519d9a7129c8108204"
+    },
+    {
+      "file": "Content/Trail/Presentation/MI_Mountains_Snow.uasset",
+      "bytes": 8342,
+      "sha256": "6f8302f3bb1687ac309e66c812fa468da47c4348ad9c874f902072d418047b78",
+      "instructor_source_sha256": "6f8302f3bb1687ac309e66c812fa468da47c4348ad9c874f902072d418047b78"
+    },
+    {
+      "file": "Content/Trail/Presentation/M_MountainBackdrop.uasset",
+      "bytes": 20379,
+      "sha256": "21c871a5bb6daacdcfdebb8f13dc9b42b48d142c9dc6376dd8d24c5b196adbf3",
+      "instructor_source_sha256": "21c871a5bb6daacdcfdebb8f13dc9b42b48d142c9dc6376dd8d24c5b196adbf3"
+    },
+    {
+      "file": "Content/Trail/Presentation/M_PhotographicSky.uasset",
+      "bytes": 10038,
+      "sha256": "9fa7c0794d27bbfa0b779b4889d7d2ba0f1d4e4d50f34f4f148ac1c9b854ac80",
+      "instructor_source_sha256": "9fa7c0794d27bbfa0b779b4889d7d2ba0f1d4e4d50f34f4f148ac1c9b854ac80"
+    },
+    {
+      "file": "Content/Trail/Presentation/SM_MountainBackdrop.uasset",
+      "bytes": 678125,
+      "sha256": "607dfe30f686e641457c2f90604144c6775653854260fb70b66482d2230cd8d7",
+      "instructor_source_sha256": "607dfe30f686e641457c2f90604144c6775653854260fb70b66482d2230cd8d7"
+    },
+    {
+      "file": "Content/Trail/Presentation/T_CloudSky_CC0.uasset",
+      "bytes": 9792420,
+      "sha256": "5f32b601f2062d0d7575607d95b6dfaaa26b7ded778bd36ff3a0d2e576b75ddc",
+      "instructor_source_sha256": "5f32b601f2062d0d7575607d95b6dfaaa26b7ded778bd36ff3a0d2e576b75ddc"
+    },
+    {
+      "file": "Content/Trail/Regions/AssetSets/DT_ForestScrub.uasset",
+      "bytes": 2371,
+      "sha256": "f6ec2e505ec623c569fe32c4a3c226d501195ec35964a374a348f64594eab82f",
+      "instructor_source_sha256": "f6ec2e505ec623c569fe32c4a3c226d501195ec35964a374a348f64594eab82f"
+    },
+    {
+      "file": "Content/Trail/Regions/AssetSets/DT_ForestTrees.uasset",
+      "bytes": 2383,
+      "sha256": "0c200874a98480d24ec36970121533f84d69d001170e089faf9fa13a1ed24480",
+      "instructor_source_sha256": "0c200874a98480d24ec36970121533f84d69d001170e089faf9fa13a1ed24480"
+    },
+    {
+      "file": "Content/Trail/Regions/AssetSets/DT_SnowRocks.uasset",
+      "bytes": 2361,
+      "sha256": "8b4a2624ba0a78b0263bcfdfec2793ea42209046c802686ceaeb214d2e39f1e6",
+      "instructor_source_sha256": "8b4a2624ba0a78b0263bcfdfec2793ea42209046c802686ceaeb214d2e39f1e6"
+    },
+    {
+      "file": "Content/Trail/Regions/AssetSets/DT_SnowScrub.uasset",
+      "bytes": 2371,
+      "sha256": "61990654e655a8f3b9dc1f3e2514a162087dc9d9f72f56364f5e248a6d7998c3",
+      "instructor_source_sha256": "61990654e655a8f3b9dc1f3e2514a162087dc9d9f72f56364f5e248a6d7998c3"
+    },
+    {
+      "file": "Content/Trail/Regions/AssetSets/DT_SnowTrees.uasset",
+      "bytes": 2383,
+      "sha256": "6e42c4d964a48ad126430b75c5c679de124a3d595ea70408c2cf14e5ca3fb586",
+      "instructor_source_sha256": "6e42c4d964a48ad126430b75c5c679de124a3d595ea70408c2cf14e5ca3fb586"
+    },
+    {
+      "file": "Content/Trail/Regions/Instances/PGI_Forest_Rocks.uasset",
+      "bytes": 6358,
+      "sha256": "a3c1497dd8262fd316a99856c0f74fd581d5e9d23da2849aa84212a7a9d5c480",
+      "instructor_source_sha256": "a3c1497dd8262fd316a99856c0f74fd581d5e9d23da2849aa84212a7a9d5c480"
+    },
+    {
+      "file": "Content/Trail/Regions/Instances/PGI_Forest_Scrub.uasset",
+      "bytes": 6357,
+      "sha256": "0bf7e256f5be88a4b4b9f7cca2ce13b1a5c0056302e69c39882b4c2b9fc0da14",
+      "instructor_source_sha256": "0bf7e256f5be88a4b4b9f7cca2ce13b1a5c0056302e69c39882b4c2b9fc0da14"
+    },
+    {
+      "file": "Content/Trail/Regions/Instances/PGI_Forest_Trees.uasset",
+      "bytes": 6309,
+      "sha256": "29896571c6f59b592337b4dd4b40f2b0bf20f1c601f214495f5f53093182d17d",
+      "instructor_source_sha256": "29896571c6f59b592337b4dd4b40f2b0bf20f1c601f214495f5f53093182d17d"
+    },
+    {
+      "file": "Content/Trail/Regions/Instances/PGI_Snow_Rocks.uasset",
+      "bytes": 6358,
+      "sha256": "70f04aff720594ed12fe4cb901088629e62bc5b4e2b85df1fb3830714b3800b1",
+      "instructor_source_sha256": "70f04aff720594ed12fe4cb901088629e62bc5b4e2b85df1fb3830714b3800b1"
+    },
+    {
+      "file": "Content/Trail/Regions/Instances/PGI_Snow_Scrub.uasset",
+      "bytes": 6343,
+      "sha256": "2e980b05dfe77e868b55c8b10ebd101420f4b2c93601a6b98fd7e02fe313c801",
+      "instructor_source_sha256": "2e980b05dfe77e868b55c8b10ebd101420f4b2c93601a6b98fd7e02fe313c801"
+    },
+    {
+      "file": "Content/Trail/Regions/Instances/PGI_Snow_Trees.uasset",
+      "bytes": 6295,
+      "sha256": "7f06d841f6ce34acf61a291ffe9a86811e89a27a2895feae654d3b0b0bc44847",
+      "instructor_source_sha256": "7f06d841f6ce34acf61a291ffe9a86811e89a27a2895feae654d3b0b0bc44847"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Bark_2_Forest.uasset",
+      "bytes": 11142,
+      "sha256": "23a5002e7101f9090a62be45180b5cbb04ec15972388f8f36e33310170cd0f96",
+      "instructor_source_sha256": "23a5002e7101f9090a62be45180b5cbb04ec15972388f8f36e33310170cd0f96"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Bark_2_Snow.uasset",
+      "bytes": 15786,
+      "sha256": "b4462fc08c754d74d4446b9eee980b1c02897ddf764af7ec91533121a5d96690",
+      "instructor_source_sha256": "b4462fc08c754d74d4446b9eee980b1c02897ddf764af7ec91533121a5d96690"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Bark_Base_Forest.uasset",
+      "bytes": 11449,
+      "sha256": "83afe5625615451a0fb718e329ac10bfddd8a2499a88ed88d19c39eb73abdc2e",
+      "instructor_source_sha256": "83afe5625615451a0fb718e329ac10bfddd8a2499a88ed88d19c39eb73abdc2e"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Bark_Base_Snow.uasset",
+      "bytes": 16099,
+      "sha256": "3d7b7f3cc074a5c0345ad411c621eeaeeee276120db4cc5029c4bc83fe4bb692",
+      "instructor_source_sha256": "3d7b7f3cc074a5c0345ad411c621eeaeeee276120db4cc5029c4bc83fe4bb692"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Bush_Hero_Forest.uasset",
+      "bytes": 15590,
+      "sha256": "ba5c6c11c1221686d64a24f0543edbde8ffce9574e73d8665e050b1df4c7f4f7",
+      "instructor_source_sha256": "ba5c6c11c1221686d64a24f0543edbde8ffce9574e73d8665e050b1df4c7f4f7"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Bush_Hero_Snow.uasset",
+      "bytes": 19448,
+      "sha256": "309d2a3fb94c5e5c868cb6639555fd6f9526163446ccfde75fa4434f032f383c",
+      "instructor_source_sha256": "309d2a3fb94c5e5c868cb6639555fd6f9526163446ccfde75fa4434f032f383c"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Ground_Forest.uasset",
+      "bytes": 34341,
+      "sha256": "e626f497be53b36ab89a414aa2a1bc8f68443b7b6dfd31b3fda2bfed9221aa84",
+      "instructor_source_sha256": "e626f497be53b36ab89a414aa2a1bc8f68443b7b6dfd31b3fda2bfed9221aa84"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Ground_Snow.uasset",
+      "bytes": 35381,
+      "sha256": "8eef0bc9ff30a9bb022ab4139b18afcc1e723994c9b09c4725d8ef1b271caf2d",
+      "instructor_source_sha256": "8eef0bc9ff30a9bb022ab4139b18afcc1e723994c9b09c4725d8ef1b271caf2d"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Oak_English_Cluster_Branch_Forest.uasset",
+      "bytes": 12568,
+      "sha256": "c8849f26ad4d78da6f828ada017936a8da15a0a254b93ab1f5b8caba9fc9a396",
+      "instructor_source_sha256": "c8849f26ad4d78da6f828ada017936a8da15a0a254b93ab1f5b8caba9fc9a396"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Oak_English_Cluster_Branch_Snow.uasset",
+      "bytes": 16287,
+      "sha256": "1352fbe2a97650d0a9492bea6ccbe108dfa34f9923edcbfb8225a046ad9ca328",
+      "instructor_source_sha256": "1352fbe2a97650d0a9492bea6ccbe108dfa34f9923edcbfb8225a046ad9ca328"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Oak_English_Cluster_Leaf_Summer_Forest.uasset",
+      "bytes": 14127,
+      "sha256": "8a2259809511c9d7b8b5ad0f56f808fc30ebb09835db00c60404d1924671cd51",
+      "instructor_source_sha256": "8a2259809511c9d7b8b5ad0f56f808fc30ebb09835db00c60404d1924671cd51"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Oak_English_Cluster_Leaf_Summer_Snow.uasset",
+      "bytes": 18720,
+      "sha256": "3fdda8a6cbd87b2a987f7f400a063769b243afbe002be8ad63502f72cf175fb8",
+      "instructor_source_sha256": "3fdda8a6cbd87b2a987f7f400a063769b243afbe002be8ad63502f72cf175fb8"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Oak_Hero_Forest_Forest.uasset",
+      "bytes": 14970,
+      "sha256": "9bab5df962e6004fcd552f44ca83874ac8057ae2e6f94c19ba3c02386321beda",
+      "instructor_source_sha256": "9bab5df962e6004fcd552f44ca83874ac8057ae2e6f94c19ba3c02386321beda"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Oak_Hero_Forest_Snow.uasset",
+      "bytes": 19275,
+      "sha256": "5e941f71c313c4c5388cbd15380d3f69f7099a30a81a1fa754a20a9edba65cbd",
+      "instructor_source_sha256": "5e941f71c313c4c5388cbd15380d3f69f7099a30a81a1fa754a20a9edba65cbd"
+    },
+    {
+      "file": "Content/Trail/Regions/Materials/M_Rock_Snow.uasset",
+      "bytes": 15592,
+      "sha256": "596ff6f24c0b3d3f5f97d01f6f50dec5bd3d889456830d41d9db992a2b9440a6",
+      "instructor_source_sha256": "596ff6f24c0b3d3f5f97d01f6f50dec5bd3d889456830d41d9db992a2b9440a6"
+    },
+    {
+      "file": "Content/Trail/Regions/Meshes/SM_Bush_Hero.uasset",
+      "bytes": 288877,
+      "sha256": "e9dd59e639ddd6dc983fec33e4ba85d18fdff68736677531fee042234050ab3e",
+      "instructor_source_sha256": "e9dd59e639ddd6dc983fec33e4ba85d18fdff68736677531fee042234050ab3e"
+    },
+    {
+      "file": "Content/Trail/Regions/Meshes/SM_Bush_Hero_Snow.uasset",
+      "bytes": 288886,
+      "sha256": "deb59e0176baac9268d6c15bb12c387daef8e01b1f1a31003c16895588a8f4fe",
+      "instructor_source_sha256": "deb59e0176baac9268d6c15bb12c387daef8e01b1f1a31003c16895588a8f4fe"
+    },
+    {
+      "file": "Content/Trail/Regions/Meshes/SM_Oak_Hero_Forest.uasset",
+      "bytes": 1785044,
+      "sha256": "606b0b303a6ee509ff4279228f7ae3fbfc18764dc12ba782c815af5b6ddce66b",
+      "instructor_source_sha256": "606b0b303a6ee509ff4279228f7ae3fbfc18764dc12ba782c815af5b6ddce66b"
+    },
+    {
+      "file": "Content/Trail/Regions/Meshes/SM_Oak_Hero_Forest_Snow.uasset",
+      "bytes": 1785037,
+      "sha256": "774026112ce2f519a7394f9986e0d382eba2866af1c3e9e0d440ce40f1a1ea3d",
+      "instructor_source_sha256": "774026112ce2f519a7394f9986e0d382eba2866af1c3e9e0d440ce40f1a1ea3d"
+    },
+    {
+      "file": "Content/Trail/Regions/Meshes/SM_Rock_Snow.uasset",
+      "bytes": 73045,
+      "sha256": "7d77b1f3994dc4883e50f8d783fddaaaf88241256fe5cd79dd7360b7e076490d",
+      "instructor_source_sha256": "7d77b1f3994dc4883e50f8d783fddaaaf88241256fe5cd79dd7360b7e076490d"
+    },
+    {
+      "file": "Content/Trail/Variations/Maps/Variation_Desert_Base.umap",
+      "bytes": 1167142,
+      "sha256": "6b7702a9b5e3f67141302e1ab817acfbf985535cb81a06b60d5be3517d290f92",
+      "instructor_source_sha256": "6b7702a9b5e3f67141302e1ab817acfbf985535cb81a06b60d5be3517d290f92"
+    },
+    {
+      "file": "Content/Trail/Variations/Maps/Variation_Desert_Dense.umap",
+      "bytes": 1369658,
+      "sha256": "0c6fe0cf452e2b5e75a6595675fcb4cdf930445594fdeb24fa7d027ba196d4d6",
+      "instructor_source_sha256": "0c6fe0cf452e2b5e75a6595675fcb4cdf930445594fdeb24fa7d027ba196d4d6"
+    },
+    {
+      "file": "Content/Trail/Variations/Maps/Variation_Forest_Base.umap",
+      "bytes": 1256729,
+      "sha256": "f26a936ec93cd551493213c7034641f4b3d32b6cd1d212f222b077db39ffb3c1",
+      "instructor_source_sha256": "f26a936ec93cd551493213c7034641f4b3d32b6cd1d212f222b077db39ffb3c1"
+    },
+    {
+      "file": "Content/Trail/Variations/Maps/Variation_Forest_Dense.umap",
+      "bytes": 1327238,
+      "sha256": "c15d6a0f5071b1854fe160bb880c3d8845c4806bdfc6758192731e69f67ec6b0",
+      "instructor_source_sha256": "c15d6a0f5071b1854fe160bb880c3d8845c4806bdfc6758192731e69f67ec6b0"
+    },
+    {
+      "file": "Content/Trail/Variations/Maps/Variation_Forest_Seed43.umap",
+      "bytes": 1257213,
+      "sha256": "8d3b85dfcef66f47c5515e8454933cf651cba9639c2a31d7f911f9521bb5fed4",
+      "instructor_source_sha256": "8d3b85dfcef66f47c5515e8454933cf651cba9639c2a31d7f911f9521bb5fed4"
+    },
+    {
+      "file": "Content/Trail/Variations/Maps/Variation_Forest_Small.umap",
+      "bytes": 1260187,
+      "sha256": "06303bd71eb110cf50b2f8fcc41f649fb8fa71f59f8d342b9f9f41f6816b60c4",
+      "instructor_source_sha256": "06303bd71eb110cf50b2f8fcc41f649fb8fa71f59f8d342b9f9f41f6816b60c4"
+    },
+    {
+      "file": "Content/Trail/Variations/Maps/Variation_Forest_Sparse.umap",
+      "bytes": 1220573,
+      "sha256": "9910a4ccfe8b98ea1e96788f2a72e1682841481bd61423e649ef79696ddcff7a",
+      "instructor_source_sha256": "9910a4ccfe8b98ea1e96788f2a72e1682841481bd61423e649ef79696ddcff7a"
+    },
+    {
+      "file": "Content/Trail/Variations/Maps/Variation_Route_BroadS.umap",
+      "bytes": 4973481,
+      "sha256": "aa9022dfd5d89cf1200ade5ddae734d7de4c3b32f0ae0f9f07a68e2a27288dde",
+      "instructor_source_sha256": "aa9022dfd5d89cf1200ade5ddae734d7de4c3b32f0ae0f9f07a68e2a27288dde"
+    },
+    {
+      "file": "Content/Trail/Variations/Maps/Variation_Route_Straight.umap",
+      "bytes": 5007217,
+      "sha256": "ca0ef54e02f72d324c34be2bb4cc259f26eeb0dd4cb3052fe3ab9991b5ebb0da",
+      "instructor_source_sha256": "ca0ef54e02f72d324c34be2bb4cc259f26eeb0dd4cb3052fe3ab9991b5ebb0da"
+    },
+    {
+      "file": "Content/Trail/Variations/Maps/Variation_Route_Switchbacks.umap",
+      "bytes": 4983229,
+      "sha256": "7b4d262c0f7c38f78e1b3066a0df3cd48135d268cdefe3ba1a225d0223364007",
+      "instructor_source_sha256": "7b4d262c0f7c38f78e1b3066a0df3cd48135d268cdefe3ba1a225d0223364007"
+    },
+    {
+      "file": "Content/Trail/Variations/Maps/Variation_Snow_Base.umap",
+      "bytes": 1340514,
+      "sha256": "924c799cce142cb47005240f5747550fbe13ac2cd3159481ab7bb351044ad0bb",
+      "instructor_source_sha256": "924c799cce142cb47005240f5747550fbe13ac2cd3159481ab7bb351044ad0bb"
+    },
+    {
+      "file": "Content/Trail/Variations/Maps/Variation_Snow_Dense.umap",
+      "bytes": 1450686,
+      "sha256": "9e9b5ca82a0fbb41c60bbf73c7fa9966be50596752576d7fb37eb41309dcfc12",
+      "instructor_source_sha256": "9e9b5ca82a0fbb41c60bbf73c7fa9966be50596752576d7fb37eb41309dcfc12"
+    },
+    {
+      "file": "Content/Trail/Variations/Terrain/SM_Trail_BroadS.uasset",
+      "bytes": 1181220,
+      "sha256": "59491190b94dfb66ffb21589ab56a1994b1215458331a2caf5a68206a6b57f10",
+      "instructor_source_sha256": "59491190b94dfb66ffb21589ab56a1994b1215458331a2caf5a68206a6b57f10"
+    },
+    {
+      "file": "Content/Trail/Variations/Terrain/SM_Trail_Straight.uasset",
+      "bytes": 1174779,
+      "sha256": "d928c6b8800342ba0f507536fbbf2095a64484edd661647f61b5860a023fba46",
+      "instructor_source_sha256": "d928c6b8800342ba0f507536fbbf2095a64484edd661647f61b5860a023fba46"
+    },
+    {
+      "file": "Content/Trail/Variations/Terrain/SM_Trail_Switchbacks.uasset",
+      "bytes": 1181227,
+      "sha256": "c78dbd338578017e9bcb6100985d70f290e007b4928597c99f9bb416ad1d35de",
+      "instructor_source_sha256": "c78dbd338578017e9bcb6100985d70f290e007b4928597c99f9bb416ad1d35de"
+    },
+    {
+      "file": "Content/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_D.uasset",
+      "bytes": 2933265,
+      "sha256": "652d33e7d829b3faebc9ff312afdebf6d2df7f9091f97550c394594dbf4bd1fe",
+      "instructor_source_sha256": "899120f76f81bbcc8961f419da10a692a9363cc54d4cb51c7a594a100d0b29dd"
+    },
+    {
+      "file": "Content/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_N.uasset",
+      "bytes": 4308124,
+      "sha256": "fba57779a8857b7e7abf87eb95493b54fec595f9d7b1903a48e83a5f01eb06eb",
+      "instructor_source_sha256": "3972245a10e07ecc5822598778e8df99d8ea1ad8d333215a53b29b430e60f392"
+    },
+    {
+      "file": "Content/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_D.uasset",
+      "bytes": 5601268,
+      "sha256": "94ef5af2362bd5245f233c3ace9eb787a1c87730f28a89b132146ecce2503405",
+      "instructor_source_sha256": "a7097446971028eab95edce9cb3c87f58cc6afa5ca9b81ca6e3bbb57e1f26611"
+    },
+    {
+      "file": "Content/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_N.uasset",
+      "bytes": 5008869,
+      "sha256": "6e31c5ff232c435445097e9b2a4813937c29d3a7d63635773e9d67aa7e879c1c",
+      "instructor_source_sha256": "d7ba3439a89ad1a445640fb4675228dc062cc82b4270b0a29e7291b433d68557"
+    }
+  ],
+  "missing_packages": [],
+  "dependencies_bundled": true,
+  "native_project_setup": "Open the .uproject in installed UE 5.7.4. Bundled Python registers the menu and generates absent editor outputs automatically.",
+  "not_included": [
+    "Unreal Engine installation",
+    "Houdini Engine optional installation and free license",
+    "Udemy archives/graphs/Blueprints",
+    "unrelated source pack content",
+    "rejected CC0 experiment",
+    "caches and credentials"
+  ],
+  "source_content_attribution": "Original class graphs and teaching content; Fab/source assets retain their licenses. Source resources are documented separately.",
+  "teaching_texture_limit": 2048,
+  "student_content_bytes": 596338764,
+  "texture_policy": {
+    "close_view_maximum_dimension": 2048,
+    "distant_impostor_maximum_dimension": 1024,
+    "instructor_originals_unchanged": true
+  }
+}

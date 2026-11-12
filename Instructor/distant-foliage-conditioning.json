@@ -1,0 +1,299 @@
+{
+  "status": "PASS",
+  "maximum_dimension": 1024,
+  "textures": [
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_03a_ALB",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_03a_NRM",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_05a_ALB",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_05a_NRM",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_01a_ALB",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_01a_NRM",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_01c_ALB",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_01c_NRM",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_03a_ALB",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_03a_NRM",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_04a_ALB",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_04a_NRM",
+      "before": [
+        2048,
+        2048
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_01a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_01a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_02a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_02a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_04a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JoshuaTreeImpostor_04a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_03a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_JuniperImpostor_03a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_02a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_02a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_05a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_05a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_06a_ALB",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    },
+    {
+      "asset": "/Game/Northwood/DekogonContent/Textures/Impostors/TX_YuccaImpostor_06a_NRM",
+      "before": [
+        32,
+        32
+      ],
+      "after": [
+        1024,
+        1024
+      ]
+    }
+  ],
+  "method": "Native Unreal texture-aware downsampling of source data",
+  "preserved": [
+    "Close-view textures",
+    "All meshes and LODs",
+    "Graph assets",
+    "Instructor originals"
+  ]
+}

@@ -1,0 +1,80 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Week 11 — Procedural environments</title><style>:root{color-scheme:light;--ink:#16392d;--fern:#5c7c4a;--cream:#f4f2e8}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:18px/1.65 Arial,sans-serif}header{background:linear-gradient(120deg,#09251e,#315a3f);color:#f4f2e8;padding:32px max(24px,calc((100vw - 1060px)/2))}header a{color:#d9ea9b;margin-right:28px}main{max-width:1060px;margin:48px auto;padding:0 24px 80px}h1,h2{font-family:Georgia,serif;font-weight:400;line-height:1.2}h1{font-size:48px}h2{font-size:32px;margin-top:48px}a{color:#315f42;text-underline-offset:4px}img{display:block;max-width:100%;height:auto}table{border-collapse:collapse;width:100%;font-size:16px}th,td{border-bottom:1px solid #c7d2bf;text-align:left;vertical-align:top;padding:12px 10px}th{background:#e3e8d7}code{background:#e3e8d7;padding:2px 5px}pre{white-space:pre-wrap}li{margin-bottom:8px}nav{max-width:1060px;min-width:500px}footer{border-top:1px solid #c7d2bf;padding:25px;font-size:14px}</style><header><nav><a href="START-HERE.html">Week 11</a><a href="Student-Lab.html">Paired exercise</a><a href="Sources.html">Sources</a><a href="Slides/index.html">Lecture slides</a></nav></header><main><h1>Week 11: procedural environments</h1>
+<p>Open a prepared Unreal project, inspect small PCG examples, then adapt one reusable graph to dress a trail. Desert, forest and snow examples share the placement system and vary their assets and materials.</p>
+<h2>Open the project</h2>
+<ol>
+<li>Install <strong>Unreal Engine 5.7</strong> through Epic Games Launcher. This kit was tested in <strong>5.7.4 on Windows</strong>.</li>
+<li>Clone this private repository, or extract the complete student ZIP to a short local path such as <code>C:\UnrealProjects\Week11-PCG</code>.</li>
+<li>Open <a href="Unreal/Week11PCGTrail/Week11PCGTrail.uproject">Week11PCGTrail.uproject</a>. Let first-use shaders finish compiling.</li>
+</ol>
+<p>The required assets and native graphs are included. No Fab download, asset migration, Python installation, C++ build, custom plugin installation or setup script is needed. The project enables the bundled Unreal PCG and editor Python plugins itself. Unreal and access to this private repository are prerequisites, not bundled software.</p>
+<p>The project opens <strong>PCG_Museum</strong>. Its PCG examples generate automatically. Use <strong>Tools &gt; Week 11 PCG Museum</strong> to focus a station, open its graph, or switch to the full trail and building examples.</p>
+<p>For updates, close Unreal, keep your own edits committed or backed up, then run <code>git pull --ff-only</code>. Do your experiments in a duplicate map or on a personal branch.</p>
+<p><img src="Media/Regions.png" alt="Forest profile of the reusable PCG system"></p>
+<h2>Choose a route</h2>
+<ul>
+<li><strong>Museum:</strong> seven focused demonstrations below. Predict the result before changing one control.</li>
+<li><strong>Main paired exercise:</strong> <a href="Student-Lab.html">Student-Lab.md</a>, twenty minutes in <code>Trail_Student</code>.</li>
+<li><strong>Variations:</strong> maps under <code>Content/Trail/Variations/Maps</code> compare density, seed and spline layout using shared assets and graphs.</li>
+<li><strong>Building stretch:</strong> open <code>Building_Examples</code> from the museum menu. <a href="Unreal/Week11PCGTrail/BUILDING_EXAMPLE.md">Building guide</a> explains dimensions, internal-face cancellation and kit compatibility.</li>
+<li><strong>Lecture:</strong> <a href="https://chatgpt.com/space/page_2304d6e47ba88191ae475378aa918f61">editable Week 11 slides</a>. Access follows the instructor&#39;s sharing settings. A local slide reader is also included when present under <code>Slides</code>.</li>
+</ul>
+<h2>Museum stations</h2>
+<table>
+<thead>
+<tr>
+<th>Station</th>
+<th>One question</th>
+<th>Change to try</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>01 Candidates</td>
+<td>Where do positions come from?</td>
+<td>Increase grid cell size from 300 to 600 cm.</td>
+</tr>
+<tr>
+<td>02 Transform variation</td>
+<td>Can appearance change without changing count?</td>
+<td>Change the Transform Points seed.</td>
+</tr>
+<tr>
+<td>03 Closed spline exclusion</td>
+<td>Which candidates lie inside a region?</td>
+<td>Move the orange closed exclusion input.</td>
+</tr>
+<tr>
+<td>04 Projection and suitability</td>
+<td>Which ground is acceptable?</td>
+<td>Raise the normal-Z cutoff from 0.975 to 0.995.</td>
+</tr>
+<tr>
+<td>05 Shared rules, asset profiles</td>
+<td>Can two presets reuse one graph?</td>
+<td>Swap a compatible mesh/weight table.</td>
+</tr>
+<tr>
+<td>06 Bounds and overlap</td>
+<td>Which candidates should compete?</td>
+<td>Increase the competition bounds from 140 to 300 cm.</td>
+</tr>
+<tr>
+<td>07 Building dependencies</td>
+<td>Which parts depend on the dimensions?</td>
+<td>Change Cells from <code>(2,2,2)</code> to <code>(2,2,3)</code>.</td>
+</tr>
+</tbody></table>
+<p>Select a station&#39;s PCG actor, open its graph with the menu, inspect the numbered stage, and regenerate after editing. Reset your edit before comparing another case. Station 05 uses a short teaching graph; the full trail uses the larger shared biome graph. Station 07 is optional architectural depth.</p>
+<h2>What is included</h2>
+<p>Twenty example maps, native editable graphs and graph instances, weighted mesh tables, photoreal assets, textured rolling terrain, a reserved trail, sky and presentation lighting. The terrain is an authored static-mesh heightfield with collision, rather than an Unreal Landscape.</p>
+<p>The student texture sources are capped at 2048 pixels; distant foliage impostors are capped at 1024. The project is approximately 569 MiB before local caches. Opening Unreal generates additional cache data. Those files are excluded from Git.</p>
+<p>This is an <strong>editor demonstration</strong>. Bounds-based point pruning is not full mesh collision. A clear visual trail does not prove navigation or runtime generation works. Building outputs currently use rectangular footprints and a flat platform roof. Houdini is an optional instructor topic and is not required by this project.</p>
+<h2>If something looks wrong</h2>
+<ul>
+<li>Wait for shaders and texture streaming before judging the scene.</li>
+<li>Use the museum menu to reopen the desired example. Select its PCG component and click <strong>Generate</strong> if you have manually cleared its outputs.</li>
+<li>Check that a modified graph instance still points to the supplied shared graph, and that its asset table matches the reservation size.</li>
+<li>Restore the full checkout or re-extract the complete ZIP if assets are missing. Avoid merging this kit into an unrelated project with conflicting package paths.</li>
+<li>If Unreal asks to convert the project, check the installed version. Use 5.7.4 for the tested result; first duplicate the project before experimenting with another engine release.</li>
+</ul>
+<p>See <a href="Sources.html">SOURCES.md</a> for asset and learning references. Third-party assets retain their licenses. Keep this repository and its complete asset-containing ZIP private; access does not grant public redistribution rights.</p>
+</main><footer>Prof. Anthony Monteagudo · Technical Art · UE 5.7</footer></html>

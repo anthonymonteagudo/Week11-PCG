@@ -1,0 +1,76 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Week 11 — Procedural environments</title><style>:root{color-scheme:light;--ink:#16392d;--fern:#5c7c4a;--cream:#f4f2e8}*{box-sizing:border-box}body{margin:0;background:var(--cream);color:var(--ink);font:18px/1.65 Arial,sans-serif}header{background:linear-gradient(120deg,#09251e,#315a3f);color:#f4f2e8;padding:32px max(24px,calc((100vw - 1060px)/2))}header a{color:#d9ea9b;margin-right:28px}main{max-width:1060px;margin:48px auto;padding:0 24px 80px}h1,h2{font-family:Georgia,serif;font-weight:400;line-height:1.2}h1{font-size:48px}h2{font-size:32px;margin-top:48px}a{color:#315f42;text-underline-offset:4px}img{display:block;max-width:100%;height:auto}table{border-collapse:collapse;width:100%;font-size:16px}th,td{border-bottom:1px solid #c7d2bf;text-align:left;vertical-align:top;padding:12px 10px}th{background:#e3e8d7}code{background:#e3e8d7;padding:2px 5px}pre{white-space:pre-wrap}li{margin-bottom:8px}nav{max-width:1060px;min-width:500px}footer{border-top:1px solid #c7d2bf;padding:25px;font-size:14px}</style><header><nav><a href="START-HERE.html">Week 11</a><a href="Student-Lab.html">Paired exercise</a><a href="Sources.html">Sources</a><a href="Slides/index.html">Lecture slides</a></nav></header><main><h1>Art Director vs. Algorithm</h1>
+<p>Work in pairs for <strong>20 minutes</strong>. One person describes the intended appearance; the other changes one exposed control and explains the result. Then swap roles.</p>
+<p>Open <strong>Tools &gt; Week 11 PCG Museum &gt; Full trail exercise</strong>. The map is <code>Content/Trail/Maps/Trail_Student</code>. Duplicate the map before editing. The project is already configured and includes its assets.</p>
+<h2>One graph, several profiles</h2>
+<p><code>PCG_Trees</code>, <code>PCG_Rocks</code> and <code>PCG_Scrub</code> reference graph-instance presets of <strong>PCG_BiomeScatter</strong>. The shared graph defines the placement rules. A graph-instance asset supplies reusable defaults; the component&#39;s parameter overrides apply local changes to that actor.</p>
+<p>Select an actor and its <strong>PCG component</strong> in Details. Edit its graph-instance parameters rather than replacing the parent graph. Click <strong>Generate</strong> after a change. Reset an override to return to the preset.</p>
+<table>
+<thead>
+<tr>
+<th>Control</th>
+<th>What it means</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>AssetSet</td>
+<td>Weighted mesh collection. Weights are relative chances, not quotas.</td>
+</tr>
+<tr>
+<td>SpacingCm</td>
+<td>Candidate spacing; smaller values propose more points.</td>
+</tr>
+<tr>
+<td>ScaleMin / ScaleMax</td>
+<td>Uniform scale range; keep minimum at or below maximum.</td>
+</tr>
+<tr>
+<td>VariationSeed</td>
+<td>Repeatable variation under fixed inputs, rules, assets and engine version.</td>
+</tr>
+<tr>
+<td>HabitatTag / ClearingTag</td>
+<td>Tagged closed spline inputs defining permitted regions and exclusions.</td>
+</tr>
+<tr>
+<td>ReservationTag</td>
+<td>Prepared trail exclusion compatible with the chosen layer&#39;s size.</td>
+</tr>
+<tr>
+<td>PatchCutoff</td>
+<td>Threshold on spatial noise that shapes habitat patches.</td>
+</tr>
+<tr>
+<td>KeepFraction</td>
+<td>Random candidate survival after other decisions.</td>
+</tr>
+<tr>
+<td>SlopeMinDot</td>
+<td>Ground normal alignment with up; higher values favor flatter ground.</td>
+</tr>
+<tr>
+<td>PruneRadiusCm</td>
+<td>Neighborhood used for competing point bounds.</td>
+</tr>
+<tr>
+<td>FavorClearings</td>
+<td>Chooses the complementary spatial preference used by a layer.</td>
+</tr>
+</tbody></table>
+<h2>1. Brief — 3 minutes</h2>
+<p>Find the winding path and a clearing. Predict which vegetation should change if the clearing moves. Identify the requirement that the walking corridor remains clear.</p>
+<h2>2. Change and compare — 10 minutes</h2>
+<ol>
+<li>Keep <code>PCG_Scrub</code> at seed <strong>41</strong>. Change <strong>KeepFraction</strong> from <strong>0.78 to 0.50</strong>, Generate and compare. Keep the other layers unchanged.</li>
+<li>Move one <code>Habitat_Clearing</code> input about <strong>3500 cm (35 m)</strong> sideways. Generate the affected layers. Explain the empty region using the closed spline, not a lucky seed.</li>
+<li>Inspect a path bend from near the ground. Check the final mesh footprint as well as the point centre, and check that objects contact the terrain.</li>
+</ol>
+<h2>3. Partner test — 4 minutes</h2>
+<p>Swap roles. Reset the moved clearing. On Scrub, change <strong>AssetSet</strong> to the supplied <strong>DT_JuniperOnly</strong> table and regenerate. This compatible collection contains three juniper forms. Explain why a collection change should leave the tree and rock layers stable.</p>
+<p>Open a variation map to compare a different density or spline layout. The region maps add forest and snow asset/material profiles using the same placement system. Arbitrary new assets may require different scale limits and reservation margins.</p>
+<h2>4. Handoff — 3 minutes</h2>
+<p>Reset local overrides and restore the clearing; regenerate the baseline. Tell your partner the purpose, a required input, the control you changed, expected behavior and one limitation.</p>
+<p>The final count depends on multiple filters and pruning. KeepFraction is not an exact fraction of the final mesh count. A seed alone does not guarantee identical results after changes to the graph, assets or engine.</p>
+<h2>Optional: building rules</h2>
+<p>Open the building examples from the museum menu. On Lodge, compare <strong>Cells</strong> <code>(3,4,2)</code> and <code>(5,2,3)</code>. X/Y count bays and Z counts floors. Restore the baseline, switch compatible FacadeSet tables, and rotate the actor. Predict which topology should remain stable when only the facade profile changes.</p>
+<p>Broader procedural level design also includes room connectivity, encounter budgets and gameplay reachability. These are useful future constraints, not implemented systems in this trail exercise. An environment generator should respond to gameplay requirements as well as visual preferences.</p>
+</main><footer>Prof. Anthony Monteagudo · Technical Art · UE 5.7</footer></html>
