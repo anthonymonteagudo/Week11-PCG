@@ -1,0 +1,187 @@
+{
+  "status": "PASS",
+  "error": null,
+  "project": "Unreal/Week11PCGTrail",
+  "private_helper_loaded": false,
+  "cases": [
+    {
+      "case": "Baseline",
+      "counts": {
+        "SM_Rock": 4,
+        "SM_Oak_Hero_Forest": 2
+      },
+      "positions": {
+        "SM_Rock": [
+          [
+            -4020.0,
+            2300.0,
+            140.98
+          ],
+          [
+            -3980.0,
+            1400.0,
+            88.46
+          ],
+          [
+            -3200.0,
+            1170.0,
+            60.03
+          ],
+          [
+            -2420.0,
+            1470.0,
+            150.34
+          ]
+        ],
+        "SM_Oak_Hero_Forest": [
+          [
+            -3500.0,
+            1700.0,
+            111.58
+          ],
+          [
+            -2850.0,
+            2050.0,
+            180.97
+          ]
+        ]
+      }
+    },
+    {
+      "case": "Bypass Difference",
+      "counts": {
+        "SM_Rock": 6,
+        "SM_Oak_Hero_Forest": 2
+      },
+      "positions": {
+        "SM_Rock": [
+          [
+            -4020.0,
+            2300.0,
+            140.98
+          ],
+          [
+            -3980.0,
+            1400.0,
+            88.46
+          ],
+          [
+            -3500.0,
+            1700.0,
+            111.58
+          ],
+          [
+            -3200.0,
+            1170.0,
+            60.03
+          ],
+          [
+            -2850.0,
+            2050.0,
+            180.97
+          ],
+          [
+            -2420.0,
+            1470.0,
+            150.34
+          ]
+        ],
+        "SM_Oak_Hero_Forest": [
+          [
+            -3500.0,
+            1700.0,
+            111.58
+          ],
+          [
+            -2850.0,
+            2050.0,
+            180.97
+          ]
+        ]
+      }
+    },
+    {
+      "case": "Restore",
+      "counts": {
+        "SM_Rock": 4,
+        "SM_Oak_Hero_Forest": 2
+      },
+      "positions": {
+        "SM_Rock": [
+          [
+            -4020.0,
+            2300.0,
+            140.98
+          ],
+          [
+            -3980.0,
+            1400.0,
+            88.46
+          ],
+          [
+            -3200.0,
+            1170.0,
+            60.03
+          ],
+          [
+            -2420.0,
+            1470.0,
+            150.34
+          ]
+        ],
+        "SM_Oak_Hero_Forest": [
+          [
+            -3500.0,
+            1700.0,
+            111.58
+          ],
+          [
+            -2850.0,
+            2050.0,
+            180.97
+          ]
+        ]
+      }
+    }
+  ],
+  "dependency_closure": [
+    "/Game/Environment/Bark_Base_Color",
+    "/Game/Environment/Bark_Base_Normal",
+    "/Game/Environment/Oak_English_Cluster_Branch_Color",
+    "/Game/Environment/Oak_English_Cluster_Branch_Normal",
+    "/Game/Environment/Oak_English_Cluster_Leaf_Summer_Color",
+    "/Game/Environment/Oak_English_Cluster_Leaf_Summer_Normal",
+    "/Game/Environment/Oak_Hero_Forest_Color",
+    "/Game/Environment/Oak_Hero_Forest_Normal",
+    "/Game/Northwood/EpicContent/Materials/M_Rock",
+    "/Game/Northwood/EpicContent/Meshes/SM_Rock",
+    "/Game/Northwood/EpicContent/Textures/T_Detail_Rocky_N",
+    "/Game/Northwood/EpicContent/Textures/T_RockMesh_M",
+    "/Game/Northwood/EpicContent/Textures/T_RockMesh_N",
+    "/Game/Northwood/EpicContent/Textures/T_Rock_Basalt_D",
+    "/Game/Northwood/Textures/Landscape/TX_Dirt_01a_ALB",
+    "/Game/Northwood/Textures/Landscape/TX_Dirt_01a_NRM",
+    "/Game/Northwood/Textures/Landscape/TX_Rocks_01a_ALB",
+    "/Game/Trail/Blueprints/BP_HabitatRegion",
+    "/Game/Trail/Blueprints/Reserve_Rocks",
+    "/Game/Trail/Blueprints/Reserve_Scrub",
+    "/Game/Trail/Blueprints/Reserve_Trees",
+    "/Game/Trail/Environment/SM_TrailTerrain",
+    "/Game/Trail/Presentation/MI_Mountains_Forest",
+    "/Game/Trail/Presentation/M_MountainBackdrop",
+    "/Game/Trail/Presentation/M_PhotographicSky",
+    "/Game/Trail/Presentation/SM_MountainBackdrop",
+    "/Game/Trail/Presentation/T_CloudSky_CC0",
+    "/Game/Trail/Regions/Materials/M_Bark_Base_Forest",
+    "/Game/Trail/Regions/Materials/M_Ground_Forest",
+    "/Game/Trail/Regions/Materials/M_Oak_English_Cluster_Branch_Forest",
+    "/Game/Trail/Regions/Materials/M_Oak_English_Cluster_Leaf_Summer_Forest",
+    "/Game/Trail/Regions/Materials/M_Oak_Hero_Forest_Forest",
+    "/Game/Trail/Regions/Meshes/SM_Oak_Hero_Forest",
+    "/Game/Trail/Teaching/Graphs/PCG_PopulationExclusion",
+    "/Game/Trail/Teaching/Maps/Population_Examples",
+    "/Game/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_D",
+    "/Game/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_N"
+  ],
+  "missing_packages": []
+}

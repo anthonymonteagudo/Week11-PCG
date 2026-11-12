@@ -98,7 +98,7 @@
   "scope": "Fresh GitHub checkout on this Windows machine with UE 5.7.4 preinstalled. No second physical machine claim.",
   "native_manifest_sha256": "d37c6c016ba452a87031f06158ab7c6b08005f72610e7ab2f0927f9237fea12e",
   "native_test_commit": "acaf118",
-  "reader_state_version": 117,
+  "reader_state_version": 120,
   "native_manifest_sha256_note": "Hash of the instructor working manifest text; native package hashes are the cross-platform identity check.",
   "current_repository_checks": {
     "native_packages": 275,
@@ -115,5 +115,7 @@
     "baseline_signature_restore": "PASS"
   },
   "slide_theme": "Ion Forest",
-  "slide_powerpoint_open_render": "PASS, 49 slides, zero text-bound overflow flags"
+  "slide_powerpoint_open_render": "PASS, 49 slides, zero text-bound overflow flags",
+  "population_example": "PASS, baseline 4 rocks, bypass 6, exact restore; no private authoring plugin; dependency closure complete",
+  "root_map_count": 22
 }

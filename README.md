@@ -5,10 +5,10 @@ Open a prepared Unreal project, inspect small PCG examples, then adapt one reusa
 ## Open the project
 
 1. Install **Unreal Engine 5.7** through Epic Games Launcher. This kit was tested in **5.7.4 on Windows**.
-2. Clone this private repository, or extract the complete student ZIP to a short local path such as `C:\UnrealProjects\Week11-PCG`.
+2. Clone this repository, or extract the complete student ZIP to a short local path such as `C:\UnrealProjects\Week11-PCG`.
 3. Open [Week11PCGTrail.uproject](Unreal/Week11PCGTrail/Week11PCGTrail.uproject). Let first-use shaders finish compiling.
 
-The required assets and native graphs are included. No Fab download, asset migration, Python installation, C++ build, custom plugin installation or setup script is needed. The project enables the bundled Unreal PCG and editor Python plugins itself. Unreal and access to this private repository are prerequisites, not bundled software.
+The required assets and native graphs are included. No Fab download, asset migration, Python installation, C++ build, custom plugin installation or setup script is needed. The project enables the bundled Unreal PCG and editor Python plugins itself. Unreal and access to this repository are prerequisites, not bundled software.
 
 The project opens **PCG_Museum**. Its PCG examples generate automatically. Use **Tools > Week 11 PCG Museum** to focus a station, open its graph, or switch to the full trail and building examples.
 
@@ -19,6 +19,7 @@ For updates, close Unreal, keep your own edits committed or backed up, then run 
 ## Choose a route
 
 - **Spline examples:** use the museum menu to open `Spline_Examples`. One native graph places posts along an open spline and scatters shrubs inside a closed region. Select its PCG actor and Generate after editing the input curves.
+- **Population exclusion:** open the matching museum-menu example. Toggle the Difference node to compare six proposed rocks with four survivors, then move an accepted tree point and regenerate.
 - **Museum:** seven focused demonstrations below. Predict the result before changing one control.
 - **Optional practice:** [Student-Lab.md](Student-Lab.md), a short parameter experiment in `Trail_Student`.
 - **Variations:** maps under `Content/Trail/Variations/Maps` compare density, seed and spline layout using shared assets and graphs.
@@ -46,7 +47,7 @@ The lecture includes an attributed custom-node reference that selects a fixed nu
 
 ## What is included
 
-Twenty-one example maps, native editable graphs and graph instances, weighted mesh tables, photoreal assets, textured rolling terrain, a reserved trail, sky and presentation lighting. The terrain is an authored static-mesh heightfield with collision, rather than an Unreal Landscape.
+Twenty-two example maps, native editable graphs and graph instances, weighted mesh tables, photoreal assets, textured rolling terrain, a reserved trail, sky and presentation lighting. The terrain is an authored static-mesh heightfield with collision, rather than an Unreal Landscape.
 
 The student texture sources are capped at 2048 pixels; distant foliage impostors are capped at 1024. The project is approximately 569 MiB before local caches. Opening Unreal generates additional cache data. Those files are excluded from Git.
 
@@ -60,4 +61,4 @@ This is an **editor demonstration**. Bounds-based point pruning is not full mesh
 - Restore the full checkout or re-extract the complete ZIP if assets are missing. Avoid merging this kit into an unrelated project with conflicting package paths.
 - If Unreal asks to convert the project, check the installed version. Use 5.7.4 for the tested result; first duplicate the project before experimenting with another engine release.
 
-See [SOURCES.md](SOURCES.md) for asset and learning references. Third-party assets retain their licenses. Keep this repository and its complete asset-containing ZIP private; access does not grant public redistribution rights.
+See [SOURCES.md](SOURCES.md) for asset and learning references. Third-party assets retain their licenses. Repository access does not grant a new license to the bundled third-party assets. See their source terms.

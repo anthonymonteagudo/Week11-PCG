@@ -3,16 +3,17 @@
 <h2>Open the project</h2>
 <ol>
 <li>Install <strong>Unreal Engine 5.7</strong> through Epic Games Launcher. This kit was tested in <strong>5.7.4 on Windows</strong>.</li>
-<li>Clone this private repository, or extract the complete student ZIP to a short local path such as <code>C:\UnrealProjects\Week11-PCG</code>.</li>
+<li>Clone this repository, or extract the complete student ZIP to a short local path such as <code>C:\UnrealProjects\Week11-PCG</code>.</li>
 <li>Open <a href="Unreal/Week11PCGTrail/Week11PCGTrail.uproject">Week11PCGTrail.uproject</a>. Let first-use shaders finish compiling.</li>
 </ol>
-<p>The required assets and native graphs are included. No Fab download, asset migration, Python installation, C++ build, custom plugin installation or setup script is needed. The project enables the bundled Unreal PCG and editor Python plugins itself. Unreal and access to this private repository are prerequisites, not bundled software.</p>
+<p>The required assets and native graphs are included. No Fab download, asset migration, Python installation, C++ build, custom plugin installation or setup script is needed. The project enables the bundled Unreal PCG and editor Python plugins itself. Unreal and access to this repository are prerequisites, not bundled software.</p>
 <p>The project opens <strong>PCG_Museum</strong>. Its PCG examples generate automatically. Use <strong>Tools &gt; Week 11 PCG Museum</strong> to focus a station, open its graph, or switch to the full trail and building examples.</p>
 <p>For updates, close Unreal, keep your own edits committed or backed up, then run <code>git pull --ff-only</code>. Do your experiments in a duplicate map or on a personal branch.</p>
 <p><img src="Media/Regions.png" alt="Forest profile of the reusable PCG system"></p>
 <h2>Choose a route</h2>
 <ul>
 <li><strong>Spline examples:</strong> use the museum menu to open <code>Spline_Examples</code>. One native graph places posts along an open spline and scatters shrubs inside a closed region. Select its PCG actor and Generate after editing the input curves.</li>
+<li><strong>Population exclusion:</strong> open the matching museum-menu example. Toggle Difference to compare six proposed rocks with four survivors. Move an accepted tree point, regenerate, then restore it.</li>
 <li><strong>Museum:</strong> seven focused demonstrations below. Predict the result before changing one control.</li>
 <li><strong>Optional practice:</strong> <a href="Student-Lab.html">Student-Lab.md</a>, a short parameter experiment in <code>Trail_Student</code>.</li>
 <li><strong>Variations:</strong> maps under <code>Content/Trail/Variations/Maps</code> compare density, seed and spline layout using shared assets and graphs.</li>
@@ -67,7 +68,7 @@
 </tbody></table>
 <p>Select a station&#39;s PCG actor, open its graph with the menu, inspect the numbered stage, and regenerate after editing. Reset your edit before comparing another case. Station 05 uses a short teaching graph; the full trail uses the larger shared biome graph. Station 07 is optional architectural depth.</p>
 <h2>Optional Blueprint extension</h2><p>The lecture includes an attributed custom-node reference that selects a fixed number of points. The student project uses the bundled native graphs. No course Blueprint is required.</p><h2>What is included</h2>
-<p>Twenty-one example maps, native editable graphs and graph instances, weighted mesh tables, photoreal assets, textured rolling terrain, a reserved trail, sky and presentation lighting. The terrain is an authored static-mesh heightfield with collision, rather than an Unreal Landscape.</p>
+<p>Twenty-two example maps, native editable graphs and graph instances, weighted mesh tables, photoreal assets, textured rolling terrain, a reserved trail, sky and presentation lighting. The terrain is an authored static-mesh heightfield with collision, rather than an Unreal Landscape.</p>
 <p>The student texture sources are capped at 2048 pixels; distant foliage impostors are capped at 1024. The project is approximately 569 MiB before local caches. Opening Unreal generates additional cache data. Those files are excluded from Git.</p>
 <p>This is an <strong>editor demonstration</strong>. Bounds-based point pruning is not full mesh collision. A clear visual trail does not prove navigation or runtime generation works. Building outputs currently use rectangular footprints and a flat platform roof. Houdini is an optional instructor topic and is not required by this project.</p>
 <h2>If something looks wrong</h2>
@@ -78,5 +79,5 @@
 <li>Restore the full checkout or re-extract the complete ZIP if assets are missing. Avoid merging this kit into an unrelated project with conflicting package paths.</li>
 <li>If Unreal asks to convert the project, check the installed version. Use 5.7.4 for the tested result; first duplicate the project before experimenting with another engine release.</li>
 </ul>
-<p>See <a href="Sources.html">SOURCES.md</a> for asset and learning references. Third-party assets retain their licenses. Keep this repository and its complete asset-containing ZIP private; access does not grant public redistribution rights.</p>
+<p>See <a href="Sources.html">SOURCES.md</a> for asset and learning references. Third-party assets retain their licenses. Repository access does not grant a new license to the bundled third-party assets. See their source terms.</p>
 </main><footer>Prof. Anthony Monteagudo · Technical Art · UE 5.7</footer></html>

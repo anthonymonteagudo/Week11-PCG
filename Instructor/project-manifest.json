@@ -1,7 +1,7 @@
 {
   "status": "STAGED_COMPLETE",
   "engine": "5.7.4-51494982+++UE5+Release-5.7",
-  "private_repository_required": true,
+  "private_repository_required": false,
   "root_maps": [
     "/Game/Trail/Maps/Trail_Student",
     "/Game/Trail/Maps/Biome_OpenDesert",
@@ -23,9 +23,10 @@
     "/Game/Trail/Variations/Maps/Variation_Snow_Dense",
     "/Game/Trail/Building/Maps/Building_Examples",
     "/Game/Trail/Museum/Maps/PCG_Museum",
-    "/Game/Trail/Teaching/Maps/Spline_Examples"
+    "/Game/Trail/Teaching/Maps/Spline_Examples",
+    "/Game/Trail/Teaching/Maps/Population_Examples"
   ],
-  "reachable_project_packages": 275,
+  "reachable_project_packages": 277,
   "files": [
     {
       "file": "Content/Environment/Bark_2_Color.uasset",
@@ -1552,6 +1553,28 @@
       "instructor_source_sha256": "7d77b1f3994dc4883e50f8d783fddaaaf88241256fe5cd79dd7360b7e076490d"
     },
     {
+      "file": "Content/Trail/Teaching/Graphs/PCG_PopulationExclusion.uasset",
+      "bytes": 89312,
+      "sha256": "e13245bdb8224cfce01f0ccf109e85a60039b86d98048a007574a472f66b89b4",
+      "instructor_source_sha256": "e13245bdb8224cfce01f0ccf109e85a60039b86d98048a007574a472f66b89b4"
+    },
+    {
+      "file": "Content/Trail/Teaching/Graphs/PCG_SplineExamples.uasset",
+      "bytes": 363465,
+      "sha256": "c95b267bd20903cfd5c8fba8ff0f429bcd41aff5acc099bec0654c9f200a3136"
+    },
+    {
+      "file": "Content/Trail/Teaching/Maps/Population_Examples.umap",
+      "bytes": 980941,
+      "sha256": "47511597f7fbc6830fad3e329ac2508f8034c9ec0a25b1c4fa56a76bda511f54",
+      "instructor_source_sha256": "47511597f7fbc6830fad3e329ac2508f8034c9ec0a25b1c4fa56a76bda511f54"
+    },
+    {
+      "file": "Content/Trail/Teaching/Maps/Spline_Examples.umap",
+      "bytes": 136073,
+      "sha256": "b0f6ab3bb77cd5a22bbc42628ed13c4066071c2276082d232c3f8a32671c6e7b"
+    },
+    {
       "file": "Content/Trail/Variations/Maps/Variation_Desert_Base.umap",
       "bytes": 1167142,
       "sha256": "6b7702a9b5e3f67141302e1ab817acfbf985535cb81a06b60d5be3517d290f92",
@@ -1664,16 +1687,6 @@
       "bytes": 5008869,
       "sha256": "6e31c5ff232c435445097e9b2a4813937c29d3a7d63635773e9d67aa7e879c1c",
       "instructor_source_sha256": "d7ba3439a89ad1a445640fb4675228dc062cc82b4270b0a29e7291b433d68557"
-    },
-    {
-      "file": "Content/Trail/Teaching/Graphs/PCG_SplineExamples.uasset",
-      "bytes": 363465,
-      "sha256": "c95b267bd20903cfd5c8fba8ff0f429bcd41aff5acc099bec0654c9f200a3136"
-    },
-    {
-      "file": "Content/Trail/Teaching/Maps/Spline_Examples.umap",
-      "bytes": 136073,
-      "sha256": "b0f6ab3bb77cd5a22bbc42628ed13c4066071c2276082d232c3f8a32671c6e7b"
     }
   ],
   "missing_packages": [],
@@ -1689,10 +1702,11 @@
   ],
   "source_content_attribution": "Original class graphs and teaching content; Fab/source assets retain their licenses. Source resources are documented separately.",
   "teaching_texture_limit": 2048,
-  "student_content_bytes": 596800091,
+  "student_content_bytes": 597870344,
   "texture_policy": {
     "close_view_maximum_dimension": 2048,
     "distant_impostor_maximum_dimension": 1024,
     "instructor_originals_unchanged": true
-  }
+  },
+  "distribution_notice": "Third-party assets retain their original licenses; repository visibility does not relicense them."
 }
