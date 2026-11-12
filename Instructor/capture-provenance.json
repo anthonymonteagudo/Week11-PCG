@@ -49,7 +49,7 @@
   },
   {
     "name": "Museum-04",
-    "source": "Week11PCGTrail\\Validation\\MuseumDeliverySM6\\Museum-04.png",
+    "source": "Week11PCGTrail\\Validation\\SlopeStationComparison\\Slope-baseline.png",
     "delivery": "Museum-04.jpg",
     "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
   },
@@ -105,6 +105,18 @@
     "name": "Overlap-after",
     "source": "Week11PCGTrail\\Validation\\TeachingPairsSM6\\Overlap-after.png",
     "delivery": "Overlap-after.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Slope-baseline",
+    "source": "Week11PCGTrail\\Validation\\SlopeStationComparison\\Slope-baseline.png",
+    "delivery": "Slope-baseline.jpg",
+    "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
+  },
+  {
+    "name": "Slope-strict",
+    "source": "Week11PCGTrail\\Validation\\SlopeStationComparison\\Slope-strict.png",
+    "delivery": "Slope-strict.jpg",
     "operation": "JPEG encode at quality 94, no crop or scene changes. Full native PNG retained in instructor validation."
   },
   {

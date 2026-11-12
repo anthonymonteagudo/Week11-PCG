@@ -334,20 +334,20 @@
     },
     {
       "file": "Content/Northwood/DekogonContent/Materials/Masters/MM_Foliage_Master_01a.uasset",
-      "bytes": 193957,
-      "sha256": "a364de329377f7f654d8e1afe97c4beb7aab6f023e5587959ed95c63a5e006c9",
+      "bytes": 181230,
+      "sha256": "45b4d60773e5fb3362e3f6a923bb75b10d8c211bc63c8c50e6d4e79138fd6f3a",
       "instructor_source_sha256": "a364de329377f7f654d8e1afe97c4beb7aab6f023e5587959ed95c63a5e006c9"
     },
     {
       "file": "Content/Northwood/DekogonContent/Materials/Masters/MM_Impostor_SimpleOffset.uasset",
-      "bytes": 134730,
-      "sha256": "fd2cb13bc706783d2c53231c0bd306cdc80ec27b18c01228ab53e7b5fc99b905",
+      "bytes": 106333,
+      "sha256": "c9b75123a54f92d17215552a263a7c1d947be1cb5523627c474c5f341868684b",
       "instructor_source_sha256": "fd2cb13bc706783d2c53231c0bd306cdc80ec27b18c01228ab53e7b5fc99b905"
     },
     {
       "file": "Content/Northwood/DekogonContent/Materials/Masters/Masters/MM_Master_Foliage_01a.uasset",
-      "bytes": 166344,
-      "sha256": "2e14779f27ceab43e97436cdd4eb4d4c627897308849e18f4022a09790be3a79",
+      "bytes": 155329,
+      "sha256": "e6926ee64bbbc2be7a04c2d2a07a8f47f2408dd2adb3bbdbe766d76fbd91f072",
       "instructor_source_sha256": "2e14779f27ceab43e97436cdd4eb4d4c627897308849e18f4022a09790be3a79"
     },
     {
@@ -730,8 +730,8 @@
     },
     {
       "file": "Content/Northwood/EpicContent/Materials/M_Rock.uasset",
-      "bytes": 130548,
-      "sha256": "356d67fc3be73ec7a39459f0bce947baef370b77234352230db7d25395b67426",
+      "bytes": 131529,
+      "sha256": "8d897461dae3237b4162cdafeec3dc6a05be1274c9efd75346eeca3e8fa62184",
       "instructor_source_sha256": "356d67fc3be73ec7a39459f0bce947baef370b77234352230db7d25395b67426"
     },
     {
@@ -1162,8 +1162,8 @@
     },
     {
       "file": "Content/Trail/Building/M_BuildingGround.uasset",
-      "bytes": 11800,
-      "sha256": "2f012f253914e0afdb071fa0d94b735288859d50095edc3cc9ff1d0a18aca37b",
+      "bytes": 11864,
+      "sha256": "3b2e2a321fcdf1553c67a8eb4d3c306590c257e4efa4b162c2791a78a5a4b2aa",
       "instructor_source_sha256": "2f012f253914e0afdb071fa0d94b735288859d50095edc3cc9ff1d0a18aca37b"
     },
     {
@@ -1234,8 +1234,8 @@
     },
     {
       "file": "Content/Trail/Materials/M_TrailTerrain.uasset",
-      "bytes": 44771,
-      "sha256": "f355e3ecb021d42d420aa44a67fb8f6ce6e433def72d18491ef4d9e354c6eeff",
+      "bytes": 44835,
+      "sha256": "3a18519b5a7d9725ee2072d5343e1f03825a32c85bca47ec23d12686f7196be7",
       "instructor_source_sha256": "f355e3ecb021d42d420aa44a67fb8f6ce6e433def72d18491ef4d9e354c6eeff"
     },
     {
@@ -1259,7 +1259,7 @@
     {
       "file": "Content/Trail/Museum/Graphs/PCG_M04_SurfaceSuitability.uasset",
       "bytes": 150154,
-      "sha256": "b1b8732460109632331a15c7bdf419f4407f682b7c3ad1f2bb4462bb5ac6a7d1",
+      "sha256": "36fb2b4c47bb346de675f1e4d806ade04be6b356440c14a51b45e1a4e7008abb",
       "instructor_source_sha256": "5ff17ea2cc93d768ccc5150a5e61f59ecc8ada50c3738474e92ad8c31f4544c8"
     },
     {
@@ -1294,20 +1294,20 @@
     },
     {
       "file": "Content/Trail/Museum/Maps/PCG_Museum.umap",
-      "bytes": 316049,
-      "sha256": "86e5c3853b47831d25dbc421fad91b6d9e58159f7c6c6c5e64e565ec44c68710",
+      "bytes": 321478,
+      "sha256": "74b01435a703e84846a8e835a11bec41169652f25f08fa7c52c763f31125fccc",
       "instructor_source_sha256": "11294a335a29ecb3c64c5190d01b2b141cd1a8f969d1b2fa8c929bd10759dadf"
     },
     {
       "file": "Content/Trail/Museum/Materials/M_MuseumBoard.uasset",
-      "bytes": 8577,
-      "sha256": "8c0cf7c822664558b2cec515379b98fc849f52b6674ef94fbda102beb4988887",
+      "bytes": 8641,
+      "sha256": "6d9886ecd26f15f986729ec11df1bdc45e00fb4fd049ea181d952559e636a864",
       "instructor_source_sha256": "8c0cf7c822664558b2cec515379b98fc849f52b6674ef94fbda102beb4988887"
     },
     {
       "file": "Content/Trail/Museum/Materials/M_MuseumExclusion.uasset",
-      "bytes": 9249,
-      "sha256": "77bf10ea7a04ee8f4d417d23de275b5e249dc39d22358fadf3b6eafefe9bb630",
+      "bytes": 9313,
+      "sha256": "5b593531388eebb0ce910f2b3bb8cc2c0778fc16d72588e080e562e1effb7367",
       "instructor_source_sha256": "77bf10ea7a04ee8f4d417d23de275b5e249dc39d22358fadf3b6eafefe9bb630"
     },
     {
@@ -1318,8 +1318,8 @@
     },
     {
       "file": "Content/Trail/Museum/Materials/M_MuseumSlate.uasset",
-      "bytes": 8332,
-      "sha256": "0554a2133a60de504a6255505e311d8b98fab814333833f6a46ed613751cb53b",
+      "bytes": 8396,
+      "sha256": "802aa15fb40d0080a807824104838a2685c6246ef1359386cff5aa84aa3b47d5",
       "instructor_source_sha256": "0554a2133a60de504a6255505e311d8b98fab814333833f6a46ed613751cb53b"
     },
     {
@@ -1342,14 +1342,14 @@
     },
     {
       "file": "Content/Trail/Presentation/M_MountainBackdrop.uasset",
-      "bytes": 20379,
-      "sha256": "21c871a5bb6daacdcfdebb8f13dc9b42b48d142c9dc6376dd8d24c5b196adbf3",
+      "bytes": 20443,
+      "sha256": "8353fe9f421a4a3d6efd9dd22d6815d7fcf55053c95cd6d0a903895edf08f06f",
       "instructor_source_sha256": "21c871a5bb6daacdcfdebb8f13dc9b42b48d142c9dc6376dd8d24c5b196adbf3"
     },
     {
       "file": "Content/Trail/Presentation/M_PhotographicSky.uasset",
-      "bytes": 10038,
-      "sha256": "9fa7c0794d27bbfa0b779b4889d7d2ba0f1d4e4d50f34f4f148ac1c9b854ac80",
+      "bytes": 10102,
+      "sha256": "a2d46fee8b4c96402de120f09f9d145ad3a28e961fe1eac290db36e3cc72c04a",
       "instructor_source_sha256": "9fa7c0794d27bbfa0b779b4889d7d2ba0f1d4e4d50f34f4f148ac1c9b854ac80"
     },
     {
@@ -1468,14 +1468,14 @@
     },
     {
       "file": "Content/Trail/Regions/Materials/M_Ground_Forest.uasset",
-      "bytes": 34341,
-      "sha256": "e626f497be53b36ab89a414aa2a1bc8f68443b7b6dfd31b3fda2bfed9221aa84",
+      "bytes": 34405,
+      "sha256": "b09fd19bc390efb7fd46deceadc6be1ec583d2f39e16de9f6072ebaabec46f49",
       "instructor_source_sha256": "e626f497be53b36ab89a414aa2a1bc8f68443b7b6dfd31b3fda2bfed9221aa84"
     },
     {
       "file": "Content/Trail/Regions/Materials/M_Ground_Snow.uasset",
-      "bytes": 35381,
-      "sha256": "8eef0bc9ff30a9bb022ab4139b18afcc1e723994c9b09c4725d8ef1b271caf2d",
+      "bytes": 35445,
+      "sha256": "cff920b8f2a467f2f25a0b75631e5d33e27372beb85d565de8321ac1888ed38b",
       "instructor_source_sha256": "8eef0bc9ff30a9bb022ab4139b18afcc1e723994c9b09c4725d8ef1b271caf2d"
     },
     {
@@ -1678,7 +1678,7 @@
   ],
   "source_content_attribution": "Original class graphs and teaching content; Fab/source assets retain their licenses. Source resources are documented separately.",
   "teaching_texture_limit": 2048,
-  "student_content_bytes": 596340191,
+  "student_content_bytes": 596295038,
   "texture_policy": {
     "close_view_maximum_dimension": 2048,
     "distant_impostor_maximum_dimension": 1024,
