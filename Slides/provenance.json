@@ -11,5 +11,15 @@
     42,
     43
   ],
-  "remaining": "Whole-course recording linked in notes; expanded real-scene distribution comparison deferred for deadline."
+  "remaining": "Whole-course recording linked in notes; expanded real-scene distribution comparison deferred for deadline.",
+  "powerpoint_validation": {
+    "method": "Fresh export from native source, hide appendix through PowerPoint, native SaveAs, close and reopen exact saved file",
+    "slides": 52,
+    "hidden": 5,
+    "gif_assets": 6,
+    "rendered_slide_pixel_differences": 0,
+    "msxml6_validation": "PASS",
+    "root_cause": "Post-validation XML rewrite used encoding utf8, rejected by Microsoft XML parser. Removed XML rewrite."
+  },
+  "pptx_sha256": "85f0ae428b720fcab23106a7c90be88a247810d1e36fec4ac9ca45cb629baafc"
 }
