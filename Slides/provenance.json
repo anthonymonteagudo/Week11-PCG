@@ -1,5 +1,5 @@
 {
-  "native_state_version": 94,
+  "native_state_version": 98,
   "slides": [
     {
       "slide": 1,
@@ -34,8 +34,8 @@
     {
       "slide": 6,
       "native_slide_id": "sl/wgrynr",
-      "source_native_png_sha256": "df4d9e302f817a6defa14eb9dedabec638aa0266dd36784b14d7a350fd47024d",
-      "reader_lossless_webp_sha256": "ae66ae53090c690f43b682acb65de9fa227996da2a019a689e9c392cc40ddcf2"
+      "source_native_png_sha256": "516032871513cc7b318a7778c20c1b061bd25b8a84811519959623a6c3914da9",
+      "reader_lossless_webp_sha256": "fb27b1f6ed6f90c5f7af8158049e6c7c4be41825aebb90231724d62ea072dbbf"
     },
     {
       "slide": 7,
@@ -52,14 +52,14 @@
     {
       "slide": 9,
       "native_slide_id": "sl/7bauxu",
-      "source_native_png_sha256": "892ff0cd9cf00d35256862824c95be6fe5db28f6da85c819ed7d9aa708338106",
-      "reader_lossless_webp_sha256": "2c9fa3be25841a565b619acf8f7fb1d822c86c4686f9020871ae134825d88fda"
+      "source_native_png_sha256": "c6f94794b30822e4825e31414cdfe369158fa1a2ea7e2e4a725083bc8f94df41",
+      "reader_lossless_webp_sha256": "ff2e2befea060e6eede52662040cc8b619124e3a16affaae7c8d8a5bb4ae046d"
     },
     {
       "slide": 10,
       "native_slide_id": "sl/kbukgo",
-      "source_native_png_sha256": "7e7b5bd02ea1804d9ee3b9f22ba609f43a0f6ed6c723ab3536400437698452a3",
-      "reader_lossless_webp_sha256": "fb0a733dd1346424caa3504383cfa769ad52e8bdc89a489f0bf560da1fd02076"
+      "source_native_png_sha256": "b004f2a50692965043f4dde8f673f648bf571c5b083e47990e2f5945139cea73",
+      "reader_lossless_webp_sha256": "7ca07b2bbea8a47ab1541ebfc99b0424129a55b7e916dfc41ca0133cf8125c62"
     },
     {
       "slide": 11,
@@ -70,20 +70,20 @@
     {
       "slide": 12,
       "native_slide_id": "sl/8ecvwp",
-      "source_native_png_sha256": "3497526fcd8b2047ab7f84e77d1ce081e1e3e72af97dd0cb176a685373c519cf",
-      "reader_lossless_webp_sha256": "1219c169be72211313947807499e61fbad79ea7c7278913480fb7e88dac05d9b"
+      "source_native_png_sha256": "e7060781c846732d2f5b0125eb3ebe6ee55ed03bbaa67e51377f13bb31987fa7",
+      "reader_lossless_webp_sha256": "e2fad9c768eb11ba87679aa7b013901218b8b7aeeee98a3ddffd3323481ca8e4"
     },
     {
       "slide": 13,
       "native_slide_id": "sl/rzrkqx",
-      "source_native_png_sha256": "d35388e142536cc2fda1e8946b06c3e686231efa8bf5b56ebad72919c2154a21",
-      "reader_lossless_webp_sha256": "3af02ffe735cae4a7e3baf7ef1bec042c5a1b3581e8cd457a36f5d34c5723abb"
+      "source_native_png_sha256": "f6a137dee311a2763793aefb4665a9a201d903d1f47d61ca586efb857580185e",
+      "reader_lossless_webp_sha256": "79b9b20197cce671362bb9f3cfbfc1ce6c5117f6c0ec99b7d7015e336c4ea0bb"
     },
     {
       "slide": 14,
       "native_slide_id": "sl/cbr4fm",
-      "source_native_png_sha256": "1df72ec0e000bbec219920c826225d05221b15dc2289027887701c0a64fa5318",
-      "reader_lossless_webp_sha256": "65024fc6c55923ea8cde32fa850ddc17254c666209260ec6aaa12646c3be7035"
+      "source_native_png_sha256": "494278b128b6b6ff6dfd3dd65848de45a948aa0a2ebc786d818263a7917d5efb",
+      "reader_lossless_webp_sha256": "1550020501124efef9ca00dcc3cb34df7419f145a5cef4e74cb34a7ab1ced1d7"
     },
     {
       "slide": 15,
@@ -112,20 +112,20 @@
     {
       "slide": 19,
       "native_slide_id": "sl/6l2yl3",
-      "source_native_png_sha256": "2d62001271297b4bfb4448bed682ae3a8b2d5697408b857ad282f4ad8c0f5620",
-      "reader_lossless_webp_sha256": "ef87a8f5fbc4a98870f7f11c513cdda238d2d3ada685d7a2fc78560cb8c906f6"
+      "source_native_png_sha256": "7c5cae98f88f0e905854f0e0db60d9d436ebe9c80b05d6f69f29dab77f116303",
+      "reader_lossless_webp_sha256": "d0954ee57c91d09070e01d7bd29966b5c9175b978129efc966ada1ea157cb90e"
     },
     {
       "slide": 20,
       "native_slide_id": "sl/bsi9ti",
-      "source_native_png_sha256": "e738cd05c3bfa3765628b192435fb22e7661943622192a4d14ed24ee88383ce7",
-      "reader_lossless_webp_sha256": "023d4e83d1261872b85c15d49f615d0b12635f7171bab0aa4d5f12adf52d884c"
+      "source_native_png_sha256": "93197dd66ca2c92fd0076eb3bb083b655fb85dc41ff6cad85a8ea1339ddd3d50",
+      "reader_lossless_webp_sha256": "d281327c0c268af2321f623ee863616e3e166d2547d0852ea3d431fa29f171a0"
     },
     {
       "slide": 21,
       "native_slide_id": "sl/crsm2o",
-      "source_native_png_sha256": "69dfce8952150cfeb6e8c12d951a1703ccac69c8a1200a6aadce92a275cdd894",
-      "reader_lossless_webp_sha256": "64291a6cc38f7c493134b68e7154f2539f3b8d1389d052b1e6e364d90b6f26ec"
+      "source_native_png_sha256": "af0b2e2d3ed6e8297a7ffad602b20d4e058ca749cd1e0ba8f4f22600b0fdede4",
+      "reader_lossless_webp_sha256": "d0dbaf44cdbbde82483f18e14c7aa8dd31bf2e4beb61021ed78f939c0ddd1d90"
     },
     {
       "slide": 22,
@@ -136,8 +136,8 @@
     {
       "slide": 23,
       "native_slide_id": "sl/5g17ef",
-      "source_native_png_sha256": "6a984c04a93888712d9884697f8505a18f2915b6d67b5545b494c807fb34321b",
-      "reader_lossless_webp_sha256": "7a1e8d82ef7c9cf649d59bb5ddbdd1f115212141bc8fa3dab3e7df47a4968142"
+      "source_native_png_sha256": "3a90123f73127f396adaa8cf5c921f9e2ff9582dd1ff67d1db33c826dbaecb98",
+      "reader_lossless_webp_sha256": "e6ca11c411ef71d0c3cbb0d2f2b4895854884861f0d90c3b13fb2088047e6c53"
     },
     {
       "slide": 24,
@@ -148,20 +148,20 @@
     {
       "slide": 25,
       "native_slide_id": "sl/c07gjl",
-      "source_native_png_sha256": "a82ac671afa51cde691017338a759930dffd7835664aa09a577b283f1029e929",
-      "reader_lossless_webp_sha256": "5fe4e671388afe06fb575b6a8126f581925bb9ad0db8e03d8a352b88cd1e3348"
+      "source_native_png_sha256": "e3a9c9a66fe973dcd679da1d32a7acbb4b2b727d98a3257cfe90d80fe69fab63",
+      "reader_lossless_webp_sha256": "67307ca1cf16d9dcbd7aa2acda379e17d20a4b87e8eb456e3540faef6bdc47d4"
     },
     {
       "slide": 26,
       "native_slide_id": "sl/x6cv8u",
-      "source_native_png_sha256": "e4e02c4cf774b16cad02a0a083a4985f98ce9aa074c59b49813878f0a2d5aa34",
-      "reader_lossless_webp_sha256": "f8c8c048005ab328df2d1db4cd153187cdbbf3d80dfdd5ca59b633ca5038fc92"
+      "source_native_png_sha256": "9b1bb344e7dbcc720b18a9ab8de4a93f4fe006d1d8105cd9fd3c97a8590c1fde",
+      "reader_lossless_webp_sha256": "2e766a44b6eaf4c0ae6009efc34133ae7c1e9f8976a2399e8df16374c8db2e51"
     },
     {
       "slide": 27,
       "native_slide_id": "sl/4a2t1q",
-      "source_native_png_sha256": "0eb3f66c5165defcd0ae8fdf88d45916b71bff9b0c2e36a594a195d21a3f5777",
-      "reader_lossless_webp_sha256": "08fb0cba25410743e0a619ddfc193def33a0b78497af5c164a0ff46143dcc0ad"
+      "source_native_png_sha256": "38dbcd47ce1002309093c562d759e7fa7f9ad5b3e3d5041cf5db27aa3e4a8b0b",
+      "reader_lossless_webp_sha256": "c3fd9ac3be0e8bde4715df3bfae4ec172c3143a57203548d312f15abd3cefcf0"
     },
     {
       "slide": 28,
@@ -178,8 +178,8 @@
     {
       "slide": 30,
       "native_slide_id": "sl/eqpm2g",
-      "source_native_png_sha256": "853d5edbc52ba313de5893418aca18a8a375323963385739ebcd5a7b27072903",
-      "reader_lossless_webp_sha256": "8bf6e5478901700a6ff3129045b06ae6ac040415b863ea8104de038a129de29c"
+      "source_native_png_sha256": "ef0dcf99d357320a5ecf4c3694024e03cda1d6319ec62a8e8fb3d618faaaf60d",
+      "reader_lossless_webp_sha256": "82117272b0493bc3e16d2f1084059b252c1c343b290c1abcda240d20bd8c0953"
     },
     {
       "slide": 31,
@@ -196,50 +196,50 @@
     {
       "slide": 33,
       "native_slide_id": "sl/nthp57",
-      "source_native_png_sha256": "afa72cdccf880d482590c4787de09c446587acc153fda25fbccadd8d89f3b9a7",
-      "reader_lossless_webp_sha256": "8a3122d6b1c0aefb64e240777225199d7ab85b485c74f137f179e1a9188cd7a4"
+      "source_native_png_sha256": "540443881a070a0a941b33a152142593e43b4977d63dae1992408b386335e592",
+      "reader_lossless_webp_sha256": "d8bc7f0b9c05b9f9d236af95c496d77280be8d9e3a6ee0d0e1f6e750f382e823"
     },
     {
       "slide": 34,
       "native_slide_id": "sl/loep77",
-      "source_native_png_sha256": "75a3ed9f0c485010bb0a03dce5a1b2b1d5b6132e3d955f1d67c79a53ef7a57b6",
-      "reader_lossless_webp_sha256": "9c2a9110fadb8837a45b44da9bc6f4f5d3e31e35a68178703fdb38b836576957"
+      "source_native_png_sha256": "2c7a09205e062ef07a431c33846540de2bb67c33d9397293e6c964927314e410",
+      "reader_lossless_webp_sha256": "0db6a311890500485fe6e4c2cc8dbcfd376ba7624155197ef7623f9b8278bc95"
     },
     {
       "slide": 35,
       "native_slide_id": "sl/o1bddy",
-      "source_native_png_sha256": "1fbedb6abbe50e2f66b57742fca5276209da0d958d4139b8dc1d23dcea2ac847",
-      "reader_lossless_webp_sha256": "086c65dd68c50096e3bfa4bf20176bcf045d26506ffc07c2bee9be194c5784c5"
+      "source_native_png_sha256": "97d422889f8418cc02aaf440b56570a6394d04623e1aece0229566a6ef7aa2b0",
+      "reader_lossless_webp_sha256": "02c0b730774c286a655b78ee6eaaa032bf4ee552f5106851176d0314cd6eefc8"
     },
     {
       "slide": 36,
       "native_slide_id": "sl/05pmns",
-      "source_native_png_sha256": "e28b88095b068193a8409e427e71f6be1b89d894e9004b50b0f4d25318e80f13",
-      "reader_lossless_webp_sha256": "52e6c7360c22de3f0d016ed0620a4fbbbe7f13fc8e7e6849ade12d5718157e2b"
+      "source_native_png_sha256": "2f77e01da078bf1453d8b7c30b996a37d0e5b026f2eb1df9276e8c2745d3eebf",
+      "reader_lossless_webp_sha256": "4781828e573756b1cab12a5bb217318f831e5c60ae5e6117447298764ac36bdc"
     },
     {
       "slide": 37,
       "native_slide_id": "sl/7qapyf",
-      "source_native_png_sha256": "49696e9295a25cbd561f0dbdd85f4dc26f598cd4f04b28db82223fef85a20ec7",
-      "reader_lossless_webp_sha256": "f08296556a364bf02aae1b9a71e8d220d1b4fccf65ae9773e2da8a400a6e6630"
+      "source_native_png_sha256": "dfa414075c32dfd783f54a88fc097b74b9fcf3ca0751777c8389ac456473f9e4",
+      "reader_lossless_webp_sha256": "fe00ab04dd00e5c9267ff10d87ad47f791a98f8612706b1e257da10163b31d30"
     },
     {
       "slide": 38,
       "native_slide_id": "sl/jnh9ug",
-      "source_native_png_sha256": "7184af39b6938cc152b2090ca76b1e791039314b446b665de85918bcfbe14d65",
-      "reader_lossless_webp_sha256": "7ad639dd2ff2e6e2a72a0a9a2035498bd9d8f6a3888f7ff09ebd631023cf9d9a"
+      "source_native_png_sha256": "c2754d465f3a2afe1144807b582af1ecf01059d533158b29cc440d3de44563b4",
+      "reader_lossless_webp_sha256": "6faa9f55cecba8a04225d427fca104294190d4ebf516384b6bdff00d445ab5f3"
     },
     {
       "slide": 39,
       "native_slide_id": "sl/nhgtao",
-      "source_native_png_sha256": "769aee22af0a33b3656b0f11940a17d6d2caf61704a02ec61f5f4296ad03ac0e",
-      "reader_lossless_webp_sha256": "f171b7770a87c713dd89034649365086d46118edb016e55799e4b2bebfef66ab"
+      "source_native_png_sha256": "b238945c3b7fcc5d4a923fc383b557a8d64a5609ab1ab1ea8fd58ca2e44c6497",
+      "reader_lossless_webp_sha256": "d1938e7dae3550699a7e26422d7feaf3b97f49a47efd96c714bc8b0f77f3c7b3"
     },
     {
       "slide": 40,
       "native_slide_id": "sl/iijidx",
-      "source_native_png_sha256": "8d408cd397912733832708b64ba561b47431c927f9b71837d573479358ad43a9",
-      "reader_lossless_webp_sha256": "0d90c8a79a9744d756c1250e35dc7e7ded0bb8663c6c713277afdb19059b93f4"
+      "source_native_png_sha256": "c7e9d7eafa7e9ec203d0dfb7dfd8043f03a49fa35d33aff1757619edb282485b",
+      "reader_lossless_webp_sha256": "4323b0d63edff4bdb544759df6dac9dcad52f0df5c2976c799d31f08fd660994"
     },
     {
       "slide": 41,
@@ -280,8 +280,8 @@
     {
       "slide": 47,
       "native_slide_id": "sl/v8bqu8",
-      "source_native_png_sha256": "9d15ab75bff5a337bce3368ef0940249d5c979174f23a4810c603d794bc5af82",
-      "reader_lossless_webp_sha256": "4e8e0efb694f5aaca1536127262ca44bb07774dbe760fab10b9cba5a9701fba5"
+      "source_native_png_sha256": "65afb2c3c4ab3f5a692c5aac14d72e945c059741d5abe5a2cd043d94656c884b",
+      "reader_lossless_webp_sha256": "8ec5f05ae6c52d215676753d5f40da14ca21e5fc825f801181e01878ec24797f"
     }
   ],
   "animated_slides": [
