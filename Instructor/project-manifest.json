@@ -1168,9 +1168,9 @@
     },
     {
       "file": "Content/Trail/Building/Maps/Building_Examples.umap",
-      "bytes": 350133,
-      "sha256": "e366950e99f4cf516e39a07c6e2f43097b03ed590508dbd231c70129e540dc92",
-      "instructor_source_sha256": "e366950e99f4cf516e39a07c6e2f43097b03ed590508dbd231c70129e540dc92"
+      "bytes": 351627,
+      "sha256": "bb6152ea188bf0bd8533bd33211021d7eae9d4dbf76b0f3469c3b3e186395dee",
+      "instructor_source_sha256": "bb6152ea188bf0bd8533bd33211021d7eae9d4dbf76b0f3469c3b3e186395dee"
     },
     {
       "file": "Content/Trail/Building/PCG_ModularBuilding.uasset",
@@ -1294,9 +1294,9 @@
     },
     {
       "file": "Content/Trail/Museum/Maps/PCG_Museum.umap",
-      "bytes": 316164,
-      "sha256": "b6372c757e04833a6d37776fadea8da9c547bb1fc65cec4aff4238e535b69d56",
-      "instructor_source_sha256": "b6372c757e04833a6d37776fadea8da9c547bb1fc65cec4aff4238e535b69d56"
+      "bytes": 316386,
+      "sha256": "11294a335a29ecb3c64c5190d01b2b141cd1a8f969d1b2fa8c929bd10759dadf",
+      "instructor_source_sha256": "11294a335a29ecb3c64c5190d01b2b141cd1a8f969d1b2fa8c929bd10759dadf"
     },
     {
       "file": "Content/Trail/Museum/Materials/M_MuseumBoard.uasset",
