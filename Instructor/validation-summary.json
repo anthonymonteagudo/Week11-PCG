@@ -1,0 +1,103 @@
+{
+  "status": "PASS",
+  "engine": "5.7.4-51494982+++UE5+Release-5.7",
+  "maps": 20,
+  "native_packages": 273,
+  "startup": "PCG_Museum",
+  "default_renderer": "DX12 SM6",
+  "dirty_packages_before_navigation": 0,
+  "region_menu_navigation": [
+    "Biome_Forest",
+    "Biome_Snow"
+  ],
+  "custom_authoring_plugin_loaded": false,
+  "unchanged_instance_signatures": 67,
+  "intentional_changes": [
+    {
+      "map": "/Game/Trail/Museum/Maps/PCG_Museum",
+      "actor": "M04_PCG",
+      "before_count": 6,
+      "after_count": 6
+    }
+  ],
+  "guided_exercise": {
+    "status": "PASS",
+    "error": null,
+    "checks": [
+      {
+        "test": "Enter museum from trail, request station 3, wait for ready callback",
+        "selected_station": 3,
+        "count": 6
+      },
+      {
+        "test": "Show all after focus",
+        "PASS": true
+      },
+      {
+        "test": "Scrub KeepFraction .78 to .50",
+        "before": 412,
+        "after": 268,
+        "other_layers_identical": true
+      },
+      {
+        "test": "Restore original scrub result",
+        "exact_instance_signature_match": true
+      }
+    ],
+    "maps_saved": false,
+    "engine": "5.7.4-51494982+++UE5+Release-5.7"
+  },
+  "slope_comparison": {
+    "status": "PASS",
+    "error": null,
+    "captures": [
+      {
+        "file": "Slope-baseline.png",
+        "threshold": 0.975,
+        "count": 6
+      },
+      {
+        "file": "Slope-strict.png",
+        "threshold": 0.995,
+        "count": 3
+      }
+    ],
+    "maps_saved": false,
+    "actual_slopes_degrees": [
+      0,
+      12,
+      25
+    ]
+  },
+  "reader": {
+    "status": "PASS",
+    "local_html_links": 78,
+    "slides": 47,
+    "visible": 44,
+    "notes": 47,
+    "animations": [
+      {
+        "slide": 12,
+        "frames": 1454,
+        "distinct_sampled_frames": 3
+      },
+      {
+        "slide": 13,
+        "frames": 120,
+        "distinct_sampled_frames": 3
+      },
+      {
+        "slide": 37,
+        "frames": 132,
+        "distinct_sampled_frames": 3
+      }
+    ],
+    "javascript_syntax": "PASS",
+    "browser_preview": "Blocked by local-file URL policy; no alternate browser or egress workaround used. Native viewer animation playback is not asserted."
+  },
+  "scope": "Fresh GitHub checkout on this Windows machine with UE 5.7.4 preinstalled. No second physical machine claim.",
+  "native_manifest_sha256": "d37c6c016ba452a87031f06158ab7c6b08005f72610e7ab2f0927f9237fea12e",
+  "native_test_commit": "acaf118",
+  "reader_state_version": 98,
+  "native_manifest_sha256_note": "Hash of the instructor working manifest text; native package hashes are the cross-platform identity check."
+}
