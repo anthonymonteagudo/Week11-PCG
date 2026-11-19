@@ -38,3 +38,18 @@ checkDocs(root);
 assert.equal(manifest.dependencies_bundled,true);
 assert.deepEqual(manifest.missing_packages,[]);
 assert(fs.existsSync(path.join(root,'Slides/Week11-PCG.pptx')),'Include the local PowerPoint review copy.');
+
+// Keep the student project independent of earlier weekly projects.
+const nativeFiles=[];
+function collectNative(dir){for(const entry of fs.readdirSync(dir,{withFileTypes:true})){
+ const f=path.join(dir,entry.name);
+ if(entry.isDirectory())collectNative(f);
+ else if(/\.(uasset|umap)$/i.test(f))nativeFiles.push(path.relative(project,f).split(path.sep).join('/'));
+}}
+collectNative(path.join(project,'Content'));
+assert.deepEqual(nativeFiles.sort(),manifest.files.map(r=>r.file).sort(),'Every native package must belong to the validated manifest.');
+for(const f of nativeFiles)assert(!/\/Week(?:0?[1-9]|10)\//i.test(f),`Previous-week content folder: ${f}`);
+const overview=fs.readFileSync(path.join(root,'Overview.html'),'utf8');
+assert(overview.includes('/archive/refs/tags/week11-standalone-v1.zip'),'Overview must use the validated standalone download.');
+assert(overview.includes('/refs/tags/week11-standalone-v1/Slides/Guest-Amritha-Intro-to-PCG.pptx'));
+console.log('PASS: standalone content inventory and versioned overview links.');

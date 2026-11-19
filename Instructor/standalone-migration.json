@@ -1,0 +1,33 @@
+{
+  "status": "MOVED",
+  "moves": [
+    {
+      "old": "/Game/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_D",
+      "new": "/Game/Trail/Textures/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_D",
+      "referencers": [
+        "/Game/Trail/Regions/Materials/M_Ground_Snow"
+      ]
+    },
+    {
+      "old": "/Game/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_N",
+      "new": "/Game/Trail/Textures/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_N",
+      "referencers": [
+        "/Game/Trail/Regions/Materials/M_Ground_Snow"
+      ]
+    },
+    {
+      "old": "/Game/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_D",
+      "new": "/Game/Trail/Textures/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_D",
+      "referencers": [
+        "/Game/Trail/Regions/Materials/M_Ground_Forest"
+      ]
+    },
+    {
+      "old": "/Game/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_N",
+      "new": "/Game/Trail/Textures/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_N",
+      "referencers": [
+        "/Game/Trail/Regions/Materials/M_Ground_Forest"
+      ]
+    }
+  ]
+}

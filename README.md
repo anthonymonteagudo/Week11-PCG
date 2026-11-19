@@ -1,5 +1,7 @@
 # Week 11: procedural environments
 
+**Standalone edition:** [Download the validated Week 11 package](https://github.com/anthonymonteagudo/Week11-PCG/archive/refs/tags/week11-standalone-v1.zip). Extract into a new folder; do not overlay an older copy. The project includes its own assets and requires no previous-week project. [Canvas overview HTML](Overview.html) references this same version, including both lecture decks.
+
 Open a prepared Unreal project, inspect small PCG examples, then adapt one reusable graph to dress a trail. Desert, forest and snow examples share the placement system and vary their assets and materials.
 
 ## Open the project

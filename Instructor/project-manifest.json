@@ -1470,14 +1470,14 @@
     },
     {
       "file": "Content/Trail/Regions/Materials/M_Ground_Forest.uasset",
-      "bytes": 34405,
-      "sha256": "b09fd19bc390efb7fd46deceadc6be1ec583d2f39e16de9f6072ebaabec46f49",
+      "bytes": 34339,
+      "sha256": "26f9c4314239ff1caf644b0f6f069e9294241baf8bc67133270c4d5fa83d3d15",
       "instructor_source_sha256": "e626f497be53b36ab89a414aa2a1bc8f68443b7b6dfd31b3fda2bfed9221aa84"
     },
     {
       "file": "Content/Trail/Regions/Materials/M_Ground_Snow.uasset",
-      "bytes": 35445,
-      "sha256": "cff920b8f2a467f2f25a0b75631e5d33e27372beb85d565de8321ac1888ed38b",
+      "bytes": 35379,
+      "sha256": "ddce6d85bbc73cf3f5ecb0052fa123069356e2063fd08d1b80fcd81078a7beb1",
       "instructor_source_sha256": "8eef0bc9ff30a9bb022ab4139b18afcc1e723994c9b09c4725d8ef1b271caf2d"
     },
     {
@@ -1665,27 +1665,27 @@
       "instructor_source_sha256": "c78dbd338578017e9bcb6100985d70f290e007b4928597c99f9bb416ad1d35de"
     },
     {
-      "file": "Content/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_D.uasset",
-      "bytes": 2933265,
-      "sha256": "652d33e7d829b3faebc9ff312afdebf6d2df7f9091f97550c394594dbf4bd1fe",
+      "file": "Content/Trail/Textures/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_D.uasset",
+      "bytes": 2933199,
+      "sha256": "13512813ce308673fe03f74e76ce05380ad49becad646c5fdc1f9fd04fda2edc",
       "instructor_source_sha256": "899120f76f81bbcc8961f419da10a692a9363cc54d4cb51c7a594a100d0b29dd"
     },
     {
-      "file": "Content/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_N.uasset",
-      "bytes": 4308124,
-      "sha256": "fba57779a8857b7e7abf87eb95493b54fec595f9d7b1903a48e83a5f01eb06eb",
+      "file": "Content/Trail/Textures/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_N.uasset",
+      "bytes": 4308058,
+      "sha256": "f911fa9f2cd214fb185954f3fd1c1176e5448b4f9cdcd2e5618639fe09ffd42d",
       "instructor_source_sha256": "3972245a10e07ecc5822598778e8df99d8ea1ad8d333215a53b29b430e60f392"
     },
     {
-      "file": "Content/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_D.uasset",
-      "bytes": 5601268,
-      "sha256": "94ef5af2362bd5245f233c3ace9eb787a1c87730f28a89b132146ecce2503405",
+      "file": "Content/Trail/Textures/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_D.uasset",
+      "bytes": 5601202,
+      "sha256": "398f8c078ba83aedb84d5d383362c2bf87b980df836d9e90bc2c53dfbde80dcd",
       "instructor_source_sha256": "a7097446971028eab95edce9cb3c87f58cc6afa5ca9b81ca6e3bbb57e1f26611"
     },
     {
-      "file": "Content/Week09/SurfaceLibrary/SharedResources/Megascans/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_N.uasset",
-      "bytes": 5008869,
-      "sha256": "6e31c5ff232c435445097e9b2a4813937c29d3a7d63635773e9d67aa7e879c1c",
+      "file": "Content/Trail/Textures/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_N.uasset",
+      "bytes": 5008803,
+      "sha256": "de70dcbc66017f0c333a38e3240d49ee289e7a5e4a0834c4547d0287afa1cc31",
       "instructor_source_sha256": "d7ba3439a89ad1a445640fb4675228dc062cc82b4270b0a29e7291b433d68557"
     }
   ],

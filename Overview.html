@@ -1,0 +1,42 @@
+<div id="dp-wrapper" class="dp-wrapper">
+    <h2 style="color: #ffffff; background-color: #00539b; padding: 8px 12px;"><strong><img src="https://canvas.duke.edu/courses/87130/files/5343680/preview" alt="" width="60" height="60" data-api-endpoint="https://canvas.duke.edu/api/v1/courses/87130/files/5343680" data-api-returntype="File" /> &nbsp;Week 11: Proceduralism &amp; Unreal PCG</strong></h2>
+    <p>Explore how <strong>reusable rules give artists control over generated content</strong>. Investigate Unreal Engine&rsquo;s Procedural Content Generation (PCG) framework through point data, sampling, placement rules, and reusable graphs. Examine how these systems support environment creation, modular assets, and artist workflows.</p>
+
+    <h3><strong><img src="https://canvas.duke.edu/courses/87130/files/5343697/preview" alt="" width="60" height="60" data-api-endpoint="https://canvas.duke.edu/api/v1/courses/87130/files/5343697" data-api-returntype="File" /> Slides &amp; Class Materials</strong></h3>
+    <ul>
+        <li><a href="https://github.com/anthonymonteagudo/Week11-PCG"><strong>GitHub: Week 11 PCG</strong></a> &mdash; Week 11 materials, setup instructions, and the Unreal demo project.</li>
+        <li><a href="https://github.com/anthonymonteagudo/Week11-PCG/archive/refs/tags/week11-standalone-v1.zip"><strong>Download Week 11 Materials &amp; Demo Project (.zip)</strong></a> &mdash; The validated standalone edition, including the prepared Unreal project and its assets.</li>
+        <li><a href="https://github.com/anthonymonteagudo/Week11-PCG/raw/refs/tags/week11-standalone-v1/Slides/Week11-PCG.pptx"><strong>Week 11: Proceduralism Slides (.pptx)</strong></a> &mdash; Artist controls, placement rules, reusable generators, performance, and broader applications.</li>
+        <li><a href="https://github.com/anthonymonteagudo/Week11-PCG/raw/refs/tags/week11-standalone-v1/Slides/Guest-Amritha-Intro-to-PCG.pptx"><strong>Guest Lecture: Amritha Immaneni &mdash; Intro to PCG (.pptx)</strong></a> &mdash; Point manipulation, landscape and mesh sampling, PCG Data Assets and Assemblies, and production considerations.</li>
+    </ul>
+    <p>Extract the complete download into a new folder and open <strong>START-HERE.html</strong>. Use the dedicated <strong>Week11PCGTrail</strong> project for this week. The required demo assets and graphs are included; previous-week projects and separate Fab downloads are not required.</p>
+
+    <h3><strong><img src="https://canvas.duke.edu/courses/87130/files/5343688/preview" alt="" width="60" height="60" data-api-endpoint="https://canvas.duke.edu/api/v1/courses/87130/files/5343688" data-api-returntype="File" /> Learning Objectives</strong></h3>
+    <ul>
+        <li>Explain how a PCG graph reads inputs, creates points, applies rules, and spawns meshes.</li>
+        <li>Describe how landscape, mesh, and spline sampling provide data for procedural placement.</li>
+        <li>Inspect point data and debug intermediate graph results to understand why placements survive or are removed.</li>
+        <li>Use parameters, seeds, graph instances, and asset presets to support artist control and reusable variations.</li>
+        <li>Evaluate generated results for visual quality, clearance, performance, and intended use.</li>
+    </ul>
+
+    <h3><strong><img src="https://canvas.duke.edu/courses/87130/files/5343697/preview" alt="" width="60" height="60" data-api-endpoint="https://canvas.duke.edu/api/v1/courses/87130/files/5343697" data-api-returntype="File" /> Getting Started</strong></h3>
+    <p>Open <strong>Unreal/Week11PCGTrail/Week11PCGTrail.uproject</strong> in <strong>Unreal Engine 5.7</strong> and let shaders finish compiling. The project opens <strong>PCG_Museum</strong>. Use <strong>Tools &gt; Week 11 PCG Museum</strong> to navigate the prepared examples and open their graphs. Create a working copy of a map before experimenting.</p>
+    <p>While the project loads, consider: <strong>What repetitive task would you want an artist to control through a procedural tool?</strong></p>
+
+    <h3><strong><img src="https://canvas.duke.edu/courses/87130/files/5343688/preview" alt="" width="60" height="60" data-api-endpoint="https://canvas.duke.edu/api/v1/courses/87130/files/5343688" data-api-returntype="File" /> In-Class Activities</strong></h3>
+    <p><strong>Guest Lecture: Intro to PCG</strong><br />Join Amritha Immaneni to explore procedural systems through data, rules, and constraints. Follow examples of grass placement on a landscape, foliage placement on a sampled mesh, and artist control through PCG Data Assets and Assemblies. Discuss memory, performance, and production examples.</p>
+    <p><strong>Procedural Tools in Production</strong><br />Review GOLF+ road and course generators. Discuss which decisions belong in reusable rules and which controls an artist needs to guide the result.</p>
+    <p><strong>Points, Splines &amp; Exclusions</strong><br />Inspect points before spawning meshes. Compare placement along an open spline with sampling inside a closed region. Use Difference to remove unwanted placements, and account for asset size when checking clearance around paths and other objects.</p>
+    <p><strong>Reusable Graphs &amp; Modular Buildings</strong><br />Explore how one placement graph supports different biome presets and asset profiles. Examine how a modular building&rsquo;s walls, posts, and roof respond to changes in footprint and floor count.</p>
+    <p><strong>Performance &amp; Broader Applications</strong><br />Distinguish editor generation time, runtime generation cost, and the rendering cost of generated assets. Discuss procedural level design, Houdini workflows, and possible applications to your final project.</p>
+    <p><strong>Optional Guided Practice</strong><br />Open <strong>Full trail exercise</strong> from the museum menu and select <strong>PCG_Scrub</strong>. Predict the effect of lowering <strong>KeepFraction</strong> from <strong>0.78</strong> to <strong>0.50</strong>, regenerate, and compare from the same viewpoint. Restore the original value and explain why the tree and rock layers remain unchanged.</p>
+
+    <div style="border-width: 1px 1px 1px 4px; border-style: solid; border-color: #d6e2ef #d6e2ef #d6e2ef #00539b; background-color: #f5f7fa; padding: 14px 16px; margin: 20px 0;">
+        <p style="margin: 0 0 6px 0;"><strong>Predict &rarr; Change &rarr; Generate &rarr; Inspect</strong></p>
+        <p style="margin: 0;">Change one input or control at a time and inspect both the points and the final meshes. Repeatable variation depends on keeping the other inputs, rules, assets, and settings consistent. Generated results still need artistic and technical review: a clear-looking path does not establish correct collision or navigation, and generating or baking assets does not eliminate their rendering cost.</p>
+    </div>
+
+    <h3><strong><img src="https://canvas.duke.edu/courses/87130/files/5343688/preview" alt="" width="60" height="60" data-api-endpoint="https://canvas.duke.edu/api/v1/courses/87130/files/5343688" data-api-returntype="File" /> Final Project Check-In</strong></h3>
+    <p><strong>Due before class next week.</strong> Show your current project as a running tool, playable scene, or current asset. Demonstrate what is working, describe the intended player or artist experience, and identify the biggest unresolved issue and what you will test next. Procedural techniques are optional inspiration for the project you already intend to make.</p>
+</div>

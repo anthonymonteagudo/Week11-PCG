@@ -1,4 +1,21 @@
-# Current validation update
+# Standalone edition: week11-standalone-v1
+
+Validated in **5.7.4-51494982+++UE5+Release-5.7** on Windows against baseline commit `6f92f32`.
+
+- All **22 maps** load and generate PCG output. All **70 actor output signatures** (mesh identities and transforms) match the baseline exactly.
+- All **277 native packages** load. The asset-registry dependency audit finds zero missing assets, previous-week paths, redirectors, or packages unrelated to the Week 11 maps.
+- The four forest-floor/snow textures now live under `/Game/Trail/Textures/Surfaces`. Both ground materials were updated through Unreal asset tools; the old Week09 packages are gone.
+- Museum startup, station selection, Forest/Snow navigation, and the Scrub exercise pass. Scrub changes 412 → 268 → 412, with tree/rock outputs unchanged and an exact restored signature.
+- `npm run check` checks every native package against the manifest and rejects previous-week content folders, unlisted packages, and incorrect overview release links.
+- `Overview.html`, `README.md`, and `START-HERE.html` reference the same versioned package. Both slide decks are included.
+
+Evidence: [standalone-validation.json](standalone-validation.json), [standalone-migration.json](standalone-migration.json). Reusable engine audit: [check_standalone.py](ValidationScripts/check_standalone.py).
+
+Scope: editor validation on this Windows machine with Unreal preinstalled. This does not claim packaged-game testing, gameplay/navigation correctness, or a second-machine test.
+
+## Earlier validation history
+
+# Prior validation update
 
 The kit contains **275 native packages and 21 maps**. The added Spline_Examples map was loaded in the reduced student project in UE 5.7.4, without the private authoring helper. It produced 10 posts, 38 shrubs and 61 boundary-guide segments; all shrub roots passed containment. The source comparisons produced 20 posts at 125 cm and 90 shrubs at 160 cm; restoring the original controls restored the complete baseline signature. The original 20 maps retain the earlier fresh-clone validation below. No second physical machine is claimed.
 
@@ -10,7 +27,7 @@ The local PowerPoint was opened and all 49 slides exported through Microsoft Pow
 
 The clean GitHub checkout was opened in **UE 5.7.4 on Windows** with the project's default DX12/SM6 settings. All 273 native packages load, all 20 maps produce PCG output, Forest/Snow menu navigation passes, and there are no dirty packages before navigation. The private authoring plugin is absent. The material-usage repair warning is gone. No Fab migration, C++ build, external Python or Houdini setup was performed.
 
-67 native mesh/transform signatures match the earlier baseline. The redesigned slope station intentionally changes its marker transforms, retaining six baseline markers. Its measured 0/12/25-degree surfaces produce six accepted points at 0.975, three at 0.995 and six after restoration. Scrub's guided exercise passes 412 → 268 → 412; Trees/Rocks are identical and the restored signature matches exactly.
+67 native mesh/transform signatures match the earlier baseline. The redesigned slope station intentionally changes its marker transforms, retaining six baseline markers. Its measured 0/12/25-degree surfaces produce six accepted points at 0.975, three at 0.995 and six after restoration. Scrub's guided exercise passes 412 â†’ 268 â†’ 412; Trees/Rocks are identical and the restored signature matches exactly.
 
 This is same-machine validation with Unreal preinstalled. A second physical machine and an unaided novice rehearsal have not been observed. The optional HDA cook is still license-blocked; the main project does not use Houdini.
 

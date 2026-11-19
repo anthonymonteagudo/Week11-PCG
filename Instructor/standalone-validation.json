@@ -1,0 +1,480 @@
+{
+  "status": "PASS",
+  "release": "week11-standalone-v1",
+  "baseline_commit": "6f92f326fdf80083b7ec91ce0e0fa864c7c74820",
+  "engine": "5.7.4-51494982+++UE5+Release-5.7",
+  "maps": 22,
+  "unchanged_actor_output_signatures": 70,
+  "all_map_outputs_match_baseline": true,
+  "startup": {
+    "map": "PCG_Museum",
+    "menu": "PASS",
+    "all_packages_loaded": 277,
+    "station_counts": [
+      12,
+      12,
+      6,
+      6,
+      8,
+      31,
+      36
+    ],
+    "region_menu_navigation": [
+      {
+        "map": "Biome_Forest",
+        "actors": 3,
+        "PASS": true
+      },
+      {
+        "map": "Biome_Snow",
+        "actors": 3,
+        "PASS": true
+      }
+    ],
+    "dirty_content_before_navigation": [],
+    "dirty_maps_before_navigation": []
+  },
+  "dependency_audit": {
+    "status": "PASS",
+    "native_packages": 277,
+    "dependency_count": 304,
+    "missing_assets": [],
+    "previous_week_paths": [],
+    "redirectors": [],
+    "unrelated_packages": [],
+    "reachable_project_packages": 277,
+    "surface_material_textures": {
+      "M_Ground_Forest": [
+        "/Game/Northwood/Textures/Landscape/TX_Dirt_01a_ALB.TX_Dirt_01a_ALB",
+        "/Game/Northwood/Textures/Landscape/TX_Dirt_01a_NRM.TX_Dirt_01a_NRM",
+        "/Game/Trail/Textures/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_D.T_Mossy_Forest_Floor_vfylbge_1K_D",
+        "/Game/Trail/Textures/Surfaces/Mossy_Forest_Floor_vfylbge/T_Mossy_Forest_Floor_vfylbge_1K_N.T_Mossy_Forest_Floor_vfylbge_1K_N"
+      ],
+      "M_Ground_Snow": [
+        "/Game/Trail/Textures/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_D.T_Melting_Snow_uepnbikfw_1K_D",
+        "/Game/Trail/Textures/Surfaces/Melting_Snow_uepnbikfw/T_Melting_Snow_uepnbikfw_1K_N.T_Melting_Snow_uepnbikfw_1K_N"
+      ]
+    },
+    "engine": "5.7.4-51494982+++UE5+Release-5.7"
+  },
+  "guided_exercise": {
+    "status": "PASS",
+    "error": null,
+    "checks": [
+      {
+        "test": "Enter museum from trail, request station 3, wait for ready callback",
+        "selected_station": 3,
+        "count": 6
+      },
+      {
+        "test": "Show all after focus",
+        "PASS": true
+      },
+      {
+        "test": "Scrub KeepFraction .78 to .50",
+        "before": 412,
+        "after": 268,
+        "other_layers_identical": true
+      },
+      {
+        "test": "Restore original scrub result",
+        "exact_instance_signature_match": true
+      }
+    ],
+    "maps_saved": false,
+    "engine": "5.7.4-51494982+++UE5+Release-5.7"
+  },
+  "maps_and_outputs": [
+    {
+      "map": "/Game/Trail/Maps/Trail_Student",
+      "actors": {
+        "PCG_Trees": {
+          "count": 202,
+          "signature": "e0ff09199a6180cec0e2ff3a67108f8271ae9ec6a2359833e83e3afe4b83ff9e"
+        },
+        "PCG_Rocks": {
+          "count": 23,
+          "signature": "463f0da4414c40ac4053b97ef6b047f57f70df4592710bbfa37677f95908b0a7"
+        },
+        "PCG_Scrub": {
+          "count": 412,
+          "signature": "dae422d05cf69b38eae2fd3f2365d2b0922ae39977a941c8abd53c5f2a2dc592"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Maps/Biome_OpenDesert",
+      "actors": {
+        "PCG_Trees": {
+          "count": 227,
+          "signature": "1d9747b37c6fdda6b53f8351bb39ddd5f6802b72e14f99c596d146aa508218a1"
+        },
+        "PCG_Rocks": {
+          "count": 5,
+          "signature": "0ea42babb4c8d88d4383e17dae38ec12d9f1b421fd9aef6cd14a37e406dd8b72"
+        },
+        "PCG_Scrub": {
+          "count": 57,
+          "signature": "95bd58098e33b2e7bff4415d35c602b2ae769f67b8ad35b93cc6025c2e0c2cf2"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Maps/Biome_JuniperScrub",
+      "actors": {
+        "PCG_Trees": {
+          "count": 241,
+          "signature": "33425387c34fdecb4627c8cbcb22370df37ce7e773a5f2759252233dff253971"
+        },
+        "PCG_Rocks": {
+          "count": 5,
+          "signature": "806b5b1bcea44447a294e0a787229233f28596f9e37b8054f2d4704424ec79ce"
+        },
+        "PCG_Scrub": {
+          "count": 251,
+          "signature": "226557d02dc72be34a82f9f831d44e565db24a02d730550504ced1b84fc0f18e"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Maps/Biome_RockyWash",
+      "actors": {
+        "PCG_Trees": {
+          "count": 241,
+          "signature": "33425387c34fdecb4627c8cbcb22370df37ce7e773a5f2759252233dff253971"
+        },
+        "PCG_Rocks": {
+          "count": 36,
+          "signature": "72d6f00e05cb1ecb653ac7ecd8bcbc573fc1125d431d3f0949d0c2c5a8d14c22"
+        },
+        "PCG_Scrub": {
+          "count": 92,
+          "signature": "204669a8adadde238a08b56ce0eb88e25fcdd89aeef3ac3da93d39d61fc7c72a"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Maps/Biome_Forest",
+      "actors": {
+        "PCG_Trees": {
+          "count": 340,
+          "signature": "a942fe71549ff0a0099ed1ade38547bee5b496c2104640442377bb5bbd85d15b"
+        },
+        "PCG_Rocks": {
+          "count": 23,
+          "signature": "8f9681867a8b08a283f9066e83cb6a9b02ca9bb4fb25e79cfa1d7c90feb81d26"
+        },
+        "PCG_Scrub": {
+          "count": 543,
+          "signature": "4b04accd70ddf077acd3fe37b5edef2128efd882441b31d087f56c9c6c68ab78"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Maps/Biome_Snow",
+      "actors": {
+        "PCG_Trees": {
+          "count": 351,
+          "signature": "713b70a7f0405f7f87dbbc9fd5262d8fb4bdd6c972a0b64bf3ac327d21f19687"
+        },
+        "PCG_Rocks": {
+          "count": 23,
+          "signature": "7cbacca61b560a32e2f8199d43f7761cf5935c13fe003fa35d2267c45846dd06"
+        },
+        "PCG_Scrub": {
+          "count": 572,
+          "signature": "44bc36cd46492e34f182a98d3bf66573a07c9bb29cf1cab1d9bf25a9116f0233"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Variations/Maps/Variation_Desert_Base",
+      "actors": {
+        "PCG_Trees": {
+          "count": 227,
+          "signature": "1d9747b37c6fdda6b53f8351bb39ddd5f6802b72e14f99c596d146aa508218a1"
+        },
+        "PCG_Rocks": {
+          "count": 5,
+          "signature": "0ea42babb4c8d88d4383e17dae38ec12d9f1b421fd9aef6cd14a37e406dd8b72"
+        },
+        "PCG_Scrub": {
+          "count": 57,
+          "signature": "95bd58098e33b2e7bff4415d35c602b2ae769f67b8ad35b93cc6025c2e0c2cf2"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Variations/Maps/Variation_Desert_Dense",
+      "actors": {
+        "PCG_Trees": {
+          "count": 251,
+          "signature": "428f64169fde5cb8ce761a57e8e5b0a029bd6b0c80570a21250b212835788729"
+        },
+        "PCG_Rocks": {
+          "count": 5,
+          "signature": "0ea42babb4c8d88d4383e17dae38ec12d9f1b421fd9aef6cd14a37e406dd8b72"
+        },
+        "PCG_Scrub": {
+          "count": 606,
+          "signature": "7b465a2a1507a87ddab24883ba50cce4340a1c1510fb2437bc99821e7fa2f8f7"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Variations/Maps/Variation_Forest_Base",
+      "actors": {
+        "PCG_Trees": {
+          "count": 130,
+          "signature": "2703e81a80b16d54d7b26aa96e3c040056589fdfe82c0957fddd1bbab36610d6"
+        },
+        "PCG_Rocks": {
+          "count": 23,
+          "signature": "8f9681867a8b08a283f9066e83cb6a9b02ca9bb4fb25e79cfa1d7c90feb81d26"
+        },
+        "PCG_Scrub": {
+          "count": 543,
+          "signature": "4b04accd70ddf077acd3fe37b5edef2128efd882441b31d087f56c9c6c68ab78"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Variations/Maps/Variation_Forest_Dense",
+      "actors": {
+        "PCG_Trees": {
+          "count": 340,
+          "signature": "a942fe71549ff0a0099ed1ade38547bee5b496c2104640442377bb5bbd85d15b"
+        },
+        "PCG_Rocks": {
+          "count": 23,
+          "signature": "8f9681867a8b08a283f9066e83cb6a9b02ca9bb4fb25e79cfa1d7c90feb81d26"
+        },
+        "PCG_Scrub": {
+          "count": 543,
+          "signature": "4b04accd70ddf077acd3fe37b5edef2128efd882441b31d087f56c9c6c68ab78"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Variations/Maps/Variation_Forest_Seed43",
+      "actors": {
+        "PCG_Trees": {
+          "count": 131,
+          "signature": "7922e2cf5884f2f45f745696bb18b098e1e707569a2cc8d399bf98b432f0499f"
+        },
+        "PCG_Rocks": {
+          "count": 23,
+          "signature": "8f9681867a8b08a283f9066e83cb6a9b02ca9bb4fb25e79cfa1d7c90feb81d26"
+        },
+        "PCG_Scrub": {
+          "count": 543,
+          "signature": "4b04accd70ddf077acd3fe37b5edef2128efd882441b31d087f56c9c6c68ab78"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Variations/Maps/Variation_Forest_Small",
+      "actors": {
+        "PCG_Trees": {
+          "count": 140,
+          "signature": "7b97f34aafa44f2bec350914c4291085ae90be5b390febfb8e3e7b5a00167a37"
+        },
+        "PCG_Rocks": {
+          "count": 23,
+          "signature": "8f9681867a8b08a283f9066e83cb6a9b02ca9bb4fb25e79cfa1d7c90feb81d26"
+        },
+        "PCG_Scrub": {
+          "count": 543,
+          "signature": "4b04accd70ddf077acd3fe37b5edef2128efd882441b31d087f56c9c6c68ab78"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Variations/Maps/Variation_Forest_Sparse",
+      "actors": {
+        "PCG_Trees": {
+          "count": 22,
+          "signature": "62bae833856d54eb76ed0e620e7bbdca266ed04d0befaf196eb62fa57393848c"
+        },
+        "PCG_Rocks": {
+          "count": 23,
+          "signature": "8f9681867a8b08a283f9066e83cb6a9b02ca9bb4fb25e79cfa1d7c90feb81d26"
+        },
+        "PCG_Scrub": {
+          "count": 543,
+          "signature": "4b04accd70ddf077acd3fe37b5edef2128efd882441b31d087f56c9c6c68ab78"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Variations/Maps/Variation_Route_BroadS",
+      "actors": {
+        "PCG_Trees": {
+          "count": 285,
+          "signature": "16fb57786944e6d45f29469a2b18eced8f18c857c4771cb629c02cfbf1bb05f7"
+        },
+        "PCG_Rocks": {
+          "count": 21,
+          "signature": "86f9ba6d318232af8e6f615832177562a23840b79582063d185a4b24316f8fa8"
+        },
+        "PCG_Scrub": {
+          "count": 502,
+          "signature": "d8bd02ef51663118ffa9214d34107d13ee5fbaba00aa97d68e3422d59b11ab14"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Variations/Maps/Variation_Route_Straight",
+      "actors": {
+        "PCG_Trees": {
+          "count": 339,
+          "signature": "5c435a08d8779643effb37c3bfd7273545f5a8b0a8e559a83305d83c14db9293"
+        },
+        "PCG_Rocks": {
+          "count": 24,
+          "signature": "5fe6c9754236b6586e0d2c9278b44d937ace266586de2bea9c61cd9349287e63"
+        },
+        "PCG_Scrub": {
+          "count": 545,
+          "signature": "1425d919b26090a1ded4440fd2f99f5c2916b0be09031d0fb92b549047b3d5d7"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Variations/Maps/Variation_Route_Switchbacks",
+      "actors": {
+        "PCG_Trees": {
+          "count": 302,
+          "signature": "6643921eff7c494883f5a8de963fe39efb521bd7a6c8257f5bf9e1a91544054e"
+        },
+        "PCG_Rocks": {
+          "count": 17,
+          "signature": "2bb01e6f0df66aec25f595b7c671b79368c2da8c9848fb849c933a37a38528c3"
+        },
+        "PCG_Scrub": {
+          "count": 517,
+          "signature": "ed5fa882012103dfd19853c87fcd7fa7313de61e87955006f03cc2a025512ff8"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Variations/Maps/Variation_Snow_Base",
+      "actors": {
+        "PCG_Trees": {
+          "count": 351,
+          "signature": "713b70a7f0405f7f87dbbc9fd5262d8fb4bdd6c972a0b64bf3ac327d21f19687"
+        },
+        "PCG_Rocks": {
+          "count": 23,
+          "signature": "7cbacca61b560a32e2f8199d43f7761cf5935c13fe003fa35d2267c45846dd06"
+        },
+        "PCG_Scrub": {
+          "count": 572,
+          "signature": "44bc36cd46492e34f182a98d3bf66573a07c9bb29cf1cab1d9bf25a9116f0233"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Variations/Maps/Variation_Snow_Dense",
+      "actors": {
+        "PCG_Trees": {
+          "count": 490,
+          "signature": "d392b5c8728fd958f849e285c2d1d62c937d2c0f33cdcc908495626a78f34a5a"
+        },
+        "PCG_Rocks": {
+          "count": 23,
+          "signature": "7cbacca61b560a32e2f8199d43f7761cf5935c13fe003fa35d2267c45846dd06"
+        },
+        "PCG_Scrub": {
+          "count": 760,
+          "signature": "c17633b4d678155290ad85ffccb657eda4babdf852aba9f1d6ed717051bc3b0f"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Building/Maps/Building_Examples",
+      "actors": {
+        "Building_Cabin": {
+          "count": 42,
+          "signature": "22331a27bf530852960b8f2f88911bd0998459e4348644613aa17718c7cc3bd6"
+        },
+        "Building_Lodge": {
+          "count": 72,
+          "signature": "88d267b0891d5485a8bac0b74f08fd77cee2bd22985b79029ef6c1eb54bab870"
+        },
+        "Building_Tower": {
+          "count": 68,
+          "signature": "597a4c8c4c1bdbe355624fd60ad4029d55690e60c5d9fb9f03cd3edb31632d02"
+        },
+        "Building_Longhouse": {
+          "count": 30,
+          "signature": "c3e723d8c245842243a8932c27d9e3b98fd2b7fc96938e890abad5ad89574564"
+        },
+        "Building_Rotated": {
+          "count": 72,
+          "signature": "549c6de9f1669f31676993319a3c535660b4fd4440665921edc3077fd07cbefb"
+        },
+        "Building_Solid": {
+          "count": 72,
+          "signature": "b2c89b0f47e8f32dc108be41d523ec7a291c6055ddac4f1fd787d7684605bf5a"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Museum/Maps/PCG_Museum",
+      "actors": {
+        "M01_PCG": {
+          "count": 12,
+          "signature": "52bda5c209a2392e2eaaa39c869c1d35e1f13f94d5ab01aaa33d9ba6a5d928ec"
+        },
+        "M02_PCG": {
+          "count": 12,
+          "signature": "601369196ea1d626534232b8232e04b02934d155370f6b02418be9585af18117"
+        },
+        "M03_PCG": {
+          "count": 6,
+          "signature": "197183609feecb452683db635fc6e6cdbf104d427112d9cec5a5a37013355eb1"
+        },
+        "M04_PCG": {
+          "count": 6,
+          "signature": "bda582fbdbfce215d12ccd8a4115dac45d8fab4680804799e0b74420bc763266"
+        },
+        "M05_PCG_Trees": {
+          "count": 4,
+          "signature": "f2a03fbb0e3f75a0a743a1e2a854257bc5a6429ae870b4d3dee40c79522c705f"
+        },
+        "M05_PCG_Scrub": {
+          "count": 4,
+          "signature": "96dcd71c532bfb48f9486d8796b04055ee71c3d545a2cd186f3c42b3668cf998"
+        },
+        "M06_PCG": {
+          "count": 31,
+          "signature": "c5af9b18427ce9815cce360265d4353eb733ae88226f8f029fa23b8cbe32c299"
+        },
+        "M07_PCG": {
+          "count": 36,
+          "signature": "65ba512d42b7264f25cf2e26d67b8ba7d9f4ac00eaddac02d355fa93e2aa1b94"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Teaching/Maps/Spline_Examples",
+      "actors": {
+        "PCG_SplineExamples": {
+          "count": 109,
+          "signature": "15b85b8de336e9177a8e10dadf220395c30255a7805d478691f1b64f4a618489"
+        }
+      }
+    },
+    {
+      "map": "/Game/Trail/Teaching/Maps/Population_Examples",
+      "actors": {
+        "PCG_PopulationExclusion": {
+          "count": 6,
+          "signature": "aa5f3e2ae879ab05da41f46b2b4bc470e57d1b024cde24ea03cae3ce5869e7ca"
+        }
+      }
+    }
+  ],
+  "scope": "UE 5.7.4 editor validation on this Windows machine. All map outputs, dependencies and guided controls checked. No packaged-game or second-machine claim."
+}
